@@ -1,0 +1,49 @@
+[
+  {
+    "postUrl": "https://x.com/MrChallinger/status/1888546351572726230",
+    "postId": "1888546351572726230",
+    "authorHandle": "MrChallinger",
+    "authorDisplayName": "Jonathan Challinger",
+    "postedAt": "2025-02-09",
+    "outcome": "incident",
+    "severity": 4,
+    "maneuverScore": 2,
+    "tags": [
+      "cybertruck",
+      "pole",
+      "merge-fail",
+      "complacency"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Reno Cybertruck on FSD v13.2.4 fails to merge out of an ending lane on Stead Blvd, hits curb then light pole; driver admits he was not watching and posts a PSA (later deleted).",
+    "fsdVersion": "13.2.4",
+    "incidentKey": "incident:reno-cybertruck-pole-merge-2025",
+    "notes": "ORIGINAL owner post (later deleted; status ID preserved via news quotes). Not in clips.json. Distinct from Houston Cybertruck / Katy house. News aliases are not originals."
+  },
+  {
+    "postUrl": "https://x.com/BeardedTesla/status/1969023684712219111",
+    "postId": "1969023684712219111",
+    "authorHandle": "BeardedTesla",
+    "authorDisplayName": "Bearded Tesla",
+    "postedAt": "2025-09-19",
+    "outcome": "incident",
+    "severity": 4,
+    "maneuverScore": 1,
+    "tags": [
+      "highway",
+      "road-debris",
+      "coast-to-coast",
+      "missed-obstacle",
+      "near-miss"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Coast-to-coast FSD attempt (~60 miles in): Model Y on FSD hits a large metal girder/ramp on the freeway, goes airborne, and sustains major suspension/battery damage; passenger spotted debris early but driver intervened late.",
+    "fsdVersion": "13.9",
+    "incidentKey": "incident:bearded-tesla-coast-debris-2025",
+    "notes": "ORIGINAL crash-reveal video post. Not in clips.json. Prefer over Electrek news alias / same-event series posts."
+  }
+]

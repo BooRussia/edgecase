@@ -1,0 +1,377 @@
+[
+  {
+    "postUrl": "https://x.com/Pia_MD_/status/1995712080129691802",
+    "postId": "1995712080129691802",
+    "authorHandle": "Pia_MD_",
+    "authorDisplayName": "Pia",
+    "postedAt": "2025-12-02",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "hand-gesture",
+      "unprotected-left",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.2.1 reads an oncoming driver’s wave-on at a stop sign and takes the left smoothly.",
+    "notes": "fx 404; from TeslaOracle hand-gesture embed with video.",
+    "fsdVersion": "14.2.1"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795398463562108",
+    "postId": "1860795398463562108",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "occluded",
+      "reaction-time",
+      "cut-in"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #2: peeking/occluded adversary enters path.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795404184646103",
+    "postId": "1860795404184646103",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #5: yield for oncoming traffic during overtake.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795406101402020",
+    "postId": "1860795406101402020",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #6: stop-sign right-of-way violator.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795408030872022",
+    "postId": "1860795408030872022",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "vulnerable-road-user",
+      "pedestrian",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #7: door opens into path during overtake (door-zone VRU).",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795410023161991",
+    "postId": "1860795410023161991",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #8: right-turn harsh braking for sudden conflict.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795411927363782",
+    "postId": "1860795411927363782",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "unprotected-left",
+      "cut-in",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #9: left turn across path conflict.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795413802148027",
+    "postId": "1860795413802148027",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time",
+      "obstacle-avoidance"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #10: cut-out to static cone.",
+    "notes": "Obstacle/cut-out; included as reaction-time suite companion."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795419904888941",
+    "postId": "1860795419904888941",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #13: high-speed cut-out to stationary vehicle.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795421926556023",
+    "postId": "1860795421926556023",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #14: high-speed harsh braking.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795423902040488",
+    "postId": "1860795423902040488",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 5,
+    "maneuverScore": 5,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "child",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #15: high-speed stationary child in path.",
+    "notes": "Closed-course VRU child dummy."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795425814720632",
+    "postId": "1860795425814720632",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 5,
+    "maneuverScore": 5,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "child",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #16: high-speed crossing child.",
+    "notes": "Closed-course VRU child dummy crossing."
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/2065550340125086195",
+    "postId": "2065550340125086195",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "ΛI DRIVR",
+    "postedAt": "2026-06-12",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "pedestrian",
+      "controlled-test"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "AIDRIVR calculates Tesla FSD reaction time from dashcam — video breakdown of inhuman reflexes.",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed original video; likes≈7657"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/2067065789916586289",
+    "postId": "2067065789916586289",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2026-06-17",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "animal",
+      "reaction-time",
+      "squirrel"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.3.4 brakes for a squirrel that jumps out at the last second and saves it.",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed original video; likes≈581",
+    "fsdVersion": "14.3.4"
+  },
+  {
+    "postUrl": "https://x.com/tyevitt/status/1908933812123549959",
+    "postId": "1908933812123549959",
+    "authorHandle": "tyevitt",
+    "authorDisplayName": "Tyson Leavitt",
+    "postedAt": "2025-04-06",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "animal",
+      "deer",
+      "highway",
+      "reaction-time"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD swerves to avoid a deer at ~110 km/h on a Canadian highway with four teens in the truck.",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed original video; likes≈360"
+  },
+  {
+    "postUrl": "https://x.com/ChaseMc67/status/2058272586237411682",
+    "postId": "2058272586237411682",
+    "authorHandle": "ChaseMc67",
+    "authorDisplayName": "Chase",
+    "postedAt": "2026-05-23",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "save"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "My @Tesla FSD saved me from getting hit by a Waymo that failed to yield last night 😂",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed video; likes≈3934; score=7"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1978837790734348347",
+    "postId": "1978837790734348347",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "unprotected-left"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Here is a highlight clip of my first Unprotected Left Turn and a U-Turn. This was on FSD Supervised v14.1.2 this morning on my First Impressions drive.  Lots more to come @Tesla_AI",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed video; likes≈381; score=5",
+    "fsdVersion": "14.1.2"
+  },
+  {
+    "postUrl": "https://x.com/Adams_Tech_AI/status/2058989758127202657",
+    "postId": "2058989758127202657",
+    "authorHandle": "Adams_Tech_AI",
+    "authorDisplayName": "Adams",
+    "postedAt": "2026-05-25",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cut-in"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Tesla FSD Impresses with Rapid Highway Debris Avoidance  FSD (HW4 • v14.3.2) smoothly detects debris on the highway, decelerates from 72 mph, and executes a controlled swerve under the overpass while",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed video; likes≈26; score=4",
+    "fsdVersion": "14.3.2"
+  },
+  {
+    "postUrl": "https://x.com/msawyer91/status/2068864132007268736",
+    "postId": "2068864132007268736",
+    "authorHandle": "msawyer91",
+    "authorDisplayName": "Matt Sawyer",
+    "postedAt": "2026-06-22",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Did FSD overreact here? Seemed like a bit of a wide swerve since the approaching car never crossed the centerline.@tesla #fsd 14.3.4",
+    "notes": "Round2 impressive hunt Jul 2026; fxtwitter-confirmed video; likes≈20; score=4",
+    "fsdVersion": "14.3.4"
+  }
+]

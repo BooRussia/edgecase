@@ -1,0 +1,64 @@
+[
+  {
+    "postUrl": "https://x.com/DriveGreen80167/status/1894392398760821117",
+    "postId": "1894392398760821117",
+    "authorHandle": "DriveGreen80167",
+    "authorDisplayName": "DriveGreenLiveGreen",
+    "postedAt": "2025-02-25",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "china",
+      "night",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "China night drive: FSD smart driving at night under complex Chinese traffic conditions.",
+    "notes": "market=china | likes≈37 | confirmed video; not in clips.json"
+  },
+  {
+    "postUrl": "https://x.com/teslaeurope/status/1923302587836539356",
+    "postId": "1923302587836539356",
+    "authorHandle": "teslaeurope",
+    "authorDisplayName": "Tesla Europe, Middle East & Africa",
+    "postedAt": "2025-05-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "europe",
+      "france",
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Tesla Europe full-drive clip: FSD conquers the Arc de Triomphe roundabout in Paris.",
+    "notes": "market=europe/france | likes≈2681 | confirmed video; not in clips.json"
+  },
+  {
+    "postUrl": "https://x.com/teslaeurope/status/2043341539896877126",
+    "postId": "2043341539896877126",
+    "authorHandle": "teslaeurope",
+    "authorDisplayName": "Tesla Europe, Middle East & Africa",
+    "postedAt": "2026-04-12",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "netherlands",
+      "europe",
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Tesla Europe: FSD Supervised handles a Dutch turbo roundabout.",
+    "notes": "market=netherlands | likes≈2973 | official Tesla Europe video (fxtwitter returned empty media); not in clips.json"
+  }
+]
