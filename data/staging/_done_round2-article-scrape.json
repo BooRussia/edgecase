@@ -1,0 +1,750 @@
+[
+  {
+    "postUrl": "https://x.com/CathieDWood/status/2064076685981696108",
+    "postId": "2064076685981696108",
+    "authorHandle": "CathieDWood",
+    "authorDisplayName": "CathieDWood",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @CathieDWood",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/09/unsupervised-tesla-robotaxi-gets-a-75-parking-ticket-as-ark-invests-cathie-wood-takes-a-ride-for-review-video/"
+  },
+  {
+    "postUrl": "https://x.com/robotaxi/status/2062201854214521159",
+    "postId": "2062201854214521159",
+    "authorHandle": "robotaxi",
+    "authorDisplayName": "robotaxi",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @robotaxi",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/08/tesla-expands-unsupervised-robotaxi-service-to-the-entire-austin-metro-area-cybercabs-spotted-across-the-us/"
+  },
+  {
+    "postUrl": "https://x.com/brandonbernicky/status/2063666631176564903",
+    "postId": "2063666631176564903",
+    "authorHandle": "brandonbernicky",
+    "authorDisplayName": "brandonbernicky",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @brandonbernicky",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/08/tesla-expands-unsupervised-robotaxi-service-to-the-entire-austin-metro-area-cybercabs-spotted-across-the-us/"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2061105225830724004",
+    "postId": "2061105225830724004",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @SawyerMerritt",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/08/tesla-expands-unsupervised-robotaxi-service-to-the-entire-austin-metro-area-cybercabs-spotted-across-the-us/"
+  },
+  {
+    "postUrl": "https://x.com/YahooFinance/status/1986555367413739702",
+    "postId": "1986555367413739702",
+    "authorHandle": "YahooFinance",
+    "authorDisplayName": "YahooFinance",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @YahooFinance",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/11/07/elon-musk-and-optimus-dance-as-tesla-tsla-shareholders-approve-his-1-trillion-ceo-pay-package/"
+  },
+  {
+    "postUrl": "https://x.com/cb_doge/status/1974345327626105077",
+    "postId": "1974345327626105077",
+    "authorHandle": "cb_doge",
+    "authorDisplayName": "cb_doge",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @cb_doge",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/10/26/elon-musk-hints-at-optimus-v3-unveiling-date-describes-its-core-features/"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_Optimus/status/1975382713038479853",
+    "postId": "1975382713038479853",
+    "authorHandle": "Tesla_Optimus",
+    "authorDisplayName": "Tesla_Optimus",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @Tesla_Optimus",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/10/26/elon-musk-hints-at-optimus-v3-unveiling-date-describes-its-core-features/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1964569495101722883",
+    "postId": "1964569495101722883",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/09/07/the-golden-tesla-optimus-is-version-2-5-not-3-says-elon-musk/"
+  },
+  {
+    "postUrl": "https://x.com/ElectricRaph/status/1964320728250986837",
+    "postId": "1964320728250986837",
+    "authorHandle": "ElectricRaph",
+    "authorDisplayName": "ElectricRaph",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @ElectricRaph",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/09/07/the-golden-tesla-optimus-is-version-2-5-not-3-says-elon-musk/"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_Optimus/status/1964471580123443538",
+    "postId": "1964471580123443538",
+    "authorHandle": "Tesla_Optimus",
+    "authorDisplayName": "Tesla_Optimus",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @Tesla_Optimus",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/09/07/the-golden-tesla-optimus-is-version-2-5-not-3-says-elon-musk/"
+  },
+  {
+    "postUrl": "https://x.com/ElectricSingh/status/2067797740470542457",
+    "postId": "2067797740470542457",
+    "authorHandle": "ElectricSingh",
+    "authorDisplayName": "ElectricSingh",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @ElectricSingh",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/22/australia-finally-gets-tesla-fsd-v14-3-3-2026-16-6-official-release-notes-rollout-status/"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2065272365538554223",
+    "postId": "2065272365538554223",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "BLKMDL3",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @BLKMDL3",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/13/fsd-v14-3-6-2026-14-6-10-cybertruck-gets-actually-smart-summon-tesla-adds-new-destination-parking-options-more/"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/2061086941165035892",
+    "postId": "2061086941165035892",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "niccruzpatane",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @niccruzpatane",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/01/tesla-model-3-fell-300-ft-off-the-cliff-in-malibu-occupants-walked-away-on-their-own-video/"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2061108753798168673",
+    "postId": "2061108753798168673",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @SawyerMerritt",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/01/tesla-model-3-fell-300-ft-off-the-cliff-in-malibu-occupants-walked-away-on-their-own-video/"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2061619703035101203",
+    "postId": "2061619703035101203",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @SawyerMerritt",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/04/tesla-tsla-sold-the-entire-inventory-of-used-cybertrucks-in-just-hours-know-the-reasons/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/2069161438812278946",
+    "postId": "2069161438812278946",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/23/elon-musk-and-ashok-elluswamy-give-teslas-verdict-on-fatal-fsd-crash-in-texas/"
+  },
+  {
+    "postUrl": "https://x.com/aelluswamy/status/2069168079549161491",
+    "postId": "2069168079549161491",
+    "authorHandle": "aelluswamy",
+    "authorDisplayName": "aelluswamy",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @aelluswamy",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/06/23/elon-musk-and-ashok-elluswamy-give-teslas-verdict-on-fatal-fsd-crash-in-texas/"
+  },
+  {
+    "postUrl": "https://x.com/JoeTegtmeyer/status/2005657516366066163",
+    "postId": "2005657516366066163",
+    "authorHandle": "JoeTegtmeyer",
+    "authorDisplayName": "JoeTegtmeyer",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @JoeTegtmeyer",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/12/30/crash-tested-tesla-cybercabs-sighted-at-giga-texas-along-with-its-giga-castings-cortex-2-construction-update/"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1901481711789109259",
+    "postId": "1901481711789109259",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @SawyerMerritt",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/03/23/tesla-fsd-v13-passes-the-painted-wall-test-while-fsd-v12-fails-tesla-owner-debunks-mark-robers-dubious-test/"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1902819505891676252",
+    "postId": "1902819505891676252",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @SawyerMerritt",
+    "notes": "round2 scrape https://www.teslaoracle.com/2025/03/23/tesla-fsd-v13-passes-the-painted-wall-test-while-fsd-v12-fails-tesla-owner-debunks-mark-robers-dubious-test/"
+  },
+  {
+    "postUrl": "https://x.com/bradsferguson/status/1869028991971348703",
+    "postId": "1869028991971348703",
+    "authorHandle": "bradsferguson",
+    "authorDisplayName": "bradsferguson",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @bradsferguson",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/12/20/tesla-fsd-v13-handles-its-first-accident-safely-where-human-drivers-failed/"
+  },
+  {
+    "postUrl": "https://x.com/bradsferguson/status/1869028998002717164",
+    "postId": "1869028998002717164",
+    "authorHandle": "bradsferguson",
+    "authorDisplayName": "bradsferguson",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @bradsferguson",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/12/20/tesla-fsd-v13-handles-its-first-accident-safely-where-human-drivers-failed/"
+  },
+  {
+    "postUrl": "https://x.com/bradsferguson/status/1869029148942889020",
+    "postId": "1869029148942889020",
+    "authorHandle": "bradsferguson",
+    "authorDisplayName": "bradsferguson",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @bradsferguson",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/12/20/tesla-fsd-v13-handles-its-first-accident-safely-where-human-drivers-failed/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1818342829006926055",
+    "postId": "1818342829006926055",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/12/20/tesla-fsd-v13-handles-its-first-accident-safely-where-human-drivers-failed/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1860578026519691633",
+    "postId": "1860578026519691633",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/11/24/fsd-v13-is-coming-soon-says-tesla-ceo-elon-musk/"
+  },
+  {
+    "postUrl": "https://x.com/DimaZeniuk/status/1829329803826114941",
+    "postId": "1829329803826114941",
+    "authorHandle": "DimaZeniuk",
+    "authorDisplayName": "DimaZeniuk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DimaZeniuk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/11/24/fsd-v13-is-coming-soon-says-tesla-ceo-elon-musk/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1727484899374899687",
+    "postId": "1727484899374899687",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/10/22/tesla-fsd-investigated-by-nhtsa-for-4-incidents-out-of-2-4-million-vehicles-and-billions-of-miles-driven/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1430266644971069446",
+    "postId": "1430266644971069446",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @elonmusk",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/10/22/tesla-fsd-investigated-by-nhtsa-for-4-incidents-out-of-2-4-million-vehicles-and-billions-of-miles-driven/"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1849369077900325322",
+    "postId": "1849369077900325322",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla_AI",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @Tesla_AI",
+    "notes": "round2 scrape https://www.teslaoracle.com/2024/10/22/tesla-fsd-investigated-by-nhtsa-for-4-incidents-out-of-2-4-million-vehicles-and-billions-of-miles-driven/"
+  },
+  {
+    "postUrl": "https://x.com/Tslachan/status/1900737687675695520",
+    "postId": "1900737687675695520",
+    "authorHandle": "Tslachan",
+    "authorDisplayName": "Tslachan",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @Tslachan",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/03/30/watch-tesla-cybertrucks-roaming-the-streets-of-china/"
+  },
+  {
+    "postUrl": "https://x.com/tslaming/status/1964288785086030170",
+    "postId": "1964288785086030170",
+    "authorHandle": "tslaming",
+    "authorDisplayName": "tslaming",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @tslaming",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/03/30/watch-tesla-cybertrucks-roaming-the-streets-of-china/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaAaronL/status/2008463293510504812",
+    "postId": "2008463293510504812",
+    "authorHandle": "TeslaAaronL",
+    "authorDisplayName": "TeslaAaronL",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @TeslaAaronL",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/03/30/watch-tesla-cybertrucks-roaming-the-streets-of-china/"
+  },
+  {
+    "postUrl": "https://x.com/tslaming/status/2018207149592392095",
+    "postId": "2018207149592392095",
+    "authorHandle": "tslaming",
+    "authorDisplayName": "tslaming",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @tslaming",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/03/30/watch-tesla-cybertrucks-roaming-the-streets-of-china/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaAaronL/status/2013315918818889851",
+    "postId": "2013315918818889851",
+    "authorHandle": "TeslaAaronL",
+    "authorDisplayName": "TeslaAaronL",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @TeslaAaronL",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/03/30/watch-tesla-cybertrucks-roaming-the-streets-of-china/"
+  },
+  {
+    "postUrl": "https://x.com/IqtidarAlii/status/1565084730642645007",
+    "postId": "1565084730642645007",
+    "authorHandle": "IqtidarAlii",
+    "authorDisplayName": "IqtidarAlii",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @IqtidarAlii",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/1565416936745443333",
+    "postId": "1565416936745443333",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "DBurkland",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DBurkland",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/1565416938288939016",
+    "postId": "1565416938288939016",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "DBurkland",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DBurkland",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/1565362652389539841",
+    "postId": "1565362652389539841",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "DBurkland",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DBurkland",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/1565362654767611905",
+    "postId": "1565362654767611905",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "DBurkland",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DBurkland",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/1565362656994795522",
+    "postId": "1565362656994795522",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "DBurkland",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DBurkland",
+    "notes": "round2 scrape https://www.teslaoracle.com/2022/09/02/fsd-beta-10-69-1-safety-strikes-reset-zero-testing-videos/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaOracle_com/status/2055926715361489247",
+    "postId": "2055926715361489247",
+    "authorHandle": "TeslaOracle_com",
+    "authorDisplayName": "TeslaOracle_com",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @TeslaOracle_com",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/05/17/tesla-fsd-v14-3-3-2026-14-6-6-adds-a-new-fsd-intervention-free-live-streak-counter-video-release-notes/"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2048267000359874797",
+    "postId": "2048267000359874797",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "BLKMDL3",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @BLKMDL3",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/04/27/tesla-rolls-out-fsd-v14-3-2-2026-2-9-8-first-impressions-release-notes-rollout-status/"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/2046024443718218083",
+    "postId": "2046024443718218083",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "DirtyTesLa",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @DirtyTesLa",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/04/22/fsd-v14-3-1-2026-2-9-7-tesla-owners-report-some-regressions-rollout-status-and-release-notes/"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/2041677496698204493",
+    "postId": "2041677496698204493",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla_AI",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related clip from @Tesla_AI",
+    "notes": "round2 scrape https://www.teslaoracle.com/2026/04/08/tesla-rolls-out-fsd-v14-3-2026-2-9-6-better-reaction-time-rewritten-ai-compiler-mlir-release-notes-status/"
+  }
+]

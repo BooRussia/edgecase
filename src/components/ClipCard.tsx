@@ -152,6 +152,13 @@ export function ClipCard({ clip }: { clip: RankedClip }) {
           ) : null}
         </div>
 
+        {clip.fsdVersion ? (
+          <p className="text-[10px] text-[var(--text-dim)]">
+            FSD {clip.fsdVersion}
+            {clip.fsdVersionInferred ? " · likely" : ""}
+          </p>
+        ) : null}
+
         <p className="line-clamp-2 text-sm leading-snug text-white/90">{clip.summary}</p>
 
         {falseFail ? (

@@ -36,6 +36,52 @@ function mediaFp(thumb, id) {
 const idFor = (postId) =>
   `ec-${createHash("sha256").update(postId).digest("hex").slice(0, 8)}`;
 
+const FSD_ERA_STARTS = [
+  { from: "2026-06-12", label: "14.3.4" },
+  { from: "2026-05-17", label: "14.3.3" },
+  { from: "2026-04-07", label: "14.3" },
+  { from: "2026-02-01", label: "14.2" },
+  { from: "2025-11-15", label: "14.2" },
+  { from: "2025-10-01", label: "14.1" },
+  { from: "2025-04-01", label: "13.2" },
+  { from: "2024-11-20", label: "13.2 / 12.6" },
+  { from: "2024-07-15", label: "12.5" },
+  { from: "2024-04-01", label: "12.3–12.4" },
+  { from: "2024-01-01", label: "12.x" },
+  { from: "2023-01-01", label: "11.x" },
+  { from: "2020-01-01", label: "pre-11" },
+];
+
+function parseTweetDate(createdAt, createdTimestamp) {
+  if (typeof createdTimestamp === "number" && createdTimestamp > 1e9) {
+    const ms = createdTimestamp < 1e12 ? createdTimestamp * 1000 : createdTimestamp;
+    return new Date(ms).toISOString().slice(0, 10);
+  }
+  if (!createdAt) return null;
+  if (/^\d{4}-\d{2}-\d{2}/.test(createdAt)) return createdAt.slice(0, 10);
+  const d = new Date(createdAt);
+  return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+}
+
+function extractFsdVersionFromText(text) {
+  if (!text) return null;
+  const m = text.match(
+    /\b(?:FSD|Full Self[- ]Driving)[^\n]{0,40}?\bv?(\d{1,2}(?:\.\d{1,2}){1,3}(?:\.\d+)?)\b|\bv(\d{1,2}(?:\.\d{1,2}){1,3})\b/i,
+  );
+  if (!m) return null;
+  const raw = (m[1] || m[2] || "").replace(/^v/i, "");
+  if (!raw || /^20\d{2}/.test(raw) || Number(raw.split(".")[0]) > 20) return null;
+  return raw;
+}
+
+function inferFsdVersionFromDate(isoDate) {
+  if (!isoDate || !/^\d{4}-\d{2}-\d{2}$/.test(isoDate)) return null;
+  for (const era of FSD_ERA_STARTS) {
+    if (isoDate >= era.from) return era.label;
+  }
+  return null;
+}
+
 function infer(text) {
   const t = text.toLowerCase();
   const tags = new Set();
@@ -193,12 +239,22 @@ for (const c of byId.values()) {
   if (c.category) inferred.category = c.category;
 
   const handle = (tweet.author?.screen_name || c.authorHandle).replace(/^@/, "");
-  const postedAt = (tweet.created_at || "").slice(0, 10) || "2025-01-01";
+  const postedAt =
+    parseTweetDate(tweet.created_at, tweet.created_timestamp) ||
+    (c.postedAt && /^\d{4}-\d{2}-\d{2}/.test(c.postedAt) ? c.postedAt.slice(0, 10) : null) ||
+    "2025-01-01";
   const id = idFor(c.postId);
   const summary = (c.summary && c.summary.length > 40 ? c.summary : text)
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, 280);
+
+  const statedVersion =
+    c.fsdVersion ||
+    extractFsdVersionFromText(`${text} ${c.summary || ""} ${c.notes || ""}`);
+  const versionInferred = !statedVersion;
+  const fsdVersion =
+    statedVersion || inferFsdVersionFromDate(postedAt) || undefined;
 
   const clip = {
     id,
@@ -221,6 +277,9 @@ for (const c of byId.values()) {
     thumbnailUrl: v.thumbnail_url,
     likes: tweet.likes,
     mediaFingerprint: fp,
+    ...(fsdVersion
+      ? { fsdVersion, fsdVersionInferred: versionInferred }
+      : {}),
     ...(c.incidentKey ? { incidentKey: c.incidentKey } : {}),
     ...(c.verificationNotes ? { verificationNotes: c.verificationNotes } : {}),
     ...(tweet.quote ? { isQuote: true } : {}),

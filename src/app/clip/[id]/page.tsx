@@ -176,7 +176,14 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
               {clip.fsdVersion ? (
                 <div className="min-w-0">
                   <dt className="text-[var(--text-dim)]">FSD version</dt>
-                  <dd className="mt-0.5 font-medium">{clip.fsdVersion}</dd>
+                  <dd className="mt-0.5 font-medium">
+                    {clip.fsdVersion}
+                    {clip.fsdVersionInferred ? (
+                      <span className="ml-1.5 text-xs font-normal text-[var(--text-dim)]">
+                        (likely · from post date)
+                      </span>
+                    ) : null}
+                  </dd>
                 </div>
               ) : null}
             </dl>

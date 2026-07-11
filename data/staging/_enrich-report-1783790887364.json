@@ -1,0 +1,114 @@
+{
+  "added": 17,
+  "skipped": [
+    {
+      "postId": "2064076685981696108",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2062201854214521159",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2063666631176564903",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2061105225830724004",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1974345327626105077",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "1964569495101722883",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "1964320728250986837",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "2067797740470542457",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2065272365538554223",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2069161438812278946",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2069168079549161491",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2005657516366066163",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1869028998002717164",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1818342829006926055",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1860578026519691633",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1727484899374899687",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1430266644971069446",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1849369077900325322",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1964288785086030170",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "1565084730642645007",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1565416938288939016",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1565362654767611905",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1565362656994795522",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2055926715361489247",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2048267000359874797",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2046024443718218083",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2041677496698204493",
+      "reason": "no-video"
+    }
+  ],
+  "totalClips": 266
+}

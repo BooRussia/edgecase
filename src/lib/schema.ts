@@ -60,6 +60,8 @@ export const ClipSchema = z.object({
   isRepost: z.boolean().optional(),
   isQuote: z.boolean().optional(),
   fsdVersion: z.string().optional(),
+  /** True when fsdVersion was inferred from post date rather than stated in the post */
+  fsdVersionInferred: z.boolean().optional(),
   hardware: z.string().optional(),
   summary: z.string().min(1),
   sourceNotes: z.string().optional(),
