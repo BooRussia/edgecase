@@ -44,8 +44,10 @@ function Thumb({
 }) {
   const [failed, setFailed] = useState(false);
 
+  // Do not set `relative` here — callers pass `absolute inset-0`, and both
+  // utilities conflict in Tailwind (relative wins → height collapses to 0).
   return (
-    <div className={`relative overflow-hidden bg-[#0a0a0a] ${className ?? ""}`}>
+    <div className={`overflow-hidden bg-[#0a0a0a] ${className ?? "relative h-full w-full"}`}>
       {clip.thumbnailUrl && !failed ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
@@ -59,7 +61,7 @@ function Thumb({
       ) : (
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.08),transparent_55%)]" />
       )}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-black/20" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-black/15" />
     </div>
   );
 }
