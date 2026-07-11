@@ -95,7 +95,7 @@ export function FeedClient({
         <span className="text-[var(--text-dim)]">Embeds · attributed</span>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="grid items-start gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filtered.map((clip) => (
           <ClipCard key={clip.id} clip={clip} />
         ))}

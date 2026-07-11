@@ -17,6 +17,12 @@ import {
   isFalseFailure,
 } from "@/lib/schema";
 
+const outcomeBadge: Record<string, string> = {
+  handled: "bg-teal-400 text-black",
+  disengaged: "bg-amber-400 text-black",
+  incident: "bg-rose-500 text-white",
+};
+
 type Params = Promise<{ id: string }>;
 
 export function generateStaticParams() {
@@ -65,7 +71,9 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
         </Link>
         <div className="space-y-2">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="chip chip-active !px-3 !py-1 text-[11px] uppercase">
+            <span
+              className={`rounded-md px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.06em] shadow-lg ${outcomeBadge[clip.outcome]}`}
+            >
               {OUTCOME_LABEL[clip.outcome]}
             </span>
             {falseFail ? (
