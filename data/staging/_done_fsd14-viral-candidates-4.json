@@ -1,0 +1,648 @@
+[
+  {
+    "postUrl": "https://x.com/johnkrausphotos/status/1975671655058874397",
+    "postId": "1975671655058874397",
+    "authorHandle": "johnkrausphotos",
+    "authorDisplayName": "John Kraus",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "long-trip"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD v14.1: 69 miles from Florida’s Space Coast to Orlando  The car handled the entire route perfectly, including a stop I added along the way, and attempted to park at the end of the drive. It did so smoothly, but incorrectly park",
+    "notes": "viral FSD14 hunt | likes≈326 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/farzyness/status/1975664477359251566",
+    "postId": "1975664477359251566",
+    "authorHandle": "farzyness",
+    "authorDisplayName": "Farzad 🇺🇸 🇮🇷",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "drive-thru"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD v14.1 knows to navigate drive-thrus.  Automatically stops at the order screen. Waits for Chris to finish ordering.  Automatically moves up and stops at the window.  Then waits for Chris to pay, and then moves on its own.  I gu",
+    "notes": "viral FSD14 hunt | likes≈817 | nativeVideo=False card=False"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1975683679742468345",
+    "postId": "1975683679742468345",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "smart-summon"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "My full length FSD Supervised v14.1 Smart Summon Testing video has been posted here on @X for subscribers.    This video was WAAAY to hard to put together so don't expect this type of video from me very often.  For the public vers",
+    "notes": "viral FSD14 hunt | likes≈283 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/1975834664242978846",
+    "postId": "1975834664242978846",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "drive-thru",
+      "parking"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "My 24 hour review of FSD v14.1-  It’s really that good. The addition of parking garages and arrival settings is HUGE. A way bigger deal than many realize and makes using FSD that much cooler. Now all your driving can be done on FS",
+    "notes": "viral FSD14 hunt | likes≈1701 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/1977248851640582148",
+    "postId": "1977248851640582148",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "Nic Cruz Patane",
+    "postedAt": "2025-10-12",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Third drive on FSD 14.1.1 completed.   Once again, zero jitteriness or braking problems. Going for one more drive to confirm.  FSD 14 seems like it could be going wide soon. 😎",
+    "notes": "viral FSD14 hunt | likes≈809 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/wholemars/status/1978894878760116616",
+    "postId": "1978894878760116616",
+    "authorHandle": "wholemars",
+    "authorDisplayName": "Whole Mars Catalog",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "mad-max"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "This was insane to experience. Check this video out.  Tesla Self-Driving 14.1.2 on Mad Max mode drives from Hollywood Boulevard to Mulholland Drive",
+    "notes": "viral FSD14 hunt | likes≈646 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1978825913111343417",
+    "postId": "1978825913111343417",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2025-10-16",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "My FSD Supervised v14.1.2 first impressions video is being put together now.  Will have some highlights out within the hour, and full video after rendering later this morning.  TLDR.  It fixed all the lane changing and brake stabb",
+    "notes": "viral FSD14 hunt | likes≈987 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1978625197960761351",
+    "postId": "1978625197960761351",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "mad-max",
+      "ui"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.1.2 downloading with new Mad Max speed profile announced.",
+    "notes": "May be UI screenshot/card; Mad Max launch post. | likes≈780 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1978678175971283062",
+    "postId": "1978678175971283062",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "mad-max"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Here is my first drive on Tesla FSD V14.1.2 with the new Mad Max speed profile.  Mad Max mode drives very quickly and confidently. It accelerates MUCH quicker off the line (love that) and maxes out at 85mph on the highway. If you",
+    "notes": "viral FSD14 hunt | likes≈2499 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1978923230766252104",
+    "postId": "1978923230766252104",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-10-16",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "urban",
+      "mad-max"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "First daytime drive on @Tesla FSD V14.1.2 with Mad Max mode enabled. No major issues or interventions. I think this is my new favorite mode.  I demonstrate all 5 FSD speed profiles in this video.",
+    "notes": "viral FSD14 hunt | likes≈1528 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/greggertruck/status/1985551921214865718",
+    "postId": "1985551921214865718",
+    "authorHandle": "greggertruck",
+    "authorDisplayName": "Greggertruck",
+    "postedAt": "2025-11-04",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "mad-max"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Cybertruck FSD V14.1.5 Mad Max moves through traffic, then moves over at stop light to make space to let people get into turn lane.  Full video is posted, several good clips but this is one of my favorite moments.  It's remarkable",
+    "notes": "viral FSD14 hunt | likes≈898 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/1991997221286666265",
+    "postId": "1991997221286666265",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2025-11-21",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "highway",
+      "drive-thru",
+      "parking"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "🤖FSD V14.2 First Impressions Drive 🚗 Although the release notes made this update seem small - it feels to me like this is the refinement we have been waiting for in V14. All of my driving today was very smooth with no brake issues",
+    "notes": "viral FSD14 hunt | likes≈1274 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/1992019325952377200",
+    "postId": "1992019325952377200",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "ΛI DRIVR",
+    "postedAt": "2025-11-21",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.2 early thoughts (<100 mi)  - speed profiles actually work now, hurray! 14.1 didn’t really care when it went into a lower speed zone (unless you were in Sloth) but now it slows down immediately. seems like they’re actually",
+    "notes": "viral FSD14 hunt | likes≈1154 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1991985193616642108",
+    "postId": "1991985193616642108",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-11-21",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "urban",
+      "parking"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Here’s my first drive on @Tesla FSD V14.2. For the first time on V14, I had zero hesitation or braking issues all day, and no interventions. From a driving perspective, and after 85 miles on and off-camera on V14.2 today, it now f",
+    "notes": "viral FSD14 hunt | likes≈2008 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/Teslaconomics/status/1992289045393916170",
+    "postId": "1992289045393916170",
+    "authorHandle": "Teslaconomics",
+    "authorDisplayName": "Teslaconomics",
+    "postedAt": "2025-11-22",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "My Cyberbeast is officially equipped w/ the most powerful self driving software in the world, FSD v14.2. I will be driving it everywhere this weekend!",
+    "notes": "viral FSD14 hunt | likes≈757 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/1992282403981689070",
+    "postId": "1992282403981689070",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "Nic Cruz Patane",
+    "postedAt": "2025-11-22",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "nyc"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla FSD V14.2 driving through NYC Times Square—arguably the single most intense concentration of human traffic in the US.  It isn’t easy to drive here, especially if it’s your first time. V14 nails it.",
+    "notes": "viral FSD14 hunt | likes≈278 | nativeVideo=False card=False"
+  },
+  {
+    "postUrl": "https://x.com/TeslaNewswire/status/1995151688009998674",
+    "postId": "1995151688009998674",
+    "authorHandle": "TeslaNewswire",
+    "authorDisplayName": "The Tesla Newswire",
+    "postedAt": "2025-11-30",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "❄️ It’s incredible how confidently and safely Tesla FSD (Supervised) v14.2 handles snow-covered roads",
+    "notes": "viral FSD14 hunt | likes≈134 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/brunitatoiu/status/1994917680638239148",
+    "postId": "1994917680638239148",
+    "authorHandle": "brunitatoiu",
+    "authorDisplayName": "brunitatoiu",
+    "postedAt": "2025-11-30",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cybertruck",
+      "highway",
+      "long-trip"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.2 Cybertruck Chicago→Cape Coral Florida long-haul drive.",
+    "notes": "fx 404; TeslaNorth long-drive embed."
+  },
+  {
+    "postUrl": "https://x.com/Pia_MD_/status/1995712080129691802",
+    "postId": "1995712080129691802",
+    "authorHandle": "Pia_MD_",
+    "authorDisplayName": "Pia",
+    "postedAt": "2025-12-02",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "hand-gesture",
+      "unprotected-left",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.2.1 reads an oncoming driver’s wave-on at a stop sign and takes the left smoothly.",
+    "notes": "fx 404; from TeslaOracle hand-gesture embed with video."
+  },
+  {
+    "postUrl": "https://x.com/malmaladei/status/1996167269521768698",
+    "postId": "1996167269521768698",
+    "authorHandle": "malmaladei",
+    "authorDisplayName": "malmaladei",
+    "postedAt": "2025-12-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "europe",
+      "urban",
+      "village"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.x — FSD on tiny German village streets — owner calls it magical.",
+    "notes": "fx 404; Europe village-street embed with video."
+  },
+  {
+    "postUrl": "https://x.com/MarioNawfal/status/2004080921121521985",
+    "postId": "2004080921121521985",
+    "authorHandle": "MarioNawfal",
+    "authorDisplayName": "Mario Nawfal",
+    "postedAt": "2025-12-25",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "🇺🇸 TESLA DRIVERS SAY FSD 14.2.2 IS A REAL STEP FORWARD  A Tesla owner shared that their first drive on Full Self-Driving 14.2.2 felt familiar at first, then the system started changing lanes and everything clicked.  The improvemen",
+    "notes": "viral FSD14 hunt | likes≈1460 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/techiedani/status/2007512888915964183",
+    "postId": "2007512888915964183",
+    "authorHandle": "techiedani",
+    "authorDisplayName": "Dani",
+    "postedAt": "2026-01-03",
+    "outcome": "incident",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "pothole",
+      "highway",
+      "emergency"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Watch FSD 14.2.2.2 slam us into a pothole and completely obliterate our front tire on the way home from the hospital with our new baby. Worst timing ever!  Luckily, with the Luxe package on Model X, we were able to get a brand new",
+    "notes": "viral FSD14 hunt | likes≈782 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/Rustavi/status/2009518106847129997",
+    "postId": "2009518106847129997",
+    "authorHandle": "Rustavi",
+    "authorDisplayName": "Rustavi",
+    "postedAt": "2026-01-09",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "🚨 Tesla's FSD V14.2 effortlessly navigates complex construction zones with zero hesitation. Mind blowing demo by @DevinOlsenn! 🚧🚀 As Europe ramps up for FSD rollout starting 2026, imagine seamless drives through roadworks in citie",
+    "notes": "viral FSD14 hunt | likes≈62 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/DavidMoss/status/2012175321349439793",
+    "postId": "2012175321349439793",
+    "authorHandle": "DavidMoss",
+    "authorDisplayName": "David Moss",
+    "postedAt": "2026-01-16",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "highway",
+      "long-trip"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "The record setting Tesla FSD intervention streak is over  We made it so close to 13k at 12,961 miles (20,858KM) but rural Wisconsin roads + snow + weather in the teens was just a bit too much. No accident or anything big to note j",
+    "notes": "viral FSD14 hunt | likes≈4151 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/TimDOES/status/2015003051053158710",
+    "postId": "2015003051053158710",
+    "authorHandle": "TimDOES",
+    "authorDisplayName": "TimDOES",
+    "postedAt": "2026-01-24",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.2.2.4 First Impressions:  I just got back from over an hour of Full Self-Driving on the Las Vegas Strip. This version is amazing. Zero regressions so far and noticed two improvements on a weird area near my home.  I used Gr",
+    "notes": "viral FSD14 hunt | likes≈111 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/TeslaTakesOver/status/2016193668202279005",
+    "postId": "2016193668202279005",
+    "authorHandle": "TeslaTakesOver",
+    "authorDisplayName": "Llama Mama",
+    "postedAt": "2026-01-27",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla Full Self-Driving (Supervised) software update 14.2.2.4 on Turbo  City, highway and toll road driving video coming soon... stay tuned!  Key breakdown of what you're seeing:  96% Self-Driving since v14.2 — This is the headlin",
+    "notes": "viral FSD14 hunt | likes≈26 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2041709101441544660",
+    "postId": "2041709101441544660",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "highway",
+      "long-trip"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Just had an awesome zero intervention FSD v14.3 drive here in Fremont.   No left lane bias even with Hurry mode or standard. So insanely smooth this drive- video coming.",
+    "notes": "viral FSD14 hunt | likes≈288 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2041681579018252320",
+    "postId": "2041681579018252320",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla FSD V14.3 first drive impressions:  • Highway follow distance is more comfortable • Quicker take off from stop signs after coming to a complete stop • Highway lane change hesitation from previous versions seems gone for me •",
+    "notes": "viral FSD14 hunt | likes≈3580 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/2042815186038591831",
+    "postId": "2042815186038591831",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2026-04-11",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "parking"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD V14.3 - Jaes first impressions  For anyone with a wife that doesn't care to listen to the \"nerds\" talk about FSD this video is probably perfect - it's a \"normal\" person giving their impressions of 14.3 and where we are today w",
+    "notes": "viral FSD14 hunt | likes≈697 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2044321995966558565",
+    "postId": "2044321995966558565",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2026-04-15",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "highway",
+      "parking"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14.3.1 review after 10 drives and many hours, here are my thoughts (it’s a great one)  - v14.3.1 feels like a big jump even compared to FSD v14.3, even for “just” a point release build. Everything’s polished and smoother over",
+    "notes": "viral FSD14 hunt | likes≈2912 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/TeslaNewswire/status/2044274996634063270",
+    "postId": "2044274996634063270",
+    "authorHandle": "TeslaNewswire",
+    "authorDisplayName": "The Tesla Newswire",
+    "postedAt": "2026-04-15",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "mad-max",
+      "parking"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla FSD (Supervised) v14.3.1 first impressions:  ✅ Mad Max more conservative, moves right earlier for exits ✅ More comfortable follow distance ✅ No brake-stabbing issues ✅ Better urban lane selection ⚠️ Navigation & parking stil",
+    "notes": "viral FSD14 hunt | likes≈109 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/nikkharris/status/2047515919589797901",
+    "postId": "2047515919589797901",
+    "authorHandle": "nikkharris",
+    "authorDisplayName": "Nik Harris",
+    "postedAt": "2026-04-24",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "review",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.3.2 Model S review — TL;DR everything is faster/smoother.",
+    "notes": "Card-hosted review video. | likes≈154 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/DBurkland/status/2056094238350229542",
+    "postId": "2056094238350229542",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "Dan Burkland",
+    "postedAt": "2026-05-17",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "parking"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla FSD v14.3.3: First Impressions Around St Paul!  Early this morning, my Model S received Tesla Firmware v2026.14.6.6, which included FSD v14.3.3. As soon as I woke up, I installed the update and went for a drive around St. Pa",
+    "notes": "viral FSD14 hunt | likes≈92 | nativeVideo=True card=True"
+  },
+  {
+    "postUrl": "https://x.com/01Ananto/status/2056442791807393906",
+    "postId": "2056442791807393906",
+    "authorHandle": "01Ananto",
+    "authorDisplayName": "🅰️nanto Mohammad",
+    "postedAt": "2026-05-18",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "urban",
+      "near-miss",
+      "cut-in"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Tesla FSD 14.3.3 just saved me from a potential side-swipe collision — again.  Watch this: I’m cruising in the right lane at ~45 mph when the green station wagon on my left suddenly drifts over, cutting sharply into my lane and to",
+    "notes": "viral FSD14 hunt | likes≈539 | nativeVideo=True card=True"
+  }
+]

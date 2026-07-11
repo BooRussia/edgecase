@@ -1,0 +1,71 @@
+{
+  "added": 18,
+  "skipped": [
+    {
+      "postId": "1975664477359251566",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1975683679742468345",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1975834664242978846",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1978825913111343417",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1978625197960761351",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1992019325952377200",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1992282403981689070",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1994917680638239148",
+      "reason": "null"
+    },
+    {
+      "postId": "1995712080129691802",
+      "reason": "null"
+    },
+    {
+      "postId": "1996167269521768698",
+      "reason": "null"
+    },
+    {
+      "postId": "2012175321349439793",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2015003051053158710",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2041709101441544660",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2044321995966558565",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2044274996634063270",
+      "reason": "dup-media",
+      "fp": "media:2044169610417651712"
+    },
+    {
+      "postId": "2047515919589797901",
+      "reason": "no-video"
+    }
+  ],
+  "totalClips": 239
+}
