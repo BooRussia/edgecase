@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { AppNav } from "@/components/BottomNav";
 import "./globals.css";
@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   description:
     "Curated Tesla FSD dashcam clips from X — ranked by severity and impressive maneuvers, with owner attribution and false-failure flags.",
   metadataBase: new URL("https://boorussia.github.io/edgecase"),
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#000000",
 };
 
 export default function RootLayout({

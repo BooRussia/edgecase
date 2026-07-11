@@ -117,28 +117,43 @@ export function AppNav() {
       </aside>
 
       <nav
-        className="glass fixed inset-x-0 bottom-0 z-50 border-t border-white/[0.06] lg:hidden"
-        style={{ paddingBottom: "var(--safe-bottom)" }}
+        className="fixed inset-x-0 bottom-0 z-50 lg:hidden"
         aria-label="Primary"
       >
-        <ul className="mx-auto grid max-w-lg grid-cols-4 px-2 pt-2" style={{ height: "var(--tab-height)" }}>
-          {tabs.map((tab) => {
-            const active = pathIsActive(tab.href, pathname);
-            return (
-              <li key={tab.href}>
-                <Link
-                  href={tab.href}
-                  className={`flex h-full flex-col items-center justify-center gap-1 rounded-2xl transition-colors ${
-                    active ? "text-white" : "text-[#5c5c5c]"
-                  }`}
-                >
-                  <span className={active ? "opacity-100" : "opacity-80"}>{tab.icon}</span>
-                  <span className="text-[11px] font-medium tracking-wide">{tab.label}</span>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        {/*
+          Opaque fill to the physical bottom edge so Arc/Safari don't show a
+          second translucent strip under the tabs when content scrolls.
+        */}
+        <div
+          className="border-t border-white/[0.08] bg-black"
+          style={{ paddingBottom: "var(--safe-bottom)" }}
+        >
+          <ul
+            className="mx-auto grid max-w-lg grid-cols-4 px-2"
+            style={{ height: "var(--tab-height)" }}
+          >
+            {tabs.map((tab) => {
+              const active = pathIsActive(tab.href, pathname);
+              return (
+                <li key={tab.href}>
+                  <Link
+                    href={tab.href}
+                    className={`flex h-full flex-col items-center justify-center gap-1 rounded-2xl transition-colors ${
+                      active ? "text-white" : "text-[#5c5c5c]"
+                    }`}
+                  >
+                    <span className={active ? "opacity-100" : "opacity-80"}>
+                      {tab.icon}
+                    </span>
+                    <span className="text-[11px] font-medium tracking-wide">
+                      {tab.label}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </nav>
     </>
   );

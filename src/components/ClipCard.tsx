@@ -168,16 +168,12 @@ export function ClipCard({ clip }: { clip: RankedClip }) {
           <ScoreMeter label="Maneuver" value={clip.maneuverScore} />
         </div>
 
-        <div className="flex gap-2">
-          {!playing ? (
-            <button type="button" onClick={() => setPlaying(true)} className="chip chip-active !py-1.5 text-xs">
-              Play
-            </button>
-          ) : null}
-          <Link href={`/clip/${clip.id}`} className="chip !py-1.5 text-xs">
-            Details
-          </Link>
-        </div>
+        <Link
+          href={`/clip/${clip.id}`}
+          className="mt-1 flex min-h-12 w-full items-center justify-center rounded-2xl bg-white/[0.1] px-4 text-sm font-semibold text-white ring-1 ring-white/[0.12] transition-colors hover:bg-white/[0.16] active:scale-[0.98]"
+        >
+          Details
+        </Link>
       </div>
     </article>
   );
@@ -231,13 +227,11 @@ export function HeroClipCard({ clip }: { clip: RankedClip }) {
           </>
         )}
       </div>
-      <div className="flex gap-2 p-3">
-        {!playing ? (
-          <button type="button" onClick={() => setPlaying(true)} className="chip chip-active !py-1.5 text-xs">
-            Play
-          </button>
-        ) : null}
-        <Link href={`/clip/${clip.id}`} className="chip !py-1.5 text-xs">
+      <div className="p-3">
+        <Link
+          href={`/clip/${clip.id}`}
+          className="flex min-h-12 w-full items-center justify-center rounded-2xl bg-white/[0.1] px-4 text-sm font-semibold text-white ring-1 ring-white/[0.12] transition-colors hover:bg-white/[0.16] active:scale-[0.98]"
+        >
           Details
         </Link>
       </div>
