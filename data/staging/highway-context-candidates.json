@@ -1,0 +1,510 @@
+[
+  {
+    "postUrl": "https://x.com/kylaschwaberow/status/1849965696215810139",
+    "postId": "1849965696215810139",
+    "authorHandle": "kylaschwaberow",
+    "authorDisplayName": "Pete Balls to the wall FSD \ud83e\udd16\ud83d\ude95",
+    "postedAt": "2024-10-26",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "emergency-vehicle",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD spots an oncoming fire truck, pulls over, then resumes once clear.",
+    "incidentKey": "handled:kylaschwaberow-firetruck-2024",
+    "notes": "Original dashcam; early vision-based emergency yield."
+  },
+  {
+    "postUrl": "https://x.com/DanielSgeiger/status/2036149876023783898",
+    "postId": "2036149876023783898",
+    "authorHandle": "DanielSgeiger",
+    "authorDisplayName": "Daniel Geiger",
+    "postedAt": "2026-03-23",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "emergency-vehicle",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Deaf driver: FSD pulls over for an ambulance using siren/lights the driver cannot hear.",
+    "notes": "Accessibility-relevant emergency-vehicle yield; original screen recording."
+  },
+  {
+    "postUrl": "https://x.com/maximilianbladt/status/2056690641824846072",
+    "postId": "2056690641824846072",
+    "authorHandle": "maximilianbladt",
+    "authorDisplayName": "Maximilian Bladt",
+    "postedAt": "2026-05-19",
+    "outcome": "disengaged",
+    "severity": 4,
+    "maneuverScore": 4,
+    "tags": [
+      "phantom-brake",
+      "traffic-light",
+      "urban"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Netherlands: FSD phantom-brakes at a green light, likely confused by an adjacent red signal.",
+    "incidentKey": "incident:bladt-nl-greenlight-phantom-2026",
+    "notes": "Original video cited by TheStreet/Yahoo; supervision debate in replies."
+  },
+  {
+    "postUrl": "https://x.com/MilMileBattery/status/1579145646942347264",
+    "postId": "1579145646942347264",
+    "authorHandle": "MilMileBattery",
+    "authorDisplayName": "MilMileBattery",
+    "postedAt": "2022-10-09",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "phantom-brake",
+      "urban",
+      "low-light"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD Beta completes a left turn through tree shadows that previously caused phantom braking.",
+    "notes": "Contrast: older phantom-brake failure mode improved."
+  },
+  {
+    "postUrl": "https://x.com/jusanothertesla/status/1989234985392566306",
+    "postId": "1989234985392566306",
+    "authorHandle": "jusanothertesla",
+    "authorDisplayName": "justanothertesla",
+    "postedAt": "2025-11-14",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "traffic-light",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14.1.7 at blinking red lights with brief jerky braking before/after the turn.",
+    "notes": "Original clip; mild braking roughness at signal."
+  },
+  {
+    "postUrl": "https://x.com/TeslaAaronL/status/2073819843833241891",
+    "postId": "2073819843833241891",
+    "authorHandle": "TeslaAaronL",
+    "authorDisplayName": "Tesla Aaron L",
+    "postedAt": "2026-07-05",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "weather",
+      "merge",
+      "highway",
+      "lane-change"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "In heavy rain, FSD passes a large truck to merge onto the highway, then overtakes on the expressway.",
+    "notes": "Original; rain + highway merge/lane changes."
+  },
+  {
+    "postUrl": "https://x.com/FSDdreams/status/1776281143991529501",
+    "postId": "1776281143991529501",
+    "authorHandle": "FSDdreams",
+    "authorDisplayName": "FSD Dreams",
+    "postedAt": "2024-04-05",
+    "outcome": "disengaged",
+    "severity": 4,
+    "maneuverScore": 3,
+    "tags": [
+      "weather",
+      "urban"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Heavy-rain FSD Beta v12.3.3 drive; owner warns FSD may be degraded and advises against use.",
+    "notes": "Original weather stress clip with caution framing."
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1863087040188829996",
+    "postId": "1863087040188829996",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2024-12-01",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "weather",
+      "parking",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v13.2 leaves a garage onto snow-covered dirt roads and completes the destination drive.",
+    "notes": "Original first-drive; snow/weather + unpark."
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1642002322384621570",
+    "postId": "1642002322384621570",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2023-04-01",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "construction",
+      "highway",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD Beta 11.3.4 threads cars on the left, a construction zone on the right, and a tow truck.",
+    "notes": "Original; construction-zone context."
+  },
+  {
+    "postUrl": "https://x.com/andyweedman/status/1642701816776278018",
+    "postId": "1642701816776278018",
+    "authorHandle": "andyweedman",
+    "authorDisplayName": "Andy Weedman",
+    "postedAt": "2023-04-03",
+    "outcome": "disengaged",
+    "severity": 4,
+    "maneuverScore": 4,
+    "tags": [
+      "merge",
+      "highway"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Owner reports FSD Beta 11.3.4 interstate merging is broken in their area\u2014fails to merge properly.",
+    "notes": "Original critical merge failure report with video."
+  },
+  {
+    "postUrl": "https://x.com/SamReaves/status/1642666306628460545",
+    "postId": "1642666306628460545",
+    "authorHandle": "SamReaves",
+    "authorDisplayName": "Sam Reaves",
+    "postedAt": "2023-04-02",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "merge",
+      "lane-change"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD Beta 11.3.4 handles Atlanta I-75S to I-85N interchange merge/lane choreography.",
+    "notes": "Original highway interchange clip."
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/1923427192165249077",
+    "postId": "1923427192165249077",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "Nic Cruz Patane",
+    "postedAt": "2025-05-16",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD conquers the Arc de Triomphe multi-lane roundabout in Paris.",
+    "notes": "Original; high-complexity roundabout."
+  },
+  {
+    "postUrl": "https://x.com/edgecase411/status/1764342501316739111",
+    "postId": "1764342501316739111",
+    "authorHandle": "edgecase411",
+    "authorDisplayName": "Edge Case",
+    "postedAt": "2024-03-03",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "roundabout",
+      "urban",
+      "lane-change"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 12.2.1 completes a double-lane chaotic roundabout (~6 takes framing).",
+    "notes": "Original edgecase411 clip."
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1820226083234689127",
+    "postId": "1820226083234689127",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2024-08-04",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 12.5.1.1 executes two multi-lane roundabouts consecutively without intervention.",
+    "notes": "Original DirtyTesLa."
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1775539425969086831",
+    "postId": "1775539425969086831",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2024-04-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 12.3.3 nails three roundabouts in a row after older builds hesitated at yields.",
+    "notes": "Original DirtyTesLa comparison framing."
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1534770421421072385",
+    "postId": "1534770421421072385",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2022-06-09",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "roundabout",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD Beta completes a full U-turn maneuver inside a roundabout.",
+    "notes": "Original teslaownersSV."
+  },
+  {
+    "postUrl": "https://x.com/MilMileBattery/status/1579148031043473409",
+    "postId": "1579148031043473409",
+    "authorHandle": "MilMileBattery",
+    "authorDisplayName": "MilMileBattery",
+    "postedAt": "2022-10-09",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "roundabout",
+      "merge",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Lane split onto an unmarked road followed by a clean roundabout on FSD Beta.",
+    "notes": "Original MilMileBattery sequence."
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/1863042689488588923",
+    "postId": "1863042689488588923",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "\u039bI DRIVR",
+    "postedAt": "2024-12-01",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "parking",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 13 navigates a parking lot then backs into a Supercharger stall unassisted.",
+    "notes": "Original AIDRIVR Autopark/FSD parking."
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/1863023701333266722",
+    "postId": "1863023701333266722",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "\u039bI DRIVR",
+    "postedAt": "2024-12-01",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 13 leaves a parking lot with an awkward other-driver interaction handled smoothly.",
+    "notes": "Original AIDRIVR unpark."
+  },
+  {
+    "postUrl": "https://x.com/kylaschwaberow/status/1820241264744476915",
+    "postId": "1820241264744476915",
+    "authorHandle": "kylaschwaberow",
+    "authorDisplayName": "Pete Balls to the wall FSD \ud83e\udd16\ud83d\ude95",
+    "postedAt": "2024-08-04",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 12.5.1.1 does a 180 and parks up a tight driveway beside a scuffed garage Tesla.",
+    "notes": "Original driveway park."
+  },
+  {
+    "postUrl": "https://x.com/RealRusty/status/2019012956563108161",
+    "postId": "2019012956563108161",
+    "authorHandle": "RealRusty",
+    "authorDisplayName": "Rusty",
+    "postedAt": "2026-02-04",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "parking",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Tesla Autopark before/after 2026.2.3 update comparison clip.",
+    "notes": "Original Autopark regression/improvement demo."
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/1868488695139197230",
+    "postId": "1868488695139197230",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2024-12-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking",
+      "urban",
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v13.2.1 first-drive: ~31 minutes parking-lot to parking-spot with zero disengagements.",
+    "notes": "Original BLKMDL3 long drive including highway/urban."
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1863253252839522373",
+    "postId": "1863253252839522373",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2024-12-01",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Chuck Cook FSD Supervised v13.2 daytime first-impressions highlight clip #1.",
+    "notes": "Original reviewer highlight; highway/urban mix."
+  },
+  {
+    "postUrl": "https://x.com/CyberSolarX/status/1642866165000155137",
+    "postId": "1642866165000155137",
+    "authorHandle": "CyberSolarX",
+    "authorDisplayName": "Josh",
+    "postedAt": "2023-04-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "traffic-light",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD Beta 11.3.4 waits at a busy/fast intersection then proceeds with a right-on-red at the right time.",
+    "notes": "Original right-on-red timing clip."
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1807909925001330859",
+    "postId": "1807909925001330859",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2024-07-01",
+    "outcome": "disengaged",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban",
+      "traffic-light"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 12.4.2 chokes on a familiar unprotected/left turn it previously handled\u2014regression clip.",
+    "notes": "Original DirtyTesLa regression; keep as maneuver stress near signals."
+  },
+  {
+    "postUrl": "https://x.com/rishivohra/status/2024539159269167410",
+    "postId": "2024539159269167410",
+    "authorHandle": "rishivohra",
+    "authorDisplayName": "Rishi Vohra",
+    "postedAt": "2026-02-19",
+    "outcome": "disengaged",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "merge",
+      "emergency-vehicle",
+      "low-light"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 My Tesla literally saved my life yesterday. What started as a normal drive turned terrifying fast. I unintentionally fasted for 17 hours, took some medicine, and had a severe\u2026",
+    "notes": "Auto-tagged from FSD video text; prefer original post."
+  }
+]

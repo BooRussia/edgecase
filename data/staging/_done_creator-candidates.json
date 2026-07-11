@@ -1,0 +1,715 @@
+[
+  {
+    "postUrl": "https://x.com/RealDanODowd/status/2074883769572508027",
+    "postId": "2074883769572508027",
+    "authorHandle": "RealDanODowd",
+    "authorDisplayName": "Dan O'Dowd",
+    "postedAt": "2026-07-08",
+    "outcome": "incident",
+    "severity": 4,
+    "maneuverScore": 2,
+    "tags": [
+      "navigation",
+      "sign-reading",
+      "wrong-way"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14.3.4 ignores a Do Not Enter sign and attempts to drive the wrong way \u2014 critic clip.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~51 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2068084068336717876",
+    "postId": "2068084068336717876",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2026-06-19",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 8,
+    "tags": [
+      "urban",
+      "nyc",
+      "zero-intervention"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "SawyerMerritt NYC FSD testing: dense urban scenarios handled across Manhattan without intervention (video).",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~1155 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/2048794282962702783",
+    "postId": "2048794282962702783",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2026-04-27",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "ui",
+      "seatbelt",
+      "qol"
+    ],
+    "category": "ui",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD QoL: can unbuckle seat belt before Park while still completing arrival parking maneuver.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~1477 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/scotsrule08/status/2042035072467861721",
+    "postId": "2042035072467861721",
+    "authorHandle": "scotsrule08",
+    "authorDisplayName": "Spencer",
+    "postedAt": "2026-04-09",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Tight tight tight tunnel on Mad Max with FSD 14.3 and the all-star supervisor @DavidMoss",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~60 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2041714851492589684",
+    "postId": "2041714851492589684",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 9,
+    "tags": [
+      "reaction",
+      "parking",
+      "cut-in"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD v14.3 reacts instantly as a car backs straight toward the ego vehicle in a parking area.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~502 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2041761397676142889",
+    "postId": "2041761397676142889",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 7,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "SawyerMerritt: FSD v14.3 parks quickly \u2014 both reverse and forward pulls into spots.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~3691 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041670557624614933",
+    "postId": "2041670557624614933",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #5 from my FSD v14.3 First Impressions Drive. The thin chain test.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~499 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041669342442488255",
+    "postId": "2041669342442488255",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #4 from my FSD v14.3 First Impressions Drive. Earlier Decisions on Highway Navigation???",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~444 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/2041680240204718537",
+    "postId": "2041680240204718537",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "reaction"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD 14.3 reacts to getting cut off",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~360 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041672682052210750",
+    "postId": "2041672682052210750",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #7 from my FSD v14.3 First Impressions Drive. Looking for parking on a busy street.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~278 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041673350888538549",
+    "postId": "2041673350888538549",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #8 from my FSD v14.3 First Impressions Drive. Full Drive Recap. Full length video will be rending a while and up on @X For subscribers and YT for the public version.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~244 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/scotsrule08/status/2041673682276512256",
+    "postId": "2041673682276512256",
+    "authorHandle": "scotsrule08",
+    "authorDisplayName": "Spencer",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD 14.3 takes on DFW Airport parking garage \ud83c\udd7f\ufe0f Fantastic maneuvering by FSD. 10+ point turn to escape and handled flawlessly! Super impressive @Tesla_AI with @DavidMoss",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~122 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/2041649058679275900",
+    "postId": "2041649058679275900",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 8,
+    "tags": [
+      "parking",
+      "navigation",
+      "sign-reading"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD 14.3 overrides bad nav routing into a Do Not Enter parking entrance and corrects course.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~2274 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/2041657281121562961",
+    "postId": "2041657281121562961",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Here\u2019s an EXCELLENT example: v14.2.2.5 would have slammed the brakes and stopped at this stop sign. I would have tapped the accelerator to proceed. You can see the light turns yellow and the car makes \u2014 in my\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~109 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041665259342033307",
+    "postId": "2041665259342033307",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "unprotected-left"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #1 from my FSD v14.3 First Impressions Drive. The Unprotected Left Turn.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~2385 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/2041638148506112428",
+    "postId": "2041638148506112428",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "Nic Cruz Patane",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "First drive on Tesla FSD V14.3 completed. Smooth as always. There are things it does that definitely feel new, I just need more time to figure them out. Onto some more testing at Costco!",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~783 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DavidMoss/status/2041661566676816075",
+    "postId": "2041661566676816075",
+    "authorHandle": "DavidMoss",
+    "authorDisplayName": "David Moss",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 8,
+    "tags": [
+      "controlled-test"
+    ],
+    "category": "demo",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Tesla FSD v14.3 vs Police hand cross pedestrian test with @scotsrule08",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~616 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/2041666899075842474",
+    "postId": "2041666899075842474",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is highlight clip #2 from my FSD v14.3 First Impressions Drive. First Parking Lot",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~218 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/2041663015024566278",
+    "postId": "2041663015024566278",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2026-04-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Here\u2019s a look with some commentary - Previously, FSD would stop where it did in this video, then again at the white line, before proceeding.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~55 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/FoxNews/status/2033891478494171637",
+    "postId": "2033891478494171637",
+    "authorHandle": "FoxNews",
+    "authorDisplayName": "Fox News",
+    "postedAt": "2026-03-17",
+    "outcome": "incident",
+    "severity": 5,
+    "maneuverScore": 1,
+    "tags": [
+      "crash",
+      "bridge",
+      "cybertruck"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Dashcam: Cybertruck allegedly in self-driving mode nearly sends a Houston mom/infant off a bridge before crashing into an overpass.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~13636 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2033206222346743967",
+    "postId": "2033206222346743967",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2026-03-15",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 9,
+    "tags": [
+      "obstacle",
+      "shoulder",
+      "bus",
+      "unstructured"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "SawyerMerritt: FSD drives onto dirt shoulder to navigate around a bus crash blocking the road.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~3556 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1994484950649721107",
+    "postId": "1994484950649721107",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-11-28",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "weather"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "My first drive in the snow on @Tesla FSD V14.2.1 on rural roads in New Hampshire. FSD did great, and was extra cautious because of the unplowed roads.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~3547 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/1994264398005981419",
+    "postId": "1994264398005981419",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2025-11-28",
+    "outcome": "disengaged",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "intervention",
+      "weather"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD V14.2.1 My Thoughts After spending a week with 14.2 I just have to give a huge shout out to @Tesla_AI for the incredible job they're doing. I've driven ~600km and I have not had a single safety related\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~576 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1994418164285776001",
+    "postId": "1994418164285776001",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2025-11-28",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Here is a highlight clip from my upcoming FSD v14.2.1 First Impressions video. Note the school zone behavior, I think it read the signs better. Although in standard mode it didn't actually slow down to 15 in this\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~383 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/1994302840433717618",
+    "postId": "1994302840433717618",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2025-11-28",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD v14.2.1 perfectly handles all lanes of the freeway merging into one after a closure due to the ending of a police chase/accident.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~305 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975955549507506183",
+    "postId": "1975955549507506183",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Super cool thing Tesla FSD v14.1 did: it proceeded thru this intersection to turn left, but the light had gone to red before the turn could be completed. It put itself in reverse and backed up to the \u201cStop Here on\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~2264 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975953111052337431",
+    "postId": "1975953111052337431",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Here\u2019s Tesla Full Self-Driving v14.1 navigating to a store, pulling in, choosing a parking spot, and backing right in From v13.2.9, this is a drastic improvement. Typically, manual parking was required in past\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~296 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975962355130675671",
+    "postId": "1975962355130675671",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Tesla Full Self-Driving v14.1 travels at more realistic speeds on local roads. With 13.2.9, even on Hurry, it would hover the speed limit a little too much, often times traveling 1-2 MPH below or over. It now\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~219 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975966444920967409",
+    "postId": "1975966444920967409",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "bug",
+      "navigation",
+      "traffic-light"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Bug \ud83d\udc1e no. 2: Navigation clearly shows the route continuing straight through the traffic light. I noticed the right turn signal coming on, so I overrode it. The car turned right anyway. I took over and drove manually\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~212 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975957003941118125",
+    "postId": "1975957003941118125",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Here, @Tesla Full Self-Driving v14.1 searched for a parking space at the grocery store. It did one loop, navigating safely through pedestrians and carts before it decided this spot was good enough for me. This\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~195 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975932681025389012",
+    "postId": "1975932681025389012",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "fsd"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "\ud83d\udea8 Check out Tesla Full Self-Driving v14 choosing and backing into a Supercharger After selecting this Supercharger at the beginning of my trip, my Tesla had already selected \u201cCharger\u201d as the arrival option",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~174 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975965942506193386",
+    "postId": "1975965942506193386",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "bug",
+      "turn-signal",
+      "routing"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Now for a couple bugs \ud83d\udc1e Tesla FSD v14.1 put its right turn signal on as if it was going to pull over. It did move closer to curb, but then realized this wasn\u2019t the correct maneuver for our route. It proceeded without\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~122 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975966860782002649",
+    "postId": "1975966860782002649",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "bug",
+      "supercharger",
+      "navigation"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Bug \ud83d\udc1e no. 3: I have this issue at this Supercharger and I talk about it frequently. Navigation takes illogical and strange exit from Supercharger. I override, turning left instead of right, Nav adjusts and picks\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~111 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1975560476949118993",
+    "postId": "1975560476949118993",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "Not only can FSD 14.1 pull into my gravel driveway (no version before has done this) it can pull into the garage.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~5455 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/1975505968168354302",
+    "postId": "1975505968168354302",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 6,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "FSD v14 navigates parking garages really well. Here\u2019s a full clip of it leaving a parking spot, going through the garage, waiting for me to put the ticket in, and exiting. Almost feels like it can read the signs\u2026",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~1441 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1961511271141941739",
+    "postId": "1961511271141941739",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-08-29",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 8,
+    "tags": [
+      "long-drive",
+      "weather",
+      "zero-intervention"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "SawyerMerritt: 325-mile / 5.5-hour Model Y drive NH\u2192NY on FSD v13.2.9 with zero interventions including rain.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~35419 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/1922337441651839105",
+    "postId": "1922337441651839105",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "\u039bI DRIVR",
+    "postedAt": "2025-05-13",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 9,
+    "tags": [
+      "reaction",
+      "semi",
+      "anticipation",
+      "near-miss"
+    ],
+    "category": "impressive",
+    "faultAttribution": "none",
+    "falseFailure": false,
+    "summary": "AIDRIVR: FSD takes a corner wide for no obvious reason \u2014 then an oncoming semi drifts over the center line.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~3628 likes at scrape"
+  },
+  {
+    "postUrl": "https://x.com/RealDanODowd/status/1672325190112641024",
+    "postId": "1672325190112641024",
+    "authorHandle": "RealDanODowd",
+    "authorDisplayName": "Dan O'Dowd",
+    "postedAt": "2023-06-23",
+    "outcome": "incident",
+    "severity": 5,
+    "maneuverScore": 2,
+    "tags": [
+      "stop-sign",
+      "near-miss",
+      "intervention"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Dawn Project ride-along with Ross Gerber: FSD runs a stop sign at ~35 mph, forcing hard brake.",
+    "notes": "Creator mine Jul 2026; fxtwitter-confirmed video; ~27298 likes at scrape"
+  }
+]
