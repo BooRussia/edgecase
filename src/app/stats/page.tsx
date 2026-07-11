@@ -39,21 +39,28 @@ export default function StatsPage() {
       <div className="grid gap-4 lg:grid-cols-2">
         <section className="card p-5">
           <div className="mb-4 flex items-end justify-between">
-            <h2 className="text-sm font-medium text-[var(--text-muted)]">Outcomes</h2>
-            <p className="text-2xl font-semibold tracking-tight">{stats.total}</p>
+            <div>
+              <h2 className="text-sm font-medium text-[var(--text-muted)]">Outcomes</h2>
+              <p className="mt-0.5 text-xs text-[var(--text-dim)]">Share of indexed clips</p>
+            </div>
+            <p className="text-2xl font-semibold tracking-tight tabular-nums">{stats.total}</p>
           </div>
-          <div className="flex h-40 items-end gap-3">
+          <div className="chart-well" role="img" aria-label="Outcome distribution bar chart">
             {(Object.keys(stats.outcomeCounts) as Outcome[]).map((key) => {
               const count = stats.outcomeCounts[key];
-              const height = `${Math.max(8, (count / maxOutcome) * 100)}%`;
+              const pct = maxOutcome > 0 ? (count / maxOutcome) * 100 : 0;
+              const height = `${Math.max(count > 0 ? 12 : 4, pct)}%`;
               return (
                 <div key={key} className="bar-col">
-                  <div
-                    className="bar-fill bar-fill-active"
-                    style={{ height, background: outcomeColor[key] }}
-                  />
-                  <div className="text-center">
-                    <p className="text-sm font-semibold">{count}</p>
+                  <div className="bar-track">
+                    <div
+                      className="bar-fill bar-fill-active"
+                      style={{ height, background: outcomeColor[key] }}
+                      title={`${OUTCOME_LABEL[key]}: ${count}`}
+                    />
+                  </div>
+                  <div className="bar-label">
+                    <p className="text-sm font-semibold tabular-nums">{count}</p>
                     <p className="text-[10px] uppercase tracking-wide text-[var(--text-dim)]">
                       {OUTCOME_LABEL[key]}
                     </p>
@@ -91,20 +98,47 @@ export default function StatsPage() {
       </div>
 
       <section className="card p-5">
-        <h2 className="mb-4 text-sm font-medium text-[var(--text-muted)]">
-          Severity histogram
-        </h2>
-        <div className="flex h-36 items-end gap-2">
+        <div className="mb-4 flex items-end justify-between">
+          <div>
+            <h2 className="text-sm font-medium text-[var(--text-muted)]">
+              Severity histogram
+            </h2>
+            <p className="mt-0.5 text-xs text-[var(--text-dim)]">Clips by severity 1–5</p>
+          </div>
+        </div>
+        <div
+          className="chart-well chart-well-sm"
+          role="img"
+          aria-label="Severity histogram levels 1 through 5"
+        >
           {stats.severityHistogram.map((count, index) => {
             const level = index + 1;
-            const height = `${Math.max(8, (count / maxSeverity) * 100)}%`;
+            const pct = maxSeverity > 0 ? (count / maxSeverity) * 100 : 0;
+            const height = `${Math.max(count > 0 ? 12 : 4, pct)}%`;
+            const tone =
+              level >= 5
+                ? "var(--incident)"
+                : level >= 4
+                  ? "var(--disengaged)"
+                  : undefined;
             return (
               <div key={level} className="bar-col">
-                <div
-                  className={`bar-fill ${level >= 4 ? "bar-fill-active" : ""}`}
-                  style={{ height }}
-                />
-                <p className="text-center text-xs text-[var(--text-dim)]">{level}</p>
+                <div className="bar-track">
+                  <div
+                    className={`bar-fill ${level >= 4 ? "bar-fill-active" : ""}`}
+                    style={{
+                      height,
+                      ...(tone ? { background: tone } : null),
+                    }}
+                    title={`Severity ${level}: ${count}`}
+                  />
+                </div>
+                <div className="bar-label">
+                  <p className="text-xs font-semibold tabular-nums">{count}</p>
+                  <p className="text-[10px] uppercase tracking-wide text-[var(--text-dim)]">
+                    {level}
+                  </p>
+                </div>
               </div>
             );
           })}

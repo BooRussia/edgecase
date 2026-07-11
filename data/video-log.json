@@ -2,8 +2,8 @@
   "version": 1,
   "description": "Fingerprint log for EdgeCase deduplication. Before indexing, match mediaFingerprint or incidentKey. Prefer original dashcam author over news/aggregator. Never make RT/quote canonical when an original video exists.",
   "rules": [
-    "Match mediaFingerprint (Twitter media/amplify id) \u2014 exact same file/encode family.",
-    "Match incidentKey \u2014 same real-world event even if re-uploaded/re-encoded by media outlets.",
+    "Match mediaFingerprint (Twitter media/amplify id) — exact same file/encode family.",
+    "Match incidentKey — same real-world event even if re-uploaded/re-encoded by media outlets.",
     "Canonical chooser: has video > owner/non-aggregator > older post > not RT/quote.",
     "Aliases stay in video-log only; site embeds the canonical postUrl.",
     "Render thumbnails with referrerPolicy=no-referrer so pbs.twimg.com loads on GitHub Pages."
@@ -74,7 +74,7 @@
         "highway",
         "near-miss"
       ],
-      "summary": "FSD 14.3 reacts to a reckless cut-in / aggressive Texas driver \u2014 owner credits the system with a save.",
+      "summary": "FSD 14.3 reacts to a reckless cut-in / aggressive Texas driver — owner credits the system with a save.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -85,7 +85,7 @@
       "postId": "2065116540543115692",
       "postUrl": "https://x.com/AIDRIVR/status/2065116540543115692",
       "authorHandle": "AIDRIVR",
-      "authorDisplayName": "\u039bI DRIVR",
+      "authorDisplayName": "ΛI DRIVR",
       "postedAt": "2026-06-11",
       "mediaFingerprint": "media:2065116433043132417",
       "incidentKey": "incident:aidrivr-dummy-45mph-2026",
@@ -133,7 +133,7 @@
       "postId": "2041704633996017686",
       "postUrl": "https://x.com/AIDRIVR/status/2041704633996017686",
       "authorHandle": "AIDRIVR",
-      "authorDisplayName": "\u039bI DRIVR",
+      "authorDisplayName": "ΛI DRIVR",
       "postedAt": "2026-04-08",
       "mediaFingerprint": "media:2041703077544402944",
       "incidentKey": null,
@@ -170,7 +170,7 @@
         "pedestrian",
         "reaction-time"
       ],
-      "summary": "FSD 14.3 handles people darting into the road \u2014 strong VRU performance clip.",
+      "summary": "FSD 14.3 handles people darting into the road — strong VRU performance clip.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -242,7 +242,7 @@
         "reaction-time",
         "urban"
       ],
-      "summary": "FSD 14.3 completes an unprotected left the instant the left blinker engages \u2014 reaction-time demo.",
+      "summary": "FSD 14.3 completes an unprotected left the instant the left blinker engages — reaction-time demo.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -253,7 +253,7 @@
       "postId": "2041716060475515328",
       "postUrl": "https://x.com/AIDRIVR/status/2041716060475515328",
       "authorHandle": "AIDRIVR",
-      "authorDisplayName": "\u039bI DRIVR",
+      "authorDisplayName": "ΛI DRIVR",
       "postedAt": "2026-04-08",
       "mediaFingerprint": "media:2041715442759430144",
       "incidentKey": null,
@@ -312,7 +312,7 @@
         "parking",
         "urban"
       ],
-      "summary": "FSD hesitates for ~a minute leaving a parallel parking spot despite clear gaps \u2014 awkward but low severity.",
+      "summary": "FSD hesitates for ~a minute leaving a parallel parking spot despite clear gaps — awkward but low severity.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -424,7 +424,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Self-Driving intervention reasons menu: \u201cOther\u201d replaced with \u201cNavigation.\u201d",
+      "summary": "Self-Driving intervention reasons menu: “Other” replaced with “Navigation.”",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -446,7 +446,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Updated FSD intervention / disengagement feedback popup \u2014 smaller, less blocking after takeover.",
+      "summary": "Updated FSD intervention / disengagement feedback popup — smaller, less blocking after takeover.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -468,7 +468,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Official Tesla promo: FSD Supervised can drive you where you want \u2014 marketing demo, not an edge stress case.",
+      "summary": "Official Tesla promo: FSD Supervised can drive you where you want — marketing demo, not an edge stress case.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -479,7 +479,7 @@
       "postId": "2070116907907273001",
       "postUrl": "https://x.com/DigitalDaisyX/status/2070116907907273001",
       "authorHandle": "DigitalDaisyX",
-      "authorDisplayName": "Digital Daisy\ud83c\udf38",
+      "authorDisplayName": "Digital Daisy🌸",
       "postedAt": "2026-06-25",
       "mediaFingerprint": "media:2070116850000678912",
       "incidentKey": null,
@@ -535,7 +535,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Actually Smart Summon on FSD v14.3.2 pulls over to the curb when it\u2019s done like a Robotaxi does.",
+      "summary": "Actually Smart Summon on FSD v14.3.2 pulls over to the curb when it’s done like a Robotaxi does.",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -606,7 +606,7 @@
         "highway",
         "parking"
       ],
-      "summary": "7 hours and 12 drives with FSD v14.3.2, here is my review: This is a HUGE release especially for Actually Smart Summon. Tesla has unified the model between Actually Sm\u2026",
+      "summary": "7 hours and 12 drives with FSD v14.3.2, here is my review: This is a HUGE release especially for Actually Smart Summon. Tesla has unified the model between Actually Sm…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -628,7 +628,7 @@
       "tags": [
         "parking"
       ],
-      "summary": "@DavidMoss, @DevinOlsenn, and @Scotsrule08 are proud to announce that we have successfully completed the world\u2019s first Canada coast to coast fully autonomous drive! We\u2026",
+      "summary": "@DavidMoss, @DevinOlsenn, and @Scotsrule08 are proud to announce that we have successfully completed the world’s first Canada coast to coast fully autonomous drive! We…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -650,7 +650,7 @@
       "tags": [
         "highway"
       ],
-      "summary": "Really impressive first few drives with FSD v14 lite! Big leap in capability and feature set from v12.6.4, it\u2019s tuned for safety right now so it\u2019s taking things slow a\u2026",
+      "summary": "Really impressive first few drives with FSD v14 lite! Big leap in capability and feature set from v12.6.4, it’s tuned for safety right now so it’s taking things slow a…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -694,7 +694,7 @@
       "tags": [
         "low-light"
       ],
-      "summary": "@aelluswamy Thank you @aelluswamy for all you do! Downloading now and I\u2019ll be driving it all through the night to review it. You all are the best",
+      "summary": "@aelluswamy Thank you @aelluswamy for all you do! Downloading now and I’ll be driving it all through the night to review it. You all are the best",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -738,7 +738,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "I found the steepest, unplowed hill in my area and tested the following: \u2022 FSD 14.2.1 on summer tires \u2022 FSD 14.2.1 on winter tires \u2022 Manual driving But I think the mos\u2026",
+      "summary": "I found the steepest, unplowed hill in my area and tested the following: • FSD 14.2.1 on summer tires • FSD 14.2.1 on winter tires • Manual driving But I think the mos…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -782,7 +782,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Rivian CEO RJ Scaringe in new interview: \"Later this year, we'll have full supervised point-to-point, which will be very similar to @Tesla's FSD. That will roll out to\u2026",
+      "summary": "Rivian CEO RJ Scaringe in new interview: \"Later this year, we'll have full supervised point-to-point, which will be very similar to @Tesla's FSD. That will roll out to…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -793,7 +793,7 @@
       "postId": "1996251521231847606",
       "postUrl": "https://x.com/Diana99/status/1996251521231847606",
       "authorHandle": "Diana99",
-      "authorDisplayName": "Diana \ud83c\uddfa\ud83c\uddf8",
+      "authorDisplayName": "Diana 🇺🇸",
       "postedAt": "2025-12-03",
       "mediaFingerprint": "media:1996250616784666624",
       "incidentKey": null,
@@ -805,7 +805,7 @@
         "lane-change",
         "urban"
       ],
-      "summary": "Well.. I couldn\u2019t let the boys have all the fun! Threw the GoPro up and decided to FSD v14.2.1 in the snow. Roads were not compacted like the other day, a little slipp\u2026",
+      "summary": "Well.. I couldn’t let the boys have all the fun! Threw the GoPro up and decided to FSD v14.2.1 in the snow. Roads were not compacted like the other day, a little slipp…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -897,7 +897,7 @@
       "tags": [
         "parking"
       ],
-      "summary": "Cybertruck driving around a parking lot by itself with Actually Smart Summon. Seeing a vehicle that big driving itself is so surreal. People\u2019s jaws drop when they real\u2026",
+      "summary": "Cybertruck driving around a parking lot by itself with Actually Smart Summon. Seeing a vehicle that big driving itself is so surreal. People’s jaws drop when they real…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -920,7 +920,7 @@
         "near-miss",
         "urban"
       ],
-      "summary": "Owner says FSD tried to drive into a lake \u2014 intervention required (edge-case failure framing).",
+      "summary": "Owner says FSD tried to drive into a lake — intervention required (edge-case failure framing).",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -945,7 +945,7 @@
         "highway",
         "lane-change"
       ],
-      "summary": "Owner says FSD tried to drive into a lake \u2014 intervention required (edge-case failure framing).",
+      "summary": "Owner says FSD tried to drive into a lake — intervention required (edge-case failure framing).",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -969,7 +969,7 @@
         "weather",
         "urban"
       ],
-      "summary": "\ud83d\udea8 FSD 14.31 just blew my mind in heavy rain. Cop swerving wildly across the road to slow traffic \u2014 cameras slicing through the downpour, FSD stays ice cool, predicts e\u2026",
+      "summary": "🚨 FSD 14.31 just blew my mind in heavy rain. Cop swerving wildly across the road to slow traffic — cameras slicing through the downpour, FSD stays ice cool, predicts e…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -991,7 +991,7 @@
       "tags": [
         "unprotected-left"
       ],
-      "summary": "\u2699\ufe0f FSD v14.3.1 regression flagged: unprotected left turns running too wide, landing on or straddling the center line. \u2022 Two drivers noticed independently in the same s\u2026",
+      "summary": "⚙️ FSD v14.3.1 regression flagged: unprotected left turns running too wide, landing on or straddling the center line. • Two drivers noticed independently in the same s…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1002,7 +1002,7 @@
       "postId": "1695178555875786811",
       "postUrl": "https://x.com/TeslaTruckClub/status/1695178555875786811",
       "authorHandle": "TeslaTruckClub",
-      "authorDisplayName": "Disillusioned... \ud83e\udd77",
+      "authorDisplayName": "Disillusioned... 🥷",
       "postedAt": "2023-08-25",
       "mediaFingerprint": "media:1695178218058231808",
       "incidentKey": null,
@@ -1058,7 +1058,7 @@
         "lane-change",
         "merge"
       ],
-      "summary": "First disengagement on FSD 13.2.9! After multiple lane changes, FSD failed to slow sufficiently for a flatbed semi, pushing so close that Automatic Emergency Braking k\u2026",
+      "summary": "First disengagement on FSD 13.2.9! After multiple lane changes, FSD failed to slow sufficiently for a flatbed semi, pushing so close that Automatic Emergency Braking k…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1080,7 +1080,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Well this is new. FSD V14.3.3 has a live counter right on the main screen that shows how many miles you\u2019ve driven on FSD since your last intervention. It resets back t\u2026",
+      "summary": "Well this is new. FSD V14.3.3 has a live counter right on the main screen that shows how many miles you’ve driven on FSD since your last intervention. It resets back t…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1124,7 +1124,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "When you realize Tesla Full Self-Driving is more courteous than most human drivers\u2026",
+      "summary": "When you realize Tesla Full Self-Driving is more courteous than most human drivers…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1147,7 +1147,7 @@
         "unprotected-left",
         "urban"
       ],
-      "summary": "Here is a highlight clip from this morning's dedicated FSD Supervised v14.1.2 Unprotected Left Turns video. I'm so impressed with what @Tesla_AI has done on this very \u2026",
+      "summary": "Here is a highlight clip from this morning's dedicated FSD Supervised v14.1.2 Unprotected Left Turns video. I'm so impressed with what @Tesla_AI has done on this very …",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1172,7 +1172,7 @@
         "obstacle-avoidance",
         "merge"
       ],
-      "summary": "Some more Tesla Dashcam footage that was very impressive - v14.1.3: \u2705 Swerved to avoid an animal carcass on the highway \u2705 Consideration move to allow a car to merge Da\u2026",
+      "summary": "Some more Tesla Dashcam footage that was very impressive - v14.1.3: ✅ Swerved to avoid an animal carcass on the highway ✅ Consideration move to allow a car to merge Da…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1196,7 +1196,7 @@
         "obstacle-avoidance",
         "urban"
       ],
-      "summary": "FSD v14.1.3 drives me to the Tesla Diner with zero human input. 35 minutes across two highways and city streets handled perfectly. FSD handled traffic so well and even\u2026",
+      "summary": "FSD v14.1.3 drives me to the Tesla Diner with zero human input. 35 minutes across two highways and city streets handled perfectly. FSD handled traffic so well and even…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1218,7 +1218,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Latest FSD drama just dropped. Every time you approach your destination you get this pop-up \ud83d\udc4d or \ud83d\udc4e",
+      "summary": "Latest FSD drama just dropped. Every time you approach your destination you get this pop-up 👍 or 👎",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1241,7 +1241,7 @@
         "highway",
         "urban"
       ],
-      "summary": "FSD (supervised) v13.2.9 follows human direction at the stop sign, mind blowing \ud83e\udd2fDid not touch the steering wheel for once for 30+ minutes through busy morning traffic\u2026",
+      "summary": "FSD (supervised) v13.2.9 follows human direction at the stop sign, mind blowing 🤯Did not touch the steering wheel for once for 30+ minutes through busy morning traffic…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1263,7 +1263,7 @@
       "tags": [
         "merge"
       ],
-      "summary": "A Model Y driver started experiencing a medical emergency with chest pain mid-drive & called his son. His son then remotely rerouted the car \u2013 which had FSD Supervised\u2026",
+      "summary": "A Model Y driver started experiencing a medical emergency with chest pain mid-drive & called his son. His son then remotely rerouted the car – which had FSD Supervised…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1286,7 +1286,7 @@
         "railroad",
         "weather"
       ],
-      "summary": "FSD is trained on billions of real-world miles, including power outages \ud83d\udcf8 @edgecase411",
+      "summary": "FSD is trained on billions of real-world miles, including power outages 📸 @edgecase411",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1308,7 +1308,7 @@
       "tags": [
         "obstacle-avoidance"
       ],
-      "summary": "Was driving on FSD V14.3.1 today and it avoided a couple potholes/manholes. Not sure if it was just mimicking the behavior of the car in front or if it made the decisi\u2026",
+      "summary": "Was driving on FSD V14.3.1 today and it avoided a couple potholes/manholes. Not sure if it was just mimicking the behavior of the car in front or if it made the decisi…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1330,7 +1330,7 @@
       "tags": [
         "low-light"
       ],
-      "summary": "Here is a Camera Analysis on FSDBeta v11.4.7 vs v11.4.6 at night time. I retrieved these clips from the dashcam. The locations and lighting are a bit different, but I \u2026",
+      "summary": "Here is a Camera Analysis on FSDBeta v11.4.7 vs v11.4.6 at night time. I retrieved these clips from the dashcam. The locations and lighting are a bit different, but I …",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1352,7 +1352,7 @@
       "tags": [
         "urban"
       ],
-      "summary": "Let\u2019s see how Tesla Full Self-Driving v14.1.3 handles Amish traffic Used Dashcam for these; no GoPro in the car today",
+      "summary": "Let’s see how Tesla Full Self-Driving v14.1.3 handles Amish traffic Used Dashcam for these; no GoPro in the car today",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1375,7 +1375,7 @@
         "lane-change",
         "merge"
       ],
-      "summary": "Human driver tries to merge into FSD V14.3.2 handles this perfectly - the car to our right starts to merge into the lane that we just moved into and FSD quickly gets o\u2026",
+      "summary": "Human driver tries to merge into FSD V14.3.2 handles this perfectly - the car to our right starts to merge into the lane that we just moved into and FSD quickly gets o…",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": false,
@@ -1427,7 +1427,7 @@
         "logs-verified",
         "community-note"
       ],
-      "summary": "Houston Cybertruck overpass crash dashcam (Aug 2025). Driver says she disengaged after FSD missed the Y-split; Tesla logs show system off ~4s before impact \u2014 disputed false-failure.",
+      "summary": "Houston Cybertruck overpass crash dashcam (Aug 2025). Driver says she disengaged after FSD missed the Y-split; Tesla logs show system off ~4s before impact — disputed false-failure.",
       "relatedPosts": [
         {
           "postId": "2033891478494171637",
@@ -1435,7 +1435,7 @@
           "authorHandle": "FoxNews",
           "authorDisplayName": "Fox News",
           "reason": "Later media reupload of same incident video",
-          "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact \u2014 ",
+          "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact — ",
           "hadVideo": true
         },
         {
@@ -1443,7 +1443,7 @@
           "postUrl": "https://x.com/elonmusk/status/2034172658540286326",
           "authorHandle": "elonmusk",
           "authorDisplayName": "Elon Musk",
-          "reason": "Commentary/logs claim \u2014 no video",
+          "reason": "Commentary/logs claim — no video",
           "summary": "Logs show driver disengaged Autopilot four seconds before crashing",
           "hadVideo": false
         }
@@ -1451,6 +1451,664 @@
       "isRepost": false,
       "isQuote": false,
       "indexedAt": "2026-07-11T03:30:00Z"
+    },
+    {
+      "clipId": "ec-6626db8c",
+      "postId": "2069947049328455755",
+      "postUrl": "https://x.com/jbinder6342/status/2069947049328455755",
+      "authorHandle": "jbinder6342",
+      "authorDisplayName": "Jim Binder",
+      "postedAt": "Thu Jun 25",
+      "mediaFingerprint": "media:2069946991736418304",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2069946991736418304/img/y5u7FEc79503Y-qZ.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @jbinder6342 (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:42.261Z"
+    },
+    {
+      "clipId": "ec-850de010",
+      "postId": "2068637870689271913",
+      "postUrl": "https://x.com/EVStraya/status/2068637870689271913",
+      "authorHandle": "EVStraya",
+      "authorDisplayName": "EVStraya",
+      "postedAt": "Sun Jun 21",
+      "mediaFingerprint": "media:2068636918456442880",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2068636918456442880/img/24c6-zb42L-MZ4ur.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @EVStraya (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:42.717Z"
+    },
+    {
+      "clipId": "ec-c17f8182",
+      "postId": "2064037819673182214",
+      "postUrl": "https://x.com/ARKInvest/status/2064037819673182214",
+      "authorHandle": "ARKInvest",
+      "authorDisplayName": "ARK Invest",
+      "postedAt": "Mon Jun 08",
+      "mediaFingerprint": "media:2064037002773696512",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/media/HKTv79CWcAAv5k_.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "parking",
+        "urban"
+      ],
+      "summary": "FSD clip from @ARKInvest (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:43.399Z"
+    },
+    {
+      "clipId": "ec-3a4a5ede",
+      "postId": "2075636160508866562",
+      "postUrl": "https://x.com/gigafactories/status/2075636160508866562",
+      "authorHandle": "gigafactories",
+      "authorDisplayName": "Tesla Manufacturing",
+      "postedAt": "Fri Jul 10",
+      "mediaFingerprint": "media:2075635725056233472",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2075635725056233472/img/LpHYxTQ5pm5_-dRP.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @gigafactories (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:43.875Z"
+    },
+    {
+      "clipId": "ec-61a1db3f",
+      "postId": "2071813050978480423",
+      "postUrl": "https://x.com/elonmusk/status/2071813050978480423",
+      "authorHandle": "elonmusk",
+      "authorDisplayName": "Elon Musk",
+      "postedAt": "Tue Jun 30",
+      "mediaFingerprint": "media:2071800953963958272",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2071800953963958272/img/KvL4n2MDTPWfHLOk.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @elonmusk (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:44.855Z"
+    },
+    {
+      "clipId": "ec-9b8487a1",
+      "postId": "2063360664442126792",
+      "postUrl": "https://x.com/scotsrule08/status/2063360664442126792",
+      "authorHandle": "scotsrule08",
+      "authorDisplayName": "Spencer",
+      "postedAt": "Sat Jun 06",
+      "mediaFingerprint": "media:2063360591654178816",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2063360591654178816/img/ruHZvQn6WuxJYlfk.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @scotsrule08 (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:45.585Z"
+    },
+    {
+      "clipId": "ec-4f771534",
+      "postId": "2063722462056231419",
+      "postUrl": "https://x.com/scotsrule08/status/2063722462056231419",
+      "authorHandle": "scotsrule08",
+      "authorDisplayName": "Spencer",
+      "postedAt": "Sun Jun 07",
+      "mediaFingerprint": "media:2063722275988471808",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2063722275988471808/img/Fp6646ZP1JIZAEgd.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @scotsrule08 (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:45.794Z"
+    },
+    {
+      "clipId": "ec-3404b024",
+      "postId": "2052190048708358160",
+      "postUrl": "https://x.com/robotaxi/status/2052190048708358160",
+      "authorHandle": "robotaxi",
+      "authorDisplayName": "Tesla Robotaxi",
+      "postedAt": "Thu May 07",
+      "mediaFingerprint": "media:2052189669769748480",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2052189669769748480/img/6aGkh9kuwXLM8mCV.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @robotaxi (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:46.013Z"
+    },
+    {
+      "clipId": "ec-3249a16b",
+      "postId": "2050803085686317298",
+      "postUrl": "https://x.com/BLKMDL3/status/2050803085686317298",
+      "authorHandle": "BLKMDL3",
+      "authorDisplayName": "Zack",
+      "postedAt": "Sun May 03",
+      "mediaFingerprint": "media:2050803018870956032",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2050803018870956032/img/qxXGBkssTnePF0s8.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @BLKMDL3 (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:46.476Z"
+    },
+    {
+      "clipId": "ec-86c6c37d",
+      "postId": "1986553751277105210",
+      "postUrl": "https://x.com/teslaownersSV/status/1986553751277105210",
+      "authorHandle": "teslaownersSV",
+      "authorDisplayName": "Tesla Owners Silicon Valley",
+      "postedAt": "Thu Nov 06",
+      "mediaFingerprint": "media:1986553544040656897",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1986553544040656897/img/5iVygFgJAgGoy_Hu.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "FSD clip from @teslaownersSV (sourced via article scrape; enrich will refine).",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:46.903Z"
+    },
+    {
+      "clipId": "ec-2ad6f419",
+      "postId": "2065977608873951609",
+      "postUrl": "https://x.com/RimaSukhadia/status/2065977608873951609",
+      "authorHandle": "RimaSukhadia",
+      "authorDisplayName": "📐_Cyber_Owl_🦉",
+      "postedAt": "Sun Jun 14",
+      "mediaFingerprint": "media:2065977398802223104",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065977398802223104/img/c4yZFp_lUpShvAYO.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "parking",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @RimaSukhadia",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:48.256Z"
+    },
+    {
+      "clipId": "ec-716ec7dc",
+      "postId": "2048024729458479439",
+      "postUrl": "https://x.com/DirtyTesLa/status/2048024729458479439",
+      "authorHandle": "DirtyTesLa",
+      "authorDisplayName": "Dirty Tesla",
+      "postedAt": "Sat Apr 25",
+      "mediaFingerprint": "media:2047902289223204864",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2047902289223204864/img/UEcvs118vMqmgesU.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @DirtyTesLa",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:48.902Z"
+    },
+    {
+      "clipId": "ec-ac85d21b",
+      "postId": "1832240937562468432",
+      "postUrl": "https://x.com/gailalfaratx/status/1832240937562468432",
+      "authorHandle": "gailalfaratx",
+      "authorDisplayName": "Gail Alfar",
+      "postedAt": "Sat Sep 07",
+      "mediaFingerprint": "media:1832240867270144000",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1832240867270144000/img/Ekc7uEqCgdRLYDmB.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "animal",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @GailAlfarATX",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": true,
+      "indexedAt": "2026-07-11T15:47:49.501Z"
+    },
+    {
+      "clipId": "ec-79ced584",
+      "postId": "2051706408257606095",
+      "postUrl": "https://x.com/pascalvz88/status/2051706408257606095",
+      "authorHandle": "pascalvz88",
+      "authorDisplayName": "Pascal van Zijl",
+      "postedAt": "Tue May 05",
+      "mediaFingerprint": "media:2051705968535195649",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2051705968535195649/img/f4wn_ZZlxC3KAfd8.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @pascalvz88",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:49.741Z"
+    },
+    {
+      "clipId": "ec-9726ce1c",
+      "postId": "2043935416361820398",
+      "postUrl": "https://x.com/TSLA_inside_/status/2043935416361820398",
+      "authorHandle": "TSLA_inside_",
+      "authorDisplayName": "NL F$D Inside",
+      "postedAt": "Tue Apr 14",
+      "mediaFingerprint": "media:2043934905776627712",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2043934905776627712/img/mVlZxqz9Qiig8kK6.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @TSLA_inside_",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:50.010Z"
+    },
+    {
+      "clipId": "ec-cf617cd3",
+      "postId": "2049933630386880601",
+      "postUrl": "https://x.com/vad3rt3sla/status/2049933630386880601",
+      "authorHandle": "vad3rt3sla",
+      "authorDisplayName": "Vad3r",
+      "postedAt": "Thu Apr 30",
+      "mediaFingerprint": "media:2049933431908265984",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2049933431908265984/img/SKb49fblBm0-fZBX.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "emergency-vehicle",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @vad3rt3sla",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:50.234Z"
+    },
+    {
+      "clipId": "ec-d91ceb60",
+      "postId": "2005012433992384940",
+      "postUrl": "https://x.com/_ck_X_/status/2005012433992384940",
+      "authorHandle": "_ck_X_",
+      "authorDisplayName": "CK",
+      "postedAt": "Sat Dec 27",
+      "mediaFingerprint": "media:2005012305474375681",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2005012305474375681/img/fTz5Wvw4G_BbJKB7.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Noticing a big difference in FSD v14.2.2.1. Driver attention sensitivity is reduced compared to older versions, and the system’s behavior feels significantly more autonomous. Major step forward. 🚗🙌🏼💯 @Tesla @elonmusk",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:51.206Z"
+    },
+    {
+      "clipId": "ec-c25db3a0",
+      "postId": "2004327872585257185",
+      "postUrl": "https://x.com/ResumeGamingYT/status/2004327872585257185",
+      "authorHandle": "ResumeGamingYT",
+      "authorDisplayName": "Marcus",
+      "postedAt": "Thu Dec 25",
+      "mediaFingerprint": "media:2004327780599668736",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2004327780599668736/img/AvCYOqlFTuNTKlv1.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "highway",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @ResumeGamingYT",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:51.493Z"
+    },
+    {
+      "clipId": "ec-c4b70b50",
+      "postId": "2003559518911815926",
+      "postUrl": "https://x.com/hletes/status/2003559518911815926",
+      "authorHandle": "hletes",
+      "authorDisplayName": "Jordan Camina",
+      "postedAt": "Tue Dec 23",
+      "mediaFingerprint": "media:2003559114568298496",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2003559114568298496/img/MdKrmTM0Abv0X7hH.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Tesla FSD v14.2.2 is ART! I can confidently say that Self-Driving is safer and more comfortable than most human drivers in New York City. Lane changes are decisive and the system feels like magic. Enjoy this FLAWLESS Manhattan timelapse from the West Village to Midtown East!",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:51.744Z"
+    },
+    {
+      "clipId": "ec-e0ac497d",
+      "postId": "2003886452686704918",
+      "postUrl": "https://x.com/coberfranc/status/2003886452686704918",
+      "authorHandle": "coberfranc",
+      "authorDisplayName": "Chuck Oberfranc",
+      "postedAt": "Wed Dec 24",
+      "mediaFingerprint": "media:2003886396931469312",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2003886396931469312/img/CAgTfUQHn62kWBxK.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "railroad",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @coberfranc",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:51.976Z"
+    },
+    {
+      "clipId": "ec-d59458cb",
+      "postId": "1982453267440230702",
+      "postUrl": "https://x.com/ChuckCook/status/1982453267440230702",
+      "authorHandle": "ChuckCook",
+      "authorDisplayName": "Chuck Cook",
+      "postedAt": "Sun Oct 26",
+      "mediaFingerprint": "media:1982451290245300224",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982451290245300224/img/p0wfkxDu1R4DYrR4.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "urban"
+      ],
+      "summary": "Here is a highlight clip of ego backing up at a stop light to give room for a much larger truck. Nice work @Tesla_AI This was from my FSD Supervised v14.1.4 First Impressions drive that will coming out in full length soon.",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:52.421Z"
+    },
+    {
+      "clipId": "ec-c2a4224c",
+      "postId": "1982634932662051052",
+      "postUrl": "https://x.com/BLKMDL3/status/1982634932662051052",
+      "authorHandle": "BLKMDL3",
+      "authorDisplayName": "Zack",
+      "postedAt": "Mon Oct 27",
+      "mediaFingerprint": "media:1982634740051042304",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982634740051042304/img/Obi4FfQc_kTx0MqN.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "urban"
+      ],
+      "summary": "FSD v14.1.4 pulls into a supercharger and backs in perfectly. It parks quicker + better than most humans I see now.",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:52.628Z"
+    },
+    {
+      "clipId": "ec-e3b49822",
+      "postId": "1981435376423358654",
+      "postUrl": "https://x.com/niccruzpatane/status/1981435376423358654",
+      "authorHandle": "niccruzpatane",
+      "authorDisplayName": "Nic Cruz Patane",
+      "postedAt": "Thu Oct 23",
+      "mediaFingerprint": "media:1981435051884584961",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1981435051884584961/img/oMUBaloZBLnRI2Ip.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "parking",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @niccruzpatane",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:52.861Z"
+    },
+    {
+      "clipId": "ec-9ae9a4dc",
+      "postId": "1981233622028873805",
+      "postUrl": "https://x.com/johnkrausphotos/status/1981233622028873805",
+      "authorHandle": "johnkrausphotos",
+      "authorDisplayName": "John Kraus",
+      "postedAt": "Thu Oct 23",
+      "mediaFingerprint": "media:1981233556635492352",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1981233556635492352/img/sPFs5Yu0b939PaeX.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @johnkrausphotos",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:53.251Z"
+    },
+    {
+      "clipId": "ec-d1792c80",
+      "postId": "1982483545328357562",
+      "postUrl": "https://x.com/01Ananto/status/1982483545328357562",
+      "authorHandle": "01Ananto",
+      "authorDisplayName": "🅰️nanto Mohammad",
+      "postedAt": "Sun Oct 26",
+      "mediaFingerprint": "media:1982482348517023744",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982482348517023744/img/GzMz9d9eSa9tXIQY.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "pedestrian",
+        "vulnerable-road-user",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @01Ananto",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:53.566Z"
+    },
+    {
+      "clipId": "ec-0082ffcd",
+      "postId": "1569517416748847104",
+      "postUrl": "https://x.com/gailalfaratx/status/1569517416748847104",
+      "authorHandle": "gailalfaratx",
+      "authorDisplayName": "Gail Alfar",
+      "postedAt": "Tue Sep 13",
+      "mediaFingerprint": "media:1569517290512605186",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1569517290512605186/pu/img/-cAh1Ska9PYne6R2.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @GailAlfarATX",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:54.277Z"
+    },
+    {
+      "clipId": "ec-4782cae6",
+      "postId": "2064964921033413049",
+      "postUrl": "https://x.com/aikisteve/status/2064964921033413049",
+      "authorHandle": "aikisteve",
+      "authorDisplayName": "Steven Peeters",
+      "postedAt": "Thu Jun 11",
+      "mediaFingerprint": "media:2064964918114226176",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/tweet_video_thumb/HKg6pwHXkAANDOj.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @aikisteve",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:55.689Z"
+    },
+    {
+      "clipId": "ec-7ea82ff3",
+      "postId": "2043563458848059839",
+      "postUrl": "https://x.com/TSLA_inside_/status/2043563458848059839",
+      "authorHandle": "TSLA_inside_",
+      "authorDisplayName": "NL F$D Inside",
+      "postedAt": "Mon Apr 13",
+      "mediaFingerprint": "media:2043562569214971904",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2043562569214971904/img/ZKsRVNru3SyeqjCn.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "roundabout",
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @TSLA_inside_",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:56.609Z"
+    },
+    {
+      "clipId": "ec-448fefae",
+      "postId": "2042895273362624898",
+      "postUrl": "https://x.com/TeslaOracle_com/status/2042895273362624898",
+      "authorHandle": "TeslaOracle_com",
+      "authorDisplayName": "Tesla Oracle",
+      "postedAt": "Sat Apr 11",
+      "mediaFingerprint": "media:2042894969887928320",
+      "incidentKey": null,
+      "hasVideo": true,
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2042894969887928320/img/LS-n1oog36-mp0ny.jpg",
+      "outcome": "handled",
+      "falseFailure": false,
+      "tags": [
+        "urban"
+      ],
+      "summary": "Candidate FSD-related post from @TeslaOracle_com",
+      "relatedPosts": [],
+      "isRepost": false,
+      "isQuote": false,
+      "indexedAt": "2026-07-11T15:47:56.815Z"
     }
   ],
   "aliases": [
@@ -1463,7 +2121,7 @@
       "canonicalPostId": "2030055934316163225",
       "status": "alias",
       "reason": "Later reupload of same Houston Cybertruck incident",
-      "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact \u2014 disputed false-failure framing."
+      "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact — disputed false-failure framing."
     },
     {
       "postId": "2034172658540286326",
@@ -1473,7 +2131,7 @@
       "incidentKey": "incident:houston-cybertruck-overpass-2025",
       "canonicalPostId": "2030055934316163225",
       "status": "alias",
-      "reason": "Text commentary on same incident \u2014 no video",
+      "reason": "Text commentary on same incident — no video",
       "summary": "Logs show driver disengaged Autopilot four seconds before crashing"
     }
   ]
