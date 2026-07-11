@@ -42,15 +42,19 @@ function Thumb({
   clip: RankedClip;
   className?: string;
 }) {
+  const [failed, setFailed] = useState(false);
+
   return (
     <div className={`relative overflow-hidden bg-[#0a0a0a] ${className ?? ""}`}>
-      {clip.thumbnailUrl ? (
+      {clip.thumbnailUrl && !failed ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={clip.thumbnailUrl}
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
           loading="lazy"
+          referrerPolicy="no-referrer"
+          onError={() => setFailed(true)}
         />
       ) : (
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.08),transparent_55%)]" />

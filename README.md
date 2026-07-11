@@ -17,13 +17,17 @@ npm run dev
 
 ## Curating clips
 
-Add entries to `data/clips.json` matching the schema in `src/lib/schema.ts`:
+Add entries to `data/clips.json` matching the schema in `src/lib/schema.ts`.
 
-- `outcome`: `handled` | `disengaged` | `incident`
-- `severity` / `maneuverScore`: 1–5
-- `postUrl` / `postId` / `authorHandle` required for attribution
+**Before adding a post**, check the fingerprint log:
 
-Rank score = `severity * 2 + maneuverScore + outcomeBoost`.
+```bash
+npm run check-duplicate -- https://x.com/user/status/123
+```
+
+- `data/video-log.json` stores `mediaFingerprint` (Twitter media id) and `incidentKey` (same real-world event)
+- Duplicates become `relatedPosts` on the canonical clip — we embed the preferred original/owner source, not every news reupload
+- Prefer: has video → non-aggregator/owner → older post → not RT/quote
 
 ## Deploy (GitHub Pages)
 

@@ -188,6 +188,42 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
               ))}
             </div>
           </section>
+
+          {clip.relatedPosts && clip.relatedPosts.length > 0 ? (
+            <section className="card space-y-3 overflow-hidden p-4">
+              <h2 className="text-sm font-medium text-[var(--text-muted)]">
+                Same incident (not shown separately)
+              </h2>
+              <p className="text-xs leading-relaxed text-[var(--text-dim)]">
+                Other posts about this video/event are logged as aliases so we
+                embed one canonical source instead of flooding the feed.
+              </p>
+              <ul className="space-y-3">
+                {clip.relatedPosts.map((rel) => (
+                  <li key={rel.postId} className="min-w-0">
+                    <a
+                      href={rel.postUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-2xl bg-white/[0.03] px-3 py-2.5 transition-colors hover:bg-white/[0.06]"
+                    >
+                      <p className="truncate text-sm font-medium">
+                        @{rel.authorHandle}
+                        {rel.hadVideo === false ? (
+                          <span className="ml-2 text-[10px] uppercase tracking-wide text-[var(--text-dim)]">
+                            no video
+                          </span>
+                        ) : null}
+                      </p>
+                      <p className="mt-0.5 line-clamp-2 text-xs text-[var(--text-muted)]">
+                        {rel.reason || rel.summary}
+                      </p>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
         </div>
       </div>
 

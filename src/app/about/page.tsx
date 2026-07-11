@@ -66,7 +66,10 @@ export default function AboutPage() {
         <p className="text-sm leading-relaxed text-[var(--text-muted)]">
           Every clip plays via the official X embed and links back to the
           original post and author. We do not rehost video. Creators keep full
-          credit for their footage.
+          credit for their footage. When news outlets reupload the same
+          incident, we keep one canonical embed (preferring the earliest video
+          source) and log the rest as related aliases — so the feed isn&apos;t
+          flooded with duplicates.
         </p>
       </section>
 

@@ -42,6 +42,23 @@ export const ClipSchema = z.object({
   communityNote: z.string().optional(),
   verificationNotes: z.string().optional(),
   thumbnailUrl: z.string().url().optional(),
+  mediaFingerprint: z.string().optional(),
+  incidentKey: z.string().optional(),
+  relatedPosts: z
+    .array(
+      z.object({
+        postId: z.string(),
+        postUrl: z.string().url(),
+        authorHandle: z.string(),
+        authorDisplayName: z.string().optional(),
+        reason: z.string().optional(),
+        summary: z.string().optional(),
+        hadVideo: z.boolean().optional(),
+      }),
+    )
+    .optional(),
+  isRepost: z.boolean().optional(),
+  isQuote: z.boolean().optional(),
   fsdVersion: z.string().optional(),
   hardware: z.string().optional(),
   summary: z.string().min(1),

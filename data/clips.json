@@ -22,7 +22,9 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/3105529728/afc9506613d9505f82187c885285cd8e_200x200.jpeg",
     "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1792059106079145985/pu/img/PdnvnBLN50ZPVN6V.jpg",
-    "likes": 8858
+    "likes": 8858,
+    "mediaFingerprint": "media:1792059106079145985",
+    "incidentKey": "incident:foggy-railroad-nearmiss-2024"
   },
   {
     "id": "ec-35952023",
@@ -46,64 +48,9 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1498364038224433161/sGomJ-DT_200x200.png",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2031056511083098113/img/7Ufu-OCfCSbMb40G.jpg",
-    "likes": 471
-  },
-  {
-    "id": "ec-16163225",
-    "postUrl": "https://x.com/statesman/status/2030055934316163225",
-    "postId": "2030055934316163225",
-    "authorHandle": "statesman",
-    "authorDisplayName": "Austin Statesman",
-    "postedAt": "2026-03-06",
-    "outcome": "incident",
-    "severity": 5,
-    "maneuverScore": 4,
-    "tags": [
-      "highway",
-      "false-failure",
-      "disputed",
-      "logs-verified"
-    ],
-    "category": "false-failure",
-    "faultAttribution": "disputed",
-    "falseFailure": true,
-    "summary": "Statesman report on the Houston Cybertruck overpass crash: driver says she disengaged after FSD missed the Y-split curve; Tesla logs emphasize post-disengagement impact.",
-    "featured": false,
-    "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
-    "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1836512437459107840/kgyMqhGZ_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2030018773466415104/img/0-WDXuHc7P563hzd.jpg",
-    "verificationNotes": "Same incident as FoxNews clip. Plaintiff acknowledges disengagement; dispute is whether FSD caused the unrecoverable trajectory before takeover.",
-    "likes": 415
-  },
-  {
-    "id": "ec-94171637",
-    "postUrl": "https://x.com/FoxNews/status/2033891478494171637",
-    "postId": "2033891478494171637",
-    "authorHandle": "FoxNews",
-    "authorDisplayName": "Fox News",
-    "postedAt": "2026-03-17",
-    "outcome": "incident",
-    "severity": 5,
-    "maneuverScore": 4,
-    "tags": [
-      "highway",
-      "false-failure",
-      "community-note",
-      "disputed",
-      "logs-verified",
-      "near-miss"
-    ],
-    "category": "false-failure",
-    "faultAttribution": "disputed",
-    "falseFailure": true,
-    "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact \u2014 disputed false-failure framing.",
-    "featured": true,
-    "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
-    "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2071660879158956032/g2DeTAZa_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2033891205227155459/img/M3n2rPlve6C2Nh74.jpg",
-    "communityNote": "According to Tesla's Event Data Recorder, self-driving was disengaged 4 seconds before the crash.",
-    "verificationNotes": "Community Note cites EDR/logs. Electrek argues FSD may have already been failing the curve before the late disengagement \u2014 keep as disputed, not a clean system-only incident.",
-    "likes": 13639
+    "likes": 471,
+    "mediaFingerprint": "media:2031056511083098113",
+    "incidentKey": "incident:west-covina-railroad-2026"
   },
   {
     "id": "ec-96965243",
@@ -129,7 +76,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1952562748203945984/Yu7o-PMk_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2042315488168939520/img/k2oX-KHZZHyC6G75.jpg",
     "fsdVersion": "14.3",
-    "likes": 1431
+    "likes": 1431,
+    "mediaFingerprint": "media:2042315488168939520"
   },
   {
     "id": "ec-43115692",
@@ -155,7 +103,9 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2011493777253543936/zn1y5XHk_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065116433043132417/img/FImGKvPktVMnuly1.jpg",
     "fsdVersion": "14.3.3",
-    "likes": 2668
+    "likes": 2668,
+    "mediaFingerprint": "media:2065116433043132417",
+    "incidentKey": "incident:aidrivr-dummy-45mph-2026"
   },
   {
     "id": "ec-40862882",
@@ -181,7 +131,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1649999577578340353/FIZ52U_y_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1997844369051897856/img/1Uk-fmyzBQCEPDwj.jpg",
     "fsdVersion": "14.2.1",
-    "likes": 1786
+    "likes": 1786,
+    "mediaFingerprint": "media:1997844369051897856"
   },
   {
     "id": "ec-96017686",
@@ -207,7 +158,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2011493777253543936/zn1y5XHk_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2041703077544402944/img/tl2bLe5ayaIdHVM9.jpg",
     "fsdVersion": "14.3",
-    "likes": 1876
+    "likes": 1876,
+    "mediaFingerprint": "media:2041703077544402944"
   },
   {
     "id": "ec-32040457",
@@ -233,33 +185,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2005297466451664896/EDQNEhi1_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2041741709261074433/img/4GdIBXQDkfGifDPC.jpg",
     "fsdVersion": "14.3",
-    "likes": 802
-  },
-  {
-    "id": "ec-40286326",
-    "postUrl": "https://x.com/elonmusk/status/2034172658540286326",
-    "postId": "2034172658540286326",
-    "authorHandle": "elonmusk",
-    "authorDisplayName": "Elon Musk",
-    "postedAt": "2026-03-18",
-    "outcome": "incident",
-    "severity": 4,
-    "maneuverScore": 2,
-    "tags": [
-      "false-failure",
-      "logs-verified",
-      "human-override",
-      "highway"
-    ],
-    "category": "false-failure",
-    "faultAttribution": "human-override",
-    "falseFailure": true,
-    "summary": "Elon Musk: logs show the driver disengaged Autopilot four seconds before the Houston Cybertruck crash \u2014 used to challenge viral \u201cFSD crashed\u201d framing.",
-    "featured": false,
-    "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
-    "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-    "verificationNotes": "Primary-source log claim for the Saint Amour / Houston barrier incident. Pair with dashcam posts; still disputed by plaintiff counsel on causation.",
-    "likes": 9543
+    "likes": 802,
+    "mediaFingerprint": "media:2041741709261074433"
   },
   {
     "id": "ec-67393242",
@@ -285,7 +212,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2005297466451664896/EDQNEhi1_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2042224302775324672/img/snzYHrQkzs_410Yh.jpg",
     "fsdVersion": "14.3",
-    "likes": 344
+    "likes": 344,
+    "mediaFingerprint": "media:2042224302775324672"
   },
   {
     "id": "ec-24927192",
@@ -311,7 +239,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2030346191200722944/B2bS3EcL_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2070125768298893312/pu/img/RakYV2w_Q2w_BBvW.jpg",
     "fsdVersion": "14.3.4",
-    "likes": 16
+    "likes": 16,
+    "mediaFingerprint": "media:2070125768298893312"
   },
   {
     "id": "ec-10958207",
@@ -337,7 +266,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1515173488008572931/VYTdzMib_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2041990388521545728/img/pr25R9eu24BmIUwz.jpg",
     "fsdVersion": "14.3",
-    "likes": 2750
+    "likes": 2750,
+    "mediaFingerprint": "media:2041990388521545728"
   },
   {
     "id": "ec-75515328",
@@ -363,7 +293,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2011493777253543936/zn1y5XHk_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2041715442759430144/img/xGD36DsK6Z8ZuN19.jpg",
     "fsdVersion": "14.3",
-    "likes": 2847
+    "likes": 2847,
+    "mediaFingerprint": "media:2041715442759430144"
   },
   {
     "id": "ec-35860953",
@@ -387,7 +318,9 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2042070607873851392/img/1dkLVPY5lpIx6fr4.jpg",
-    "likes": 11527
+    "likes": 11527,
+    "mediaFingerprint": "media:2042070607873851392",
+    "isQuote": true
   },
   {
     "id": "ec-11264441",
@@ -411,7 +344,8 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1685819414577340416/IeM66HUD_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2069890330300669952/img/BcijEWiTJjJYflx6.jpg",
-    "fsdVersion": "14.3.4"
+    "fsdVersion": "14.3.4",
+    "mediaFingerprint": "media:2069890330300669952"
   },
   {
     "id": "ec-96520738",
@@ -436,7 +370,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/media/HLwlnFPa4AAjNnQ.jpg?name=orig",
     "fsdVersion": "14.3.4",
-    "likes": 125
+    "likes": 125,
+    "mediaFingerprint": "media:HLwlnFPa4AAjNnQ"
   },
   {
     "id": "ec-70767920",
@@ -458,7 +393,8 @@
     "featured": false,
     "sourceNotes": "Auto-kept video post; light heuristic tags \u2014 review welcome",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-    "thumbnailUrl": "https://pbs.twimg.com/media/HBdSLe6bUAUMYpn.jpg?name=orig"
+    "thumbnailUrl": "https://pbs.twimg.com/media/HBdSLe6bUAUMYpn.jpg?name=orig",
+    "mediaFingerprint": "media:HBdSLe6bUAUMYpn"
   },
   {
     "id": "ec-57057426",
@@ -480,7 +416,9 @@
     "featured": false,
     "sourceNotes": "Auto-kept video post; light heuristic tags \u2014 review welcome",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2053893800569839616/img/kAjdx8YdaZjgHOHa.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2053893800569839616/img/kAjdx8YdaZjgHOHa.jpg",
+    "mediaFingerprint": "media:2053893800569839616",
+    "isQuote": true
   },
   {
     "id": "ec-01449378",
@@ -505,7 +443,9 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/967139929888243712/kpeiQiVn_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2070584455622713344/img/7R_LmrcJLqhI-Bd4.jpg",
     "fsdVersion": "14.3",
-    "likes": 113
+    "likes": 113,
+    "mediaFingerprint": "media:2070584455622713344",
+    "isQuote": true
   },
   {
     "id": "ec-01595017",
@@ -528,7 +468,8 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1593688242771017728/1Ocz0cvu_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/media/HG8_tEMboAAnS-C.jpg?name=orig",
-    "likes": 390
+    "likes": 390,
+    "mediaFingerprint": "media:HG8_tEMboAAnS-C"
   },
   {
     "id": "ec-52386397",
@@ -551,7 +492,8 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2050338748559151104/img/iHt3EekJVHouEQ0n.jpg",
-    "likes": 1736
+    "likes": 1736,
+    "mediaFingerprint": "media:2050338748559151104"
   },
   {
     "id": "ec-76801400",
@@ -574,7 +516,8 @@
     "sourceNotes": "Curated + fxtwitter enrichment; fault review pass Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2059397529478041600/img/8Jw9RKkoNnDAItT1.jpg",
-    "likes": 6927
+    "likes": 6927,
+    "mediaFingerprint": "media:2059397529478041600"
   },
   {
     "id": "ec-07273001",
@@ -599,7 +542,8 @@
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2036243590188507139/HGdABkqW_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2070116850000678912/img/cxIH6NqD5lKNpZFM.jpg",
     "fsdVersion": "14.3.4",
-    "likes": 197
+    "likes": 197,
+    "mediaFingerprint": "media:2070116850000678912"
   },
   {
     "id": "ec-32527566",
@@ -622,7 +566,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2047487977740488704/img/o-YFzwynfoiX8Xf2.jpg",
-    "likes": 239
+    "likes": 239,
+    "mediaFingerprint": "media:2047487977740488704"
   },
   {
     "id": "ec-75050453",
@@ -645,7 +590,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2047537407919292416/img/IBqYUcdzardGsEBe.jpg",
-    "likes": 335
+    "likes": 335,
+    "mediaFingerprint": "media:2047537407919292416"
   },
   {
     "id": "ec-15591391",
@@ -669,7 +615,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2071530161238102016/img/1KqtGekS9GJrUaA9.jpg",
-    "likes": 1024
+    "likes": 1024,
+    "mediaFingerprint": "media:2071530161238102016"
   },
   {
     "id": "ec-84375501",
@@ -693,7 +640,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2047427036801839104/img/nqf0r6a7rDmZnFzG.jpg",
-    "likes": 141
+    "likes": 141,
+    "mediaFingerprint": "media:2047427036801839104"
   },
   {
     "id": "ec-78958593",
@@ -719,7 +667,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/media/HGkyVfgacAAjBTe.jpg?name=orig",
-    "likes": 1663
+    "likes": 1663,
+    "mediaFingerprint": "media:HGkyVfgacAAjBTe"
   },
   {
     "id": "ec-77127050",
@@ -742,7 +691,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1952562748203945984/Yu7o-PMk_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/media/HJfZdETXMAQlbQ8.jpg?name=orig",
-    "likes": 4087
+    "likes": 4087,
+    "mediaFingerprint": "media:HJfZdETXMAQlbQ8"
   },
   {
     "id": "ec-13812103",
@@ -765,7 +715,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2071521526432796672/img/F_hxhLLli_9uE3i4.jpg",
-    "likes": 4378
+    "likes": 4378,
+    "mediaFingerprint": "media:2071521526432796672"
   },
   {
     "id": "ec-79855298",
@@ -788,7 +739,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2071573865969729536/img/A7ZqG-oZPI8syBp_.jpg",
-    "likes": 1191
+    "likes": 1191,
+    "mediaFingerprint": "media:2071573865969729536"
   },
   {
     "id": "ec-05509340",
@@ -811,7 +763,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/media/HL9nD1Fb0AAgckc.jpg?name=orig",
-    "likes": 977
+    "likes": 977,
+    "mediaFingerprint": "media:HL9nD1Fb0AAgckc"
   },
   {
     "id": "ec-60336564",
@@ -834,7 +787,8 @@
     "sourceNotes": "Batch index Jul 2026 \u2014 fxtwitter enrichment",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2047638660766687232/img/hnOz5uQ0EvvaB-h5.jpg",
-    "likes": 281
+    "likes": 281,
+    "mediaFingerprint": "media:2047638660766687232"
   },
   {
     "id": "ec-97920516",
@@ -857,7 +811,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1524763456171393024/12NGFmGR_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1995901991109718016/img/r-lrUekv_VdXt5VS.jpg",
-    "likes": 2306
+    "likes": 2306,
+    "mediaFingerprint": "media:1995901991109718016"
   },
   {
     "id": "ec-58821804",
@@ -880,7 +835,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2015615423710900224/5GmaDIYR_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2066297174657531904/img/OYgC4lvXn3wTugS3.jpg",
-    "likes": 893
+    "likes": 893,
+    "mediaFingerprint": "media:2066297174657531904"
   },
   {
     "id": "ec-13493878",
@@ -903,7 +859,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065896380065873920/img/E2XkdUtend2hPDqD.jpg",
-    "likes": 1550
+    "likes": 1550,
+    "mediaFingerprint": "media:2065896380065873920"
   },
   {
     "id": "ec-31847606",
@@ -927,7 +884,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2073138593351286784/jGuSLOXB_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1996250616784666624/img/ddL2beiRoAU_1y4U.jpg",
-    "likes": 142
+    "likes": 142,
+    "mediaFingerprint": "media:1996250616784666624"
   },
   {
     "id": "ec-36659901",
@@ -951,7 +909,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2072135908565110784/img/TYomxhpjo0fPl4OR.jpg",
-    "likes": 1320
+    "likes": 1320,
+    "mediaFingerprint": "media:2072135908565110784"
   },
   {
     "id": "ec-97366672",
@@ -976,7 +935,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1954615975078133760/JKSTxlBx_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1990219488940187648/img/ok5WSaiCnE4BzPmS.jpg",
-    "likes": 32
+    "likes": 32,
+    "mediaFingerprint": "media:1990219488940187648"
   },
   {
     "id": "ec-85315409",
@@ -1000,7 +960,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1805666868071391232/1qAqAOng_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2072067547101327360/img/OV2BYhf7M2XtEON5.jpg",
-    "likes": 1344
+    "likes": 1344,
+    "mediaFingerprint": "media:2072067547101327360"
   },
   {
     "id": "ec-80028579",
@@ -1023,7 +984,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1805666868071391232/1qAqAOng_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065305554503827457/img/D5nUwTSVRoNUlWo7.jpg",
-    "likes": 289
+    "likes": 289,
+    "mediaFingerprint": "media:2065305554503827457"
   },
   {
     "id": "ec-16399903",
@@ -1047,7 +1009,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1129597321833013253/5gqgiZzb_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2023220360523481088/img/xSRrpum1106ivQCR.jpg",
-    "likes": 13925
+    "likes": 13925,
+    "mediaFingerprint": "media:2023220360523481088"
   },
   {
     "id": "ec-67908585",
@@ -1073,7 +1036,8 @@
     "sourceNotes": "Depth batch Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2072182769749508096/img/LFbXG9bxSMwqGhJu.jpg",
-    "likes": 597
+    "likes": 597,
+    "mediaFingerprint": "media:2072182769749508096"
   },
   {
     "id": "ec-49590402",
@@ -1097,7 +1061,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2010961358326484993/kMQefquU_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2046405480478908416/img/nFVWZdfq4urSEm-g.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2046405480478908416/img/nFVWZdfq4urSEm-g.jpg",
+    "mediaFingerprint": "media:2046405480478908416"
   },
   {
     "id": "ec-76419530",
@@ -1119,7 +1084,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2028420113289105409/27tFc0Vw_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2045901925846327296/img/eDYKpvkOi2QQHslh.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2045901925846327296/img/eDYKpvkOi2QQHslh.jpg",
+    "mediaFingerprint": "media:2045901925846327296"
   },
   {
     "id": "ec-75786811",
@@ -1141,7 +1107,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2010363290463973376/bYZoFfQH_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1695178218058231808/pu/img/FQ2uJi8x1ODLw_Ep.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1695178218058231808/pu/img/FQ2uJi8x1ODLw_Ep.jpg",
+    "mediaFingerprint": "media:1695178218058231808"
   },
   {
     "id": "ec-11713233",
@@ -1163,7 +1130,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/663131648670601216/ZpMIS6qJ_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1981870668078538752/img/kNs45ItWg4oJLthz.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1981870668078538752/img/kNs45ItWg4oJLthz.jpg",
+    "mediaFingerprint": "media:1981870668078538752"
   },
   {
     "id": "ec-79094886",
@@ -1186,7 +1154,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2005297466451664896/EDQNEhi1_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1922637548825776128/img/FrofIBLDQPgJTdAT.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1922637548825776128/img/FrofIBLDQPgJTdAT.jpg",
+    "mediaFingerprint": "media:1922637548825776128"
   },
   {
     "id": "ec-50015009",
@@ -1208,7 +1177,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2055924540278992896/img/QrAlkxx_K26jfHQr.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2055924540278992896/img/QrAlkxx_K26jfHQr.jpg",
+    "mediaFingerprint": "media:2055924540278992896"
   },
   {
     "id": "ec-46986135",
@@ -1230,7 +1200,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1515173488008572931/VYTdzMib_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2046002247876714496/pu/img/LSXUouK37C5-yxzP.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2046002247876714496/pu/img/LSXUouK37C5-yxzP.jpg",
+    "mediaFingerprint": "media:2046002247876714496"
   },
   {
     "id": "ec-41412762",
@@ -1252,7 +1223,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/967139929888243712/kpeiQiVn_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982458694177628160/img/LiQrKxUND8YdUc9b.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982458694177628160/img/LiQrKxUND8YdUc9b.jpg",
+    "mediaFingerprint": "media:1982458694177628160"
   },
   {
     "id": "ec-09129499",
@@ -1275,7 +1247,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1819722580791599104/eMYi_p4H_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1979165882489110529/img/8CA7PH7HB6P-qa7z.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1979165882489110529/img/8CA7PH7HB6P-qa7z.jpg",
+    "mediaFingerprint": "media:1979165882489110529"
   },
   {
     "id": "ec-38770434",
@@ -1300,7 +1273,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/967139929888243712/kpeiQiVn_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982264551551684608/img/qg6eKjg_ufY5GTIC.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982264551551684608/img/qg6eKjg_ufY5GTIC.jpg",
+    "mediaFingerprint": "media:1982264551551684608"
   },
   {
     "id": "ec-06024008",
@@ -1324,7 +1298,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1840505155483295744/mIaga0o3_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1980480176048717826/img/KCJA0RPgEdWlsPvv.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1980480176048717826/img/KCJA0RPgEdWlsPvv.jpg",
+    "mediaFingerprint": "media:1980480176048717826"
   },
   {
     "id": "ec-20817207",
@@ -1346,7 +1321,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1515173488008572931/VYTdzMib_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065250430452449280/img/4AnPQjUzqYYrFYMY.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2065250430452449280/img/4AnPQjUzqYYrFYMY.jpg",
+    "mediaFingerprint": "media:2065250430452449280"
   },
   {
     "id": "ec-26560211",
@@ -1369,7 +1345,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2028519506700652544/HuuQPxes_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1923375220888424448/img/TxdIUu8rURIAf48g.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1923375220888424448/img/TxdIUu8rURIAf48g.jpg",
+    "mediaFingerprint": "media:1923375220888424448"
   },
   {
     "id": "ec-62586797",
@@ -1391,7 +1368,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1681000114607857665/FLyxuLUB_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2067006449012883456/img/dPm7CIjGgRX6zfgb.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2067006449012883456/img/dPm7CIjGgRX6zfgb.jpg",
+    "mediaFingerprint": "media:2067006449012883456"
   },
   {
     "id": "ec-63016589",
@@ -1414,7 +1392,8 @@
     "featured": true,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1671119853707468800/nx1CjO2G_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2002630889130565632/img/YLw3djOMfm2-gwM-.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2002630889130565632/img/YLw3djOMfm2-gwM-.jpg",
+    "mediaFingerprint": "media:2002630889130565632"
   },
   {
     "id": "ec-55297122",
@@ -1436,7 +1415,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2045299096005853184/img/2dl_FGTGdfo-FATp.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2045299096005853184/img/2dl_FGTGdfo-FATp.jpg",
+    "mediaFingerprint": "media:2045299096005853184"
   },
   {
     "id": "ec-71537474",
@@ -1458,7 +1438,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1819722580791599104/eMYi_p4H_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1695415960306397184/pu/img/_VrpXUTc_NOXyrv2.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1695415960306397184/pu/img/_VrpXUTc_NOXyrv2.jpg",
+    "mediaFingerprint": "media:1695415960306397184"
   },
   {
     "id": "ec-95758725",
@@ -1480,7 +1461,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/967139929888243712/kpeiQiVn_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982152684065931264/img/MRDXnIC5vKVtwc-K.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/1982152684065931264/img/MRDXnIC5vKVtwc-K.jpg",
+    "mediaFingerprint": "media:1982152684065931264"
   },
   {
     "id": "ec-11628260",
@@ -1503,7 +1485,8 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/2009148268140482562/1VI66DNN_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2048235168381677568/img/kEob4CpmstA2EMSR.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2048235168381677568/img/kEob4CpmstA2EMSR.jpg",
+    "mediaFingerprint": "media:2048235168381677568"
   },
   {
     "id": "ec-74987111",
@@ -1525,6 +1508,58 @@
     "featured": false,
     "sourceNotes": "Depth batch 2 Jul 2026",
     "authorAvatarUrl": "https://pbs.twimg.com/profile_images/1949221403984613376/G8OJqhZA_200x200.jpg",
-    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2069176198949896192/img/Nwc1Irm6BQjOjVRJ.jpg"
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2069176198949896192/img/Nwc1Irm6BQjOjVRJ.jpg",
+    "mediaFingerprint": "media:2069176198949896192",
+    "isQuote": true
+  },
+  {
+    "id": "ec-16163225",
+    "postUrl": "https://x.com/statesman/status/2030055934316163225",
+    "postId": "2030055934316163225",
+    "authorHandle": "statesman",
+    "authorDisplayName": "Austin Statesman",
+    "postedAt": "2026-03-06",
+    "outcome": "incident",
+    "severity": 5,
+    "maneuverScore": 4,
+    "tags": [
+      "highway",
+      "false-failure",
+      "disputed",
+      "logs-verified",
+      "community-note"
+    ],
+    "category": "false-failure",
+    "faultAttribution": "disputed",
+    "falseFailure": true,
+    "summary": "Houston Cybertruck overpass crash dashcam (Aug 2025). Driver says she disengaged after FSD missed the Y-split; Tesla logs show system off ~4s before impact \u2014 disputed false-failure.",
+    "featured": true,
+    "sourceNotes": "Canonical for incident:houston-cybertruck-overpass-2025 (oldest indexed video post)",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2030018773466415104/img/0-WDXuHc7P563hzd.jpg",
+    "mediaFingerprint": "media:2030018773466415104",
+    "incidentKey": "incident:houston-cybertruck-overpass-2025",
+    "communityNote": "According to Tesla's Event Data Recorder, self-driving was disengaged 4 seconds before the crash.",
+    "verificationNotes": "Canonical chosen as earliest video post in index. Fox News reupload and Elon log commentary linked as related \u2014 not separate feed items.",
+    "relatedPosts": [
+      {
+        "postId": "2033891478494171637",
+        "postUrl": "https://x.com/FoxNews/status/2033891478494171637",
+        "authorHandle": "FoxNews",
+        "authorDisplayName": "Fox News",
+        "reason": "Later media reupload of same incident video",
+        "summary": "Viral Cybertruck overpass barrier crash framed as FSD. Community Note + Tesla logs: Autopilot/FSD was disengaged ~4 seconds before impact \u2014 ",
+        "hadVideo": true
+      },
+      {
+        "postId": "2034172658540286326",
+        "postUrl": "https://x.com/elonmusk/status/2034172658540286326",
+        "authorHandle": "elonmusk",
+        "authorDisplayName": "Elon Musk",
+        "reason": "Commentary/logs claim \u2014 no video",
+        "summary": "Logs show driver disengaged Autopilot four seconds before crashing",
+        "hadVideo": false
+      }
+    ],
+    "likes": 415
   }
 ]
