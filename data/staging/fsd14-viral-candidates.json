@@ -1,0 +1,560 @@
+[
+  {
+    "postUrl": "https://x.com/DBurkland/status/1965619106431799543",
+    "postId": "1965619106431799543",
+    "authorHandle": "DBurkland",
+    "authorDisplayName": "Dan Burkland",
+    "postedAt": "2025-09-10",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "demo",
+      "teaser"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Pre-release teaser: clip meant to get owners excited for Tesla FSD v14.",
+    "notes": "Sep 2025 teaser ahead of v14 rollout. | likes≈19"
+  },
+  {
+    "postUrl": "https://x.com/TeslaAUNZ/status/1968314169578697069",
+    "postId": "1968314169578697069",
+    "authorHandle": "TeslaAUNZ",
+    "authorDisplayName": "Tesla Australia & New Zealand",
+    "postedAt": "2025-09-17",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.x: FSD Supervised is now available in Australia and New Zealand",
+    "notes": "FSD 14.x original video candidate | likes≈5486"
+  },
+  {
+    "postUrl": "https://x.com/OwenSparks/status/1971308132828885266",
+    "postId": "1971308132828885266",
+    "authorHandle": "OwenSparks",
+    "authorDisplayName": "Owen Sparks",
+    "postedAt": "2025-09-25",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "predictability",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Owner hopes FSD 14.2 ‘sentience’ improves predictability for other road users — accompanying drive clip.",
+    "notes": "Late-13 / pre-14.2 commentary clip referencing 14.2. | likes≈24"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1978666027249496575",
+    "postId": "1978666027249496575",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "reaction-time",
+      "mad-max"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "70 in a 55? ✅ Roll a stop sign? ❌  FSD 14.1.2 Mad Max seems to be for heavy, aggressive traffic so you can fit in better. On open roads, it's going to speed like crazy, so it doesn't make sense to use there. And it's opt",
+    "notes": "Google-discovered original FSD 14.x video post | likes≈1032"
+  },
+  {
+    "postUrl": "https://x.com/wholemars/status/1978965008416493666",
+    "postId": "1978965008416493666",
+    "authorHandle": "wholemars",
+    "authorDisplayName": "Whole Mars Catalog",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "mad-max",
+      "recovery",
+      "ui"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.1.2 autonomously recovers from red-hands / attention-monitoring strike.",
+    "notes": "Owner says ‘got it on video’; card-hosted media. | likes≈643 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/01Ananto/status/1978670273667702982",
+    "postId": "1978670273667702982",
+    "authorHandle": "01Ananto",
+    "authorDisplayName": "🅰️nanto Mohammad",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "mad-max",
+      "review"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.1.2 observations including Mad Max mode behavior.",
+    "notes": "Card/YouTube-hosted first-impressions video. | likes≈284 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1978625197960761351",
+    "postId": "1978625197960761351",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2025-10-16",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "mad-max",
+      "ui"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.1.2 downloading with new Mad Max speed profile announced.",
+    "notes": "May be UI screenshot/card; Mad Max launch post. | likes≈780 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/1979765449182380461",
+    "postId": "1979765449182380461",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "Nic Cruz Patane",
+    "postedAt": "2025-10-19",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "urban",
+      "nyc"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.1.2 in NYC — one of the most challenging cities; owner says FSD nails it.",
+    "notes": "Possibly quote/card video; NYC stress-test post. | likes≈528 | nativeVideo=False card=False"
+  },
+  {
+    "postUrl": "https://x.com/01Ananto/status/1980090764043419770",
+    "postId": "1980090764043419770",
+    "authorHandle": "01Ananto",
+    "authorDisplayName": "🅰️nanto Mohammad",
+    "postedAt": "2025-10-20",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "reaction-time",
+      "mad-max"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "The best feature of FSD 14.1.2 Mad Max is its reaction time and object detection.   In this video, FSD recognizes a steam pole despite a car in front, immediately decides to change lanes despite a van in the other lane, ",
+    "notes": "Google-discovered original FSD 14.x video post | likes≈1175"
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1986557186592444693",
+    "postId": "1986557186592444693",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2025-11-06",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "ui",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Owner reacts to claim that FSD v14 may allow texting while driving — clips accompanying the discussion.",
+    "notes": "FSD v14 capability discourse clip (Nov 2025). | likes≈185"
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1989077851606511758",
+    "postId": "1989077851606511758",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2025-11-13",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "mad-max",
+      "weather",
+      "reaction-time"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Cybertruck FSD 14.1.7 handling heavy rain like a champ.   The speed automatically reduced given the road conditions even in Mad Max mode. Safety comes first",
+    "notes": "Google-discovered FSD 14.x original video | likes≈747"
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1991842574819266695",
+    "postId": "1991842574819266695",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2025-11-21",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cybertruck",
+      "urban",
+      "comparison"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "ChuckCook quick video comparing AI4 Model Y Juniper and Cybertruck on early FSD v14.2-era builds.",
+    "notes": "Dual-vehicle FSD v14.2 rollout clip. | likes≈455"
+  },
+  {
+    "postUrl": "https://x.com/brunitatoiu/status/1994917680638239148",
+    "postId": "1994917680638239148",
+    "authorHandle": "brunitatoiu",
+    "authorDisplayName": "brunitatoiu",
+    "postedAt": "2025-11-30",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cybertruck",
+      "highway",
+      "long-trip"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.2 Cybertruck Chicago→Cape Coral Florida long-haul drive.",
+    "notes": "fx 404; TeslaNorth long-drive embed."
+  },
+  {
+    "postUrl": "https://x.com/Pia_MD_/status/1995712080129691802",
+    "postId": "1995712080129691802",
+    "authorHandle": "Pia_MD_",
+    "authorDisplayName": "Pia",
+    "postedAt": "2025-12-02",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "hand-gesture",
+      "unprotected-left",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.2.1 reads an oncoming driver’s wave-on at a stop sign and takes the left smoothly.",
+    "notes": "fx 404; from TeslaOracle hand-gesture embed with video."
+  },
+  {
+    "postUrl": "https://x.com/malmaladei/status/1996167269521768698",
+    "postId": "1996167269521768698",
+    "authorHandle": "malmaladei",
+    "authorDisplayName": "malmaladei",
+    "postedAt": "2025-12-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "europe",
+      "urban",
+      "village"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.x: FSD on tiny German village streets — owner calls it magical.",
+    "notes": "fx 404; Europe village-street embed with video."
+  },
+  {
+    "postUrl": "https://x.com/Mandablorian/status/2000233715726008797",
+    "postId": "2000233715726008797",
+    "authorHandle": "Mandablorian",
+    "authorDisplayName": "420 Bounty Hunter",
+    "postedAt": "2025-12-14",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "unsupervised",
+      "robotaxi",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.x: Unmanned Tesla spotted driving with no occupant — unsupervised FSD-era sighting video.",
+    "notes": "Viral unmanned-car sighting often tied to unsupervised FSD testing. | likes≈3953"
+  },
+  {
+    "postUrl": "https://x.com/im_soyounglee/status/2001286237496410127",
+    "postId": "2001286237496410127",
+    "authorHandle": "im_soyounglee",
+    "authorDisplayName": "이소영 국회의원 (Soyoung Lee)",
+    "postedAt": "2025-12-17",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "korea",
+      "urban",
+      "first-drive"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Seoul FSD Supervised experience ride (Korea v14-era demo).",
+    "notes": "Korea FSD experience video (~1k likes). | likes≈1029"
+  },
+  {
+    "postUrl": "https://x.com/realwhitakerb/status/2023091650936119400",
+    "postId": "2023091650936119400",
+    "authorHandle": "realwhitakerb",
+    "authorDisplayName": "Whit",
+    "postedAt": "2026-02-15",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "ui",
+      "driver-monitoring"
+    ],
+    "category": "ui",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD shows new ‘Keep your hands ready to steer’ message (v14-era UI).",
+    "notes": "UI/driver-monitoring prompt clip. | likes≈88"
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/2042081485566681269",
+    "postId": "2042081485566681269",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2026-04-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "reaction-time"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Just crushed FSD 14.3 through Mountain View & Sunnyvale straight to Starbucks with @that1evguyjay! 🚗☕  @Grok picked the ENTIRE route end-to-end and the confidence was unreal.   Zero interventions the whole drive — butter",
+    "notes": "Google-discovered original FSD 14.x video post | likes≈1777"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2044174452821311858",
+    "postId": "2044174452821311858",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2026-04-14",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking",
+      "highway"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Here's my first drive on Tesla FSD V14.3.1. It feels polished vs 14.3 and it my opinion is ready for wide release.  • With 14.3.1, you can now tap on the new \"P\" parking icon and bring up your different parking options •",
+    "notes": "Original video post harvested for FSD 14.x staging | likes≈5817"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/2047194469792207178",
+    "postId": "2047194469792207178",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2026-04-23",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "The new Smart Summon is winning strangers over 😂 FSD V14.3.2  My full video is exporting now and will be out in the morning.",
+    "notes": "Original video post harvested for FSD 14.x staging | likes≈2368"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/2047124180190245362",
+    "postId": "2047124180190245362",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2026-04-23",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Here’s how quickly Actually Smart Summon starts/reacts on FSD v14.3.2. It’s instant the moment you press start on your phone.   Huge improvement @Tesla_AI!",
+    "notes": "Original video post harvested for FSD 14.x staging | likes≈3022"
+  },
+  {
+    "postUrl": "https://x.com/TimDOES/status/2047146122133774460",
+    "postId": "2047146122133774460",
+    "authorHandle": "TimDOES",
+    "authorDisplayName": "TimDOES",
+    "postedAt": "2026-04-23",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "review"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.3.2 first impressions after an hour test drive vs other 14.3.x builds.",
+    "notes": "Video via X player/card (not amplify_video); original review post. | likes≈319 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/nikkharris/status/2047515919589797901",
+    "postId": "2047515919589797901",
+    "authorHandle": "nikkharris",
+    "authorDisplayName": "Nik Harris",
+    "postedAt": "2026-04-24",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "review",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.3.2 Model S review — TL;DR everything is faster/smoother.",
+    "notes": "Card-hosted review video. | likes≈154 | nativeVideo=False card=True"
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/2048386618176815602",
+    "postId": "2048386618176815602",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2026-04-26",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.3.2 BANGER DRIVE w/ the Legendary @davidmoss   Grok picked our entire route — starting at the Apple Store in Los Gatos, then through the hills and all the way up to the summit of Mount Umunhum!   What started as a",
+    "notes": "Google-discovered original FSD 14.x video post | likes≈295"
+  },
+  {
+    "postUrl": "https://x.com/DavidMoss/status/2049280088324378682",
+    "postId": "2049280088324378682",
+    "authorHandle": "DavidMoss",
+    "authorDisplayName": "David Moss",
+    "postedAt": "2026-04-29",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "This new 2nd release of Tesla FSD 14.3.2 last night is insane!  It’s taken me already from Las Vegas to Boise, ID & even the parking issues are fixed   It’s not perfect but it’s surely the best yet & glad it’s going wide",
+    "notes": "Google-discovered original FSD 14.x video post | likes≈655"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/2050328764891214299",
+    "postId": "2050328764891214299",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2026-05-01",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "ui",
+      "intervention"
+    ],
+    "category": "ui",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.x: FSD intervention screen: leaving a voice note now closes the disengagement UI.",
+    "notes": "v14.3.x intervention-menu UX clip. | likes≈266"
+  },
+  {
+    "postUrl": "https://x.com/teslaeurope/status/2056991427511332957",
+    "postId": "2056991427511332957",
+    "authorHandle": "teslaeurope",
+    "authorDisplayName": "Tesla Europe, Middle East & Africa",
+    "postedAt": "2026-05-20",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "europe",
+      "lithuania",
+      "approval"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.x: FSD Supervised rolling out in Lithuania — Europe expansion video.",
+    "notes": "Official Tesla Europe rollout announcement with video. | likes≈10805"
+  },
+  {
+    "postUrl": "https://x.com/cybertruck/status/2064618782082109514",
+    "postId": "2064618782082109514",
+    "authorHandle": "cybertruck",
+    "authorDisplayName": "Cybertruck",
+    "postedAt": "2026-06-10",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cybertruck",
+      "smart-summon",
+      "parking"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Cybertruck Actually Smart Summon viral clip (‘booty call’) on FSD 14.3.4 era.",
+    "notes": "Official @cybertruck ASS promo video during 14.3.4 unlock. | likes≈4129"
+  }
+]

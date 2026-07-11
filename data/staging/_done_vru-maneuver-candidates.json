@@ -1,0 +1,436 @@
+[
+  {
+    "postUrl": "https://x.com/gailalfaratx/status/1545411997545660417",
+    "postId": "1545411997545660417",
+    "authorHandle": "gailalfaratx",
+    "authorDisplayName": "Gail Alfar",
+    "postedAt": "2022-07-08",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Early FSD Beta clip cited in pedestrian-handling coverage; vehicle smoothly yields/maneuvers around a VRU scenario.",
+    "notes": "Appears in Teslarati pedestrian FSD Beta roundup; caption is thin\u2014verify VRU content on review."
+  },
+  {
+    "postUrl": "https://x.com/wholemars/status/1545866957462704128",
+    "postId": "1545866957462704128",
+    "authorHandle": "wholemars",
+    "authorDisplayName": "Whole Mars Catalog",
+    "postedAt": "2022-07-09",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "reaction-time"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD Beta quickly reacts to a pedestrian exiting a parked car into the vehicle path.",
+    "notes": "Original WholeMarsBlog video post."
+  },
+  {
+    "postUrl": "https://x.com/ChuckCook/status/1561374286115381249",
+    "postId": "1561374286115381249",
+    "authorHandle": "ChuckCook",
+    "authorDisplayName": "Chuck Cook",
+    "postedAt": "2022-08-21",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "unprotected-left",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Chuck Cook early v10.69 unprotected-left test\u2014the classic Jacksonville UPL benchmark drive.",
+    "notes": "Historical UPL milestone clip; Elon engaged on thread."
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1572086673328205826",
+    "postId": "1572086673328205826",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2022-09-20",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD Beta 10.69.2.2 handles pedestrians during a right turn without unsafe conflict.",
+    "notes": "teslaownersSV original video."
+  },
+  {
+    "postUrl": "https://x.com/edgecase411/status/1763016262765146525",
+    "postId": "1763016262765146525",
+    "authorHandle": "edgecase411",
+    "authorDisplayName": "Edge Case",
+    "postedAt": "2024-02-29",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "unprotected-left",
+      "reaction-time",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 12 aborts an unprotected left mid-commit when a newly visible oncoming car appears, then re-creeps\u2014trust-building restraint.",
+    "notes": "edgecase411 original; widely cited in V12 UPL coverage."
+  },
+  {
+    "postUrl": "https://x.com/CyberMikeOG/status/1797371776504398333",
+    "postId": "1797371776504398333",
+    "authorHandle": "CyberMikeOG",
+    "authorDisplayName": "\u2b55\ufe0f CyberMike \u2b55\ufe0f",
+    "postedAt": "2024-06-02",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "reaction-time",
+      "near-miss"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 12.3.6 swerves to avoid a head-on conflict when another driver pulls out and turns into ego\u2019s lane at dawn.",
+    "notes": "CyberMikeOG original; framed as intoxicated cut-in/encroachment save."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795396584591799",
+    "postId": "1860795396584591799",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "occluded",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI closed-course demo #1: reverse cut-in from occlusion.",
+    "notes": "Parent post of 16-video FSD v12.5.6.3 safety suite (Nov 24 2024)."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795398463562108",
+    "postId": "1860795398463562108",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "occluded",
+      "reaction-time",
+      "cut-in"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #2: peeking/occluded adversary enters path.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795400300736695",
+    "postId": "1860795400300736695",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "unprotected-left",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #3: left-turn cut-in.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795402234237052",
+    "postId": "1860795402234237052",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "occluded",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #4: parallel cut-in from occlusion.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795404184646103",
+    "postId": "1860795404184646103",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #5: yield for oncoming traffic during overtake.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795406101402020",
+    "postId": "1860795406101402020",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #6: stop-sign right-of-way violator.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795408030872022",
+    "postId": "1860795408030872022",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "vulnerable-road-user",
+      "pedestrian",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #7: door opens into path during overtake (door-zone VRU).",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795410023161991",
+    "postId": "1860795410023161991",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "urban"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #8: right-turn harsh braking for sudden conflict.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795411927363782",
+    "postId": "1860795411927363782",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "unprotected-left",
+      "cut-in",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #9: left turn across path conflict.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795413802148027",
+    "postId": "1860795413802148027",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time",
+      "obstacle-avoidance"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #10: cut-out to static cone.",
+    "notes": "Obstacle/cut-out; included as reaction-time suite companion."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795415681180099",
+    "postId": "1860795415681180099",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 4,
+    "tags": [
+      "reaction-time",
+      "obstacle-avoidance"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #11: dynamic debris (dropped cone).",
+    "notes": "Debris reaction; adjacent to VRU/cut-in suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795417556115748",
+    "postId": "1860795417556115748",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "occluded",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #12: U-turn cut-in from occlusion.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795419904888941",
+    "postId": "1860795419904888941",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "cut-in",
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #13: high-speed cut-out to stationary vehicle.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795421926556023",
+    "postId": "1860795421926556023",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "reaction-time",
+      "highway"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #14: high-speed harsh braking.",
+    "notes": "Closed-course validation suite."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795423902040488",
+    "postId": "1860795423902040488",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 5,
+    "maneuverScore": 5,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "child",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #15: high-speed stationary child in path.",
+    "notes": "Closed-course VRU child dummy."
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/1860795425814720632",
+    "postId": "1860795425814720632",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla AI",
+    "postedAt": "2024-11-24",
+    "outcome": "handled",
+    "severity": 5,
+    "maneuverScore": 5,
+    "tags": [
+      "pedestrian",
+      "vulnerable-road-user",
+      "child",
+      "reaction-time"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla AI demo #16: high-speed crossing child.",
+    "notes": "Closed-course VRU child dummy crossing."
+  }
+]
