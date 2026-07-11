@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useTransition } from "react";
+import { useCallback, useMemo, useTransition } from "react";
 import { TAG_LABELS, type Outcome } from "@/lib/schema";
 
 const outcomes: Array<{ value: "all" | Outcome; label: string }> = [
@@ -10,14 +10,6 @@ const outcomes: Array<{ value: "all" | Outcome; label: string }> = [
   { value: "disengaged", label: "Disengaged" },
   { value: "incident", label: "Incident" },
 ];
-
-const faultFilters = [
-  { value: "all", label: "All faults" },
-  { value: "system", label: "System fault" },
-  { value: "false-failure", label: "False failure" },
-  { value: "human-override", label: "Human override" },
-  { value: "disputed", label: "Disputed" },
-] as const;
 
 const sorts = [
   { value: "rank", label: "Rank" },
@@ -36,17 +28,23 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
   const outcome = params.get("outcome") ?? "all";
   const tag = params.get("tag") ?? "all";
   const sort = params.get("sort") ?? "rank";
-  const minSeverity = params.get("minSeverity") ?? "1";
   const fault = params.get("fault") ?? "all";
+
+  const flatTags = useMemo(
+    () =>
+      tagGroups.flatMap((group) =>
+        group.tags.map((t) => ({
+          value: t,
+          label: `${group.label}: ${TAG_LABELS[t] ?? t}`,
+        })),
+      ),
+    [tagGroups],
+  );
 
   const update = useCallback(
     (key: string, value: string) => {
       const next = new URLSearchParams(params.toString());
-      if (
-        value === "all" ||
-        value === "1" ||
-        (key === "sort" && value === "rank")
-      ) {
+      if (value === "all" || (key === "sort" && value === "rank")) {
         next.delete(key);
       } else {
         next.set(key, value);
@@ -59,88 +57,73 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
   );
 
   return (
-    <div className={`space-y-3 ${pending ? "opacity-70" : "opacity-100"} transition-opacity`}>
-      <div className="glass sticky top-0 z-20 -mx-4 px-4 py-3 lg:static lg:mx-0 lg:rounded-[24px] lg:px-3">
-        <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          {outcomes.map((item) => (
-            <button
-              key={item.value}
-              type="button"
-              onClick={() => update("outcome", item.value)}
-              className={`chip shrink-0 ${outcome === item.value ? "chip-active" : ""}`}
-            >
-              {item.label}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {faultFilters.map((item) => (
+    <div
+      className={`space-y-3 ${pending ? "opacity-70" : "opacity-100"} transition-opacity`}
+    >
+      <div className="flex gap-2 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {outcomes.map((item) => (
           <button
             key={item.value}
             type="button"
-            onClick={() => update("fault", item.value)}
-            className={`chip shrink-0 ${fault === item.value ? "chip-active" : ""} ${
-              item.value === "false-failure" ? "border border-amber-400/30" : ""
-            }`}
+            onClick={() => update("outcome", item.value)}
+            className={`chip shrink-0 ${outcome === item.value ? "chip-active" : ""}`}
           >
             {item.label}
           </button>
         ))}
+        <button
+          type="button"
+          onClick={() =>
+            update("fault", fault === "false-failure" ? "all" : "false-failure")
+          }
+          className={`chip shrink-0 border ${
+            fault === "false-failure"
+              ? "border-amber-400 bg-amber-400 text-black"
+              : "border-amber-400/30 text-amber-100"
+          }`}
+        >
+          False failures
+        </button>
       </div>
 
-      <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {sorts.map((item) => (
-          <button
-            key={item.value}
-            type="button"
-            onClick={() => update("sort", item.value)}
-            className={`chip shrink-0 ${sort === item.value ? "chip-active" : ""}`}
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <label className="block min-w-0">
+          <span className="mb-1.5 block text-[11px] uppercase tracking-[0.12em] text-[var(--text-dim)]">
+            Scenario
+          </span>
+          <select
+            className="select-field w-full"
+            value={tag}
+            onChange={(e) => update("tag", e.target.value)}
+            aria-label="Filter by scenario"
           >
-            {item.label}
-          </button>
-        ))}
-        {[1, 3, 4, 5].map((level) => (
-          <button
-            key={level}
-            type="button"
-            onClick={() => update("minSeverity", String(level))}
-            className={`chip shrink-0 ${minSeverity === String(level) ? "chip-active" : ""}`}
-          >
-            Sev {level}+
-          </button>
-        ))}
-      </div>
-
-      {tagGroups.map((group) => (
-        <div key={group.id} className="space-y-1.5">
-          <p className="text-[11px] uppercase tracking-[0.12em] text-[var(--text-dim)]">
-            {group.label}
-          </p>
-          <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:flex-wrap lg:overflow-visible">
-            {group.id === tagGroups[0]?.id ? (
-              <button
-                type="button"
-                onClick={() => update("tag", "all")}
-                className={`chip shrink-0 ${tag === "all" ? "chip-active" : ""}`}
-              >
-                All tags
-              </button>
-            ) : null}
-            {group.tags.map((t) => (
-              <button
-                key={t}
-                type="button"
-                onClick={() => update("tag", t)}
-                className={`chip shrink-0 ${tag === t ? "chip-active" : ""}`}
-              >
-                {TAG_LABELS[t] ?? t}
-              </button>
+            <option value="all">All scenarios</option>
+            {flatTags.map((item) => (
+              <option key={item.value} value={item.value}>
+                {item.label}
+              </option>
             ))}
-          </div>
-        </div>
-      ))}
+          </select>
+        </label>
+
+        <label className="block min-w-0">
+          <span className="mb-1.5 block text-[11px] uppercase tracking-[0.12em] text-[var(--text-dim)]">
+            Sort
+          </span>
+          <select
+            className="select-field w-full"
+            value={sort}
+            onChange={(e) => update("sort", e.target.value)}
+            aria-label="Sort clips"
+          >
+            {sorts.map((item) => (
+              <option key={item.value} value={item.value}>
+                {item.label}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
     </div>
   );
 }

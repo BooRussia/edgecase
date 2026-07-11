@@ -33,10 +33,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-black font-sans text-white">
+      <body className="min-h-full overflow-x-hidden bg-black font-sans text-white">
         <AppNav />
-        <div className="mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-[calc(var(--tab-height)+var(--safe-bottom)+1rem)] pt-[max(1rem,env(safe-area-inset-top))] lg:ml-56 lg:max-w-none lg:px-8 lg:pb-10 lg:pt-8 xl:px-10">
-          <div className="mx-auto w-full max-w-6xl flex-1">{children}</div>
+        <div className="min-h-dvh w-full max-w-[100vw] overflow-x-hidden px-4 pb-[calc(var(--tab-height)+var(--safe-bottom)+1rem)] pt-[max(1rem,env(safe-area-inset-top))] lg:pl-[calc(var(--sidebar-width)+1.5rem)] lg:pr-6 lg:pb-10 lg:pt-8">
+          <div className="mx-auto w-full min-w-0 max-w-5xl">{children}</div>
         </div>
       </body>
     </html>

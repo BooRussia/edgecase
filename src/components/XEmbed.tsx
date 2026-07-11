@@ -42,7 +42,7 @@ export function XEmbed({ postUrl }: { postUrl: string }) {
   }, [postUrl]);
 
   return (
-    <div ref={ref} className="overflow-hidden rounded-[24px] bg-[#121212]">
+    <div ref={ref} className="x-embed-shell rounded-[24px] bg-[#121212]">
       <blockquote className="twitter-tweet" data-theme="dark" data-dnt="true">
         <a href={postUrl}>View post on X</a>
       </blockquote>

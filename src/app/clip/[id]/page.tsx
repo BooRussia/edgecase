@@ -55,7 +55,7 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
   const falseFail = isFalseFailure(clip);
 
   return (
-    <main className="page-enter space-y-6">
+    <main className="page-enter min-w-0 space-y-6 overflow-x-hidden">
       <header className="space-y-3 pt-2">
         <Link
           href="/"
@@ -107,10 +107,10 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
         </section>
       ) : null}
 
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:items-start">
-        <section className="space-y-3">
+      <div className="grid min-w-0 gap-6 lg:grid-cols-2 lg:items-start">
+        <section className="min-w-0 space-y-3 overflow-hidden">
           <XEmbed postUrl={clip.postUrl} />
-          <div className="card flex items-center justify-between gap-3 p-4">
+          <div className="card flex min-w-0 items-center justify-between gap-3 p-4">
             <div className="min-w-0">
               <p className="truncate font-medium">{clip.authorDisplayName}</p>
               <p className="truncate text-sm text-[var(--text-muted)]">
@@ -138,27 +138,27 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
           </div>
         </section>
 
-        <div className="space-y-4">
+        <div className="min-w-0 space-y-4">
           <section className="grid grid-cols-2 gap-3">
             <Meter label="Severity" value={clip.severity} />
             <Meter label="Maneuver" value={clip.maneuverScore} />
           </section>
 
-          <section className="card space-y-4 p-4">
+          <section className="card space-y-4 overflow-hidden p-4">
             <h2 className="text-sm font-medium text-[var(--text-muted)]">Details</h2>
             <dl className="grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
-              <div>
+              <div className="min-w-0">
                 <dt className="text-[var(--text-dim)]">Posted</dt>
                 <dd className="mt-0.5 font-medium">{clip.postedAt}</dd>
               </div>
-              <div>
+              <div className="min-w-0">
                 <dt className="text-[var(--text-dim)]">Fault</dt>
                 <dd className="mt-0.5 font-medium">
                   {FAULT_LABEL[clip.faultAttribution]}
                 </dd>
               </div>
               {clip.category ? (
-                <div>
+                <div className="min-w-0">
                   <dt className="text-[var(--text-dim)]">Category</dt>
                   <dd className="mt-0.5 font-medium">
                     {CATEGORY_LABEL[clip.category]}
@@ -166,7 +166,7 @@ export default async function ClipDetailPage({ params }: { params: Params }) {
                 </div>
               ) : null}
               {clip.fsdVersion ? (
-                <div>
+                <div className="min-w-0">
                   <dt className="text-[var(--text-dim)]">FSD version</dt>
                   <dd className="mt-0.5 font-medium">{clip.fsdVersion}</dd>
                 </div>

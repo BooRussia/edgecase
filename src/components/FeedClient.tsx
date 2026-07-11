@@ -61,7 +61,6 @@ export function FeedClient({
   const outcome = params.get("outcome") ?? "all";
   const tag = params.get("tag") ?? "all";
   const sort = params.get("sort") ?? "rank";
-  const minSeverity = Number(params.get("minSeverity") ?? "1");
   const fault = params.get("fault") ?? "all";
 
   const filtered = useMemo(
@@ -73,7 +72,7 @@ export function FeedClient({
             : "all",
         tag,
         sort,
-        minSeverity: Number.isFinite(minSeverity) ? minSeverity : 1,
+        minSeverity: 1,
         fault:
           fault === "system" ||
           fault === "human-override" ||
@@ -82,7 +81,7 @@ export function FeedClient({
             ? (fault as FaultAttribution | "false-failure")
             : "all",
       }),
-    [clips, outcome, tag, sort, minSeverity, fault],
+    [clips, outcome, tag, sort, fault],
   );
 
   return (
