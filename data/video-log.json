@@ -1389,15 +1389,19 @@
       "authorDisplayName": "The Tesla Newswire",
       "postedAt": "2026-06-22",
       "mediaFingerprint": "media:2069176198949896192",
-      "incidentKey": null,
+      "incidentKey": "incident:katy-texas-house-accelerator-override-2026",
       "hasVideo": true,
       "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2069176198949896192/img/Nwc1Irm6BQjOjVRJ.jpg",
       "outcome": "incident",
-      "falseFailure": false,
+      "falseFailure": true,
       "tags": [
-        "urban"
+        "urban",
+        "human-override",
+        "accelerator-override",
+        "false-failure",
+        "logs-verified"
       ],
-      "summary": "Tesla has officially clarified that a recent Model 3 crash, which resulted in a fatality involving a woman inside a house in Texas, was caused by the driver. According\u2026",
+      "summary": "Katy, Texas Model 3 house crash fatality framed as an FSD failure — Tesla AI clarified the driver overrode FSD by pressing the accelerator (false failure).",
       "relatedPosts": [],
       "isRepost": false,
       "isQuote": true,
