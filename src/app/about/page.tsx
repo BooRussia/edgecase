@@ -64,12 +64,12 @@ export default function AboutPage() {
       <section className="card space-y-3 p-5">
         <h2 className="text-base font-semibold">Attribution</h2>
         <p className="text-sm leading-relaxed text-[var(--text-muted)]">
-          Every clip plays via the official X embed and links back to the
-          original post and author. We do not rehost video. Creators keep full
-          credit for their footage. When news outlets reupload the same
-          incident, we keep one canonical embed (preferring the earliest video
-          source) and log the rest as related aliases — so the feed isn&apos;t
-          flooded with duplicates.
+          Feed play streams the original video from X&apos;s CDN right in the
+          thumbnail, with a link back to the post and author. We do not rehost
+          or reupload footage. Detail pages still show the full X embed for
+          context. When news outlets reupload the same incident, we keep one
+          canonical source (preferring the earliest video) and log the rest as
+          related aliases — so the feed isn&apos;t flooded with duplicates.
         </p>
       </section>
 

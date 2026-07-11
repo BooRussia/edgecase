@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { RankedClip } from "@/lib/clips";
 import { formatHandle } from "@/lib/clips";
-import { XEmbed } from "@/components/XEmbed";
+import { InlineClipPlayer } from "@/components/InlineClipPlayer";
 import {
   FAULT_LABEL,
   OUTCOME_LABEL,
@@ -105,18 +105,13 @@ export function ClipCard({ clip }: { clip: RankedClip }) {
     <article className="card flex h-full min-w-0 flex-col overflow-hidden">
       <div className="relative aspect-video w-full shrink-0 overflow-hidden">
         {playing ? (
-          <div className="absolute inset-0 overflow-hidden bg-black">
-            <div className="h-full overflow-y-auto">
-              <XEmbed postUrl={clip.postUrl} />
-            </div>
-            <button
-              type="button"
-              onClick={() => setPlaying(false)}
-              className="absolute right-2 top-2 z-30 rounded-md bg-black/80 px-2.5 py-1 text-xs font-semibold text-white"
-            >
-              Close
-            </button>
-          </div>
+          <InlineClipPlayer
+            postId={clip.postId}
+            authorHandle={clip.authorHandle}
+            postUrl={clip.postUrl}
+            posterUrl={clip.thumbnailUrl}
+            onClose={() => setPlaying(false)}
+          />
         ) : (
           <>
             <Thumb clip={clip} className="absolute inset-0" />
@@ -188,18 +183,13 @@ export function HeroClipCard({ clip }: { clip: RankedClip }) {
     <article className="card overflow-hidden">
       <div className="relative aspect-video w-full overflow-hidden">
         {playing ? (
-          <div className="absolute inset-0 overflow-hidden bg-black">
-            <div className="h-full overflow-y-auto">
-              <XEmbed postUrl={clip.postUrl} />
-            </div>
-            <button
-              type="button"
-              onClick={() => setPlaying(false)}
-              className="absolute right-2 top-2 z-30 rounded-md bg-black/80 px-2.5 py-1 text-xs font-semibold text-white"
-            >
-              Close
-            </button>
-          </div>
+          <InlineClipPlayer
+            postId={clip.postId}
+            authorHandle={clip.authorHandle}
+            postUrl={clip.postUrl}
+            posterUrl={clip.thumbnailUrl}
+            onClose={() => setPlaying(false)}
+          />
         ) : (
           <>
             <Thumb clip={clip} className="absolute inset-0" />
