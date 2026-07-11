@@ -1,0 +1,110 @@
+[
+  {
+    "postUrl": "https://x.com/jesselyu/status/1874938296390033895",
+    "postId": "1874938296390033895",
+    "authorHandle": "jesselyu",
+    "authorDisplayName": "Jesse Lyu",
+    "postedAt": "2025-01-02",
+    "outcome": "incident",
+    "severity": 5,
+    "maneuverScore": 4,
+    "tags": [
+      "railroad",
+      "light-rail",
+      "near-miss",
+      "urban"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Owner dashcam: FSD v13.2.2 in Santa Monica steers onto Metro E Line street-running light-rail tracks; driver disengages and runs a red light to escape an approaching train.",
+    "incidentKey": "incident:santa-monica-metro-eline-2025",
+    "notes": "ORIGINAL owner video (Rabbit CEO). Distinct from foggy Ohio / West Covina gate incidents. Handle was historically jessechenglyu; canonical is jesselyu. Verified via fxtwitter + NY Post/SFGATE."
+  },
+  {
+    "postUrl": "https://x.com/JoeTegtmeyer/status/1944769604082938228",
+    "postId": "1944769604082938228",
+    "authorHandle": "JoeTegtmeyer",
+    "authorDisplayName": "Joe Tegtmeyer",
+    "postedAt": "2025-07-14",
+    "outcome": "disengaged",
+    "severity": 5,
+    "maneuverScore": 3,
+    "tags": [
+      "railroad",
+      "robotaxi",
+      "near-miss",
+      "disengagement"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Austin Robotaxi ride video: safety monitor intervenes when the vehicle fails to respond as railroad crossing lights activate and gate arms begin lowering with a train approaching.",
+    "incidentKey": "incident:austin-robotaxi-railroad-2025",
+    "notes": "ORIGINAL rider video with onboard footage. Cited by Fortune and NBC. Distinct robotaxi (not consumer FSD owner dashcam). Not an alias of West Covina/foggy."
+  },
+  {
+    "postUrl": "https://x.com/Optionnaire/status/1951357530333991305",
+    "postId": "1951357530333991305",
+    "authorHandle": "Optionnaire",
+    "authorDisplayName": "optionnaire",
+    "postedAt": "2025-08-01",
+    "outcome": "disengaged",
+    "severity": 5,
+    "maneuverScore": 4,
+    "tags": [
+      "railroad",
+      "crossing-gate",
+      "near-miss",
+      "traffic-light"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Owner dashcam on FSD 13.2.9: car stops at an active railroad crossing, then proceeds toward lowering/lowered gates when a downstream traffic light turns green; driver intervenes as a train arrives seconds later.",
+    "incidentKey": "incident:fsd-1329-barrier-optional-2025",
+    "notes": "ORIGINAL video post. NBC and Futurism cite this clip (sometimes via ronnotel/status/\u2026 URL that resolves to Optionnaire). Distinct from West Covina smash-through and foggy Ohio."
+  },
+  {
+    "postUrl": "https://x.com/TaylorOgan/status/1542971644355936256",
+    "postId": "1542971644355936256",
+    "authorHandle": "TaylorOgan",
+    "authorDisplayName": "Taylor Ogan",
+    "postedAt": "2022-07-01",
+    "outcome": "disengaged",
+    "severity": 5,
+    "maneuverScore": 4,
+    "tags": [
+      "railroad",
+      "light-rail",
+      "near-miss",
+      "unprotected-turn"
+    ],
+    "category": "safety-critical",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Denver FSD Beta clip: vehicle attempts a left turn directly into the path of an oncoming light-rail train despite visualization showing the train; driver intervenes.",
+    "incidentKey": "incident:denver-lightrail-left-2022",
+    "notes": "Viral ORIGINAL/clip post by Taylor Ogan (also covered via JustSubscribe/Beta Tech OG YouTube full drive). Distinct incident. Prefer this X video post over later YouTube reuploads."
+  },
+  {
+    "postUrl": "https://x.com/coberfranc/status/2003886452686704918",
+    "postId": "2003886452686704918",
+    "authorHandle": "coberfranc",
+    "authorDisplayName": "Chuck Oberfranc",
+    "postedAt": "2025-12-24",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "railroad",
+      "crossing",
+      "handled"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Owner reply with video: FSD Supervised 14.2.2 correctly stops at a railroad crossing\u2014owner notes it was a first for them.",
+    "notes": "ORIGINAL owner video (reply to @TeslaNewswire). Positive/handled counterexample useful for catalog balance. Low engagement but verified video."
+  }
+]

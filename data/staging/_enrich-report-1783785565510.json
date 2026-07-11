@@ -1,0 +1,22 @@
+{
+  "added": 21,
+  "skipped": [
+    {
+      "postId": "1994917680638239148",
+      "reason": "null"
+    },
+    {
+      "postId": "1995712080129691802",
+      "reason": "null"
+    },
+    {
+      "postId": "1996167269521768698",
+      "reason": "null"
+    },
+    {
+      "postId": "2003886452686704918",
+      "reason": "exists"
+    }
+  ],
+  "totalClips": 190
+}

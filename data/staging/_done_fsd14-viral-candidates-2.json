@@ -1,0 +1,398 @@
+[
+  {
+    "postUrl": "https://x.com/DirtyTesLa/status/1975644389406855212",
+    "postId": "1975644389406855212",
+    "authorHandle": "DirtyTesLa",
+    "authorDisplayName": "Dirty Tesla",
+    "postedAt": "2025-10-07",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "drive-thru",
+      "urban",
+      "arrival-options"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.1 navigates a Wendy’s drive-thru end-to-end (order window → pickup) after nav first tries to park.",
+    "notes": "Early v14.1 viral human-like behavior clip from DirtyTesLa. | likes≈3226"
+  },
+  {
+    "postUrl": "https://x.com/Teslarati/status/1975966860782002649",
+    "postId": "1975966860782002649",
+    "authorHandle": "Teslarati",
+    "authorDisplayName": "TESLARATI",
+    "postedAt": "2025-10-08",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 2,
+    "tags": [
+      "supercharger",
+      "parking",
+      "bug"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14-era Supercharger arrival bug: recurring awkward behavior at a specific charger site.",
+    "notes": "Teslarati “Bug no. 3” Supercharger clip — useful regression/edge catalog. | likes≈111"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1976881038690501074",
+    "postId": "1976881038690501074",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-10-11",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "ui",
+      "visualization"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14 driving-visualization update (blue Autopilot-in-use indicator) demo clip.",
+    "notes": "UI/viz change associated with early FSD 14 rollout. | likes≈2239"
+  },
+  {
+    "postUrl": "https://x.com/BLKMDL3/status/1982656311872680391",
+    "postId": "1982656311872680391",
+    "authorHandle": "BLKMDL3",
+    "authorDisplayName": "Zack",
+    "postedAt": "2025-10-27",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "ui",
+      "wiper",
+      "demo"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14.1.4 Robotaxi-style narrow-field windshield cleaning demo.",
+    "notes": "v14 feature demo (narrow-field wash). | likes≈227"
+  },
+  {
+    "postUrl": "https://x.com/teslaownersSV/status/1985484703512862805",
+    "postId": "1985484703512862805",
+    "authorHandle": "teslaownersSV",
+    "authorDisplayName": "Tesla Owners Silicon Valley",
+    "postedAt": "2025-11-03",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "cybertruck",
+      "ui",
+      "visualization"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.1.5 Cybertruck visualization showing richer object differentiation.",
+    "notes": "CT viz improvement clip. | likes≈232"
+  },
+  {
+    "postUrl": "https://x.com/TeslaOracle_com/status/1985729755975729386",
+    "postId": "1985729755975729386",
+    "authorHandle": "TeslaOracle_com",
+    "authorDisplayName": "Tesla Oracle",
+    "postedAt": "2025-11-04",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "cybertruck",
+      "ui",
+      "visualization"
+    ],
+    "category": "demo",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD v14.1.5 Cybertruck differentiates cars/trucks/humans/objects in viz.",
+    "notes": "Companion CT viz clip from TeslaOracle. | likes≈0"
+  },
+  {
+    "postUrl": "https://x.com/tesla_korea/status/1988463639117131981",
+    "postId": "1988463639117131981",
+    "authorHandle": "tesla_korea",
+    "authorDisplayName": "Tesla Korea",
+    "postedAt": "2025-11-12",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "korea",
+      "promo"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla Korea teases FSD Supervised coming soon with promotional video.",
+    "notes": "Regional promo for FSD Korea launch. | likes≈4458"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/1988825011931541862",
+    "postId": "1988825011931541862",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "Sawyer Merritt",
+    "postedAt": "2025-11-13",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "urban",
+      "highway",
+      "review"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Sawyer Merritt first drive on FSD V14.1.7 with commentary — zero interventions claimed.",
+    "notes": "Influencer first-drive video for 14.1.7 point release. | likes≈1634"
+  },
+  {
+    "postUrl": "https://x.com/Tslachan/status/1991744623686086688",
+    "postId": "1991744623686086688",
+    "authorHandle": "Tslachan",
+    "authorDisplayName": "Tsla Chan",
+    "postedAt": "2025-11-21",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 3,
+    "tags": [
+      "korea",
+      "urban",
+      "first-drive"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "First FSD Supervised experience in South Korea (v14 era rollout coverage).",
+    "notes": "Korea FSD first-ride clip from local owner/tester. | likes≈3109"
+  },
+  {
+    "postUrl": "https://x.com/DevinOlsenn/status/1994586293905625328",
+    "postId": "1994586293905625328",
+    "authorHandle": "DevinOlsenn",
+    "authorDisplayName": "Devin Olsen",
+    "postedAt": "2025-11-29",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 5,
+    "tags": [
+      "u-turn",
+      "accident",
+      "obstacle-avoidance"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD V14.2.1 turns around / reroutes after detecting an accident ahead.",
+    "notes": "DevinOlsenn accident-awareness clip. | likes≈2347"
+  },
+  {
+    "postUrl": "https://x.com/cybertruck/status/1995165694615556279",
+    "postId": "1995165694615556279",
+    "authorHandle": "cybertruck",
+    "authorDisplayName": "Cybertruck",
+    "postedAt": "2025-11-30",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "cybertruck",
+      "montage"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Official @cybertruck 2-year anniversary montage (includes FSD-era driving footage).",
+    "notes": "Official montage; weaker as dashcam edge-case but viral CT/FSD-era media. | likes≈3500"
+  },
+  {
+    "postUrl": "https://x.com/brunitatoiu/status/1994917680638239148",
+    "postId": "1994917680638239148",
+    "authorHandle": "brunitatoiu",
+    "authorDisplayName": "brunitatoiu",
+    "postedAt": "2025-11-30",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "cybertruck",
+      "highway",
+      "long-trip"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD 14.2 Cybertruck Chicago→Cape Coral long-haul drive claimed.",
+    "notes": "Long-trip CT clip (tweet may be deleted). | fx 404; retained from TeslaNorth Cybertruck long-drive embed."
+  },
+  {
+    "postUrl": "https://x.com/Pia_MD_/status/1995712080129691802",
+    "postId": "1995712080129691802",
+    "authorHandle": "Pia_MD_",
+    "authorDisplayName": "Pia",
+    "postedAt": "2025-12-02",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "hand-gesture",
+      "unprotected-left",
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.2.1 reads an oncoming driver’s wave-on at a stop sign and takes the left smoothly.",
+    "notes": "Hand-gesture awareness; tweet may be deleted (TeslaOracle embed). | fx 404; retained from TeslaOracle hand-gesture article embed."
+  },
+  {
+    "postUrl": "https://x.com/devix195/status/1996143982267502875",
+    "postId": "1996143982267502875",
+    "authorHandle": "devix195",
+    "authorDisplayName": "Lampi di Tesla",
+    "postedAt": "2025-12-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 5,
+    "tags": [
+      "europe",
+      "urban",
+      "narrow-road"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD handles tight Italian narrow roads — Europe supervised drive demo.",
+    "notes": "Europe FSD narrow-street stress clip. | likes≈3502"
+  },
+  {
+    "postUrl": "https://x.com/malmaladei/status/1996167269521768698",
+    "postId": "1996167269521768698",
+    "authorHandle": "malmaladei",
+    "authorDisplayName": "malmaladei",
+    "postedAt": "2025-12-03",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "europe",
+      "urban",
+      "village"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD on tiny German village streets — owner calls it magical.",
+    "notes": "Europe village-street clip (tweet may be deleted). | fx 404; retained from TeslaNorth Europe ride-along embed with pic.twitter video."
+  },
+  {
+    "postUrl": "https://x.com/aelluswamy/status/2003960308508119269",
+    "postId": "2003960308508119269",
+    "authorHandle": "aelluswamy",
+    "authorDisplayName": "Ashok Elluswamy",
+    "postedAt": "2025-12-24",
+    "outcome": "handled",
+    "severity": 2,
+    "maneuverScore": 4,
+    "tags": [
+      "unsupervised",
+      "demo"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Ashok Elluswamy shares unsupervised FSD cabin video — “amazing experience” reply to Musk.",
+    "notes": "High-engagement unsupervised FSD video (not classic owner dashcam; kept for virality/context). | likes≈9160"
+  },
+  {
+    "postUrl": "https://x.com/Tesla/status/2006080157807960157",
+    "postId": "2006080157807960157",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "postedAt": "2025-12-30",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 3,
+    "tags": [
+      "montage",
+      "year-in-review"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla 2025 recap video — includes FSD milestone footage from the year.",
+    "notes": "Official year-recap; contextual FSD 14 era montage. | likes≈13440"
+  },
+  {
+    "postUrl": "https://x.com/scotsrule08/status/2058691183464026591",
+    "postId": "2058691183464026591",
+    "authorHandle": "scotsrule08",
+    "authorDisplayName": "Spencer",
+    "postedAt": "2026-05-24",
+    "outcome": "handled",
+    "severity": 4,
+    "maneuverScore": 5,
+    "tags": [
+      "near-miss",
+      "highway",
+      "canada",
+      "cross-country"
+    ],
+    "category": "impressive",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "FSD 14.3.3 “first real pucker moment” on the Canadian coast-to-coast autonomous challenge — system recovers a tense highway edge case.",
+    "notes": "Viral moment from scotsrule08/DavidMoss Canada run coverage. | likes≈781"
+  },
+  {
+    "postUrl": "https://x.com/teslaeurope/status/2064350518907167166",
+    "postId": "2064350518907167166",
+    "authorHandle": "teslaeurope",
+    "authorDisplayName": "Tesla Europe, Middle East & Africa",
+    "postedAt": "2026-06-09",
+    "outcome": "handled",
+    "severity": 1,
+    "maneuverScore": 2,
+    "tags": [
+      "europe",
+      "denmark",
+      "approval"
+    ],
+    "category": "demo",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "Tesla Europe announces FSD Supervised approval in Denmark (rollout soon) with video.",
+    "notes": "Official approval announcement video — regional FSD 14 Europe context. | likes≈13688"
+  },
+  {
+    "postUrl": "https://x.com/Manhee1989/status/2064385925270872395",
+    "postId": "2064385925270872395",
+    "authorHandle": "Manhee1989",
+    "authorDisplayName": "Leon",
+    "postedAt": "2026-06-09",
+    "outcome": "disengaged",
+    "severity": 2,
+    "maneuverScore": 2,
+    "tags": [
+      "europe",
+      "steering",
+      "regression"
+    ],
+    "category": "disengagement",
+    "faultAttribution": "system",
+    "falseFailure": false,
+    "summary": "Europe owner flags odd steering-wheel behavior on new FSD update (reply to Tesla Europe).",
+    "notes": "Low-engagement but original video of potential regression. | likes≈2"
+  }
+]
