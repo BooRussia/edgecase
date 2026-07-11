@@ -59,37 +59,76 @@ const tabs = [
   },
 ] as const;
 
-export function BottomNav() {
+function pathIsActive(href: string, pathname: string) {
+  if (href === "/") return pathname === "/" || pathname.startsWith("/clip/");
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
+export function AppNav() {
   const pathname = usePathname();
 
   return (
-    <nav
-      className="glass fixed inset-x-0 bottom-0 z-50 mx-auto max-w-lg border-t border-white/[0.06]"
-      style={{ paddingBottom: "var(--safe-bottom)" }}
-      aria-label="Primary"
-    >
-      <ul className="grid grid-cols-4 px-2 pt-2" style={{ height: "var(--tab-height)" }}>
-        {tabs.map((tab) => {
-          const active =
-            tab.href === "/"
-              ? pathname === "/" || pathname.startsWith("/clip/")
-              : pathname === tab.href || pathname.startsWith(`${tab.href}/`);
+    <>
+      {/* Desktop side rail */}
+      <aside className="glass fixed inset-y-0 left-0 z-40 hidden w-56 flex-col border-r border-white/[0.06] px-3 py-6 lg:flex">
+        <div className="mb-8 px-3">
+          <p className="text-[11px] uppercase tracking-[0.16em] text-[var(--text-dim)]">
+            EdgeCase
+          </p>
+          <p className="mt-1 text-lg font-semibold tracking-tight">FSD Index</p>
+        </div>
+        <nav aria-label="Primary">
+          <ul className="space-y-1">
+            {tabs.map((tab) => {
+              const active = pathIsActive(tab.href, pathname);
+              return (
+                <li key={tab.href}>
+                  <Link
+                    href={tab.href}
+                    className={`flex items-center gap-3 rounded-2xl px-3 py-3 text-sm font-medium transition-colors ${
+                      active
+                        ? "bg-white text-black"
+                        : "text-[var(--text-muted)] hover:bg-white/[0.04] hover:text-white"
+                    }`}
+                  >
+                    <span className={active ? "text-black" : ""}>{tab.icon}</span>
+                    {tab.label}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+        <p className="mt-auto px-3 text-xs leading-relaxed text-[var(--text-dim)]">
+          Official X embeds · owner attributed · false failures flagged
+        </p>
+      </aside>
 
-          return (
-            <li key={tab.href}>
-              <Link
-                href={tab.href}
-                className={`flex h-full flex-col items-center justify-center gap-1 rounded-2xl transition-colors ${
-                  active ? "text-white" : "text-[#5c5c5c]"
-                }`}
-              >
-                <span className={active ? "opacity-100" : "opacity-80"}>{tab.icon}</span>
-                <span className="text-[11px] font-medium tracking-wide">{tab.label}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+      {/* Mobile bottom tabs */}
+      <nav
+        className="glass fixed inset-x-0 bottom-0 z-50 mx-auto max-w-lg border-t border-white/[0.06] lg:hidden"
+        style={{ paddingBottom: "var(--safe-bottom)" }}
+        aria-label="Primary"
+      >
+        <ul className="grid grid-cols-4 px-2 pt-2" style={{ height: "var(--tab-height)" }}>
+          {tabs.map((tab) => {
+            const active = pathIsActive(tab.href, pathname);
+            return (
+              <li key={tab.href}>
+                <Link
+                  href={tab.href}
+                  className={`flex h-full flex-col items-center justify-center gap-1 rounded-2xl transition-colors ${
+                    active ? "text-white" : "text-[#5c5c5c]"
+                  }`}
+                >
+                  <span className={active ? "opacity-100" : "opacity-80"}>{tab.icon}</span>
+                  <span className="text-[11px] font-medium tracking-wide">{tab.label}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </>
   );
 }

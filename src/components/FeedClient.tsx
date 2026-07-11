@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { ClipCard } from "@/components/ClipCard";
 import { FeedFilters } from "@/components/FeedFilters";
 import type { RankedClip } from "@/lib/clips";
-import type { Outcome } from "@/lib/schema";
+import { isFalseFailure, type FaultAttribution, type Outcome } from "@/lib/schema";
 
 function applyFilters(
   clips: RankedClip[],
@@ -14,12 +14,18 @@ function applyFilters(
     tag: string;
     sort: string;
     minSeverity: number;
+    fault: string;
   },
 ): RankedClip[] {
   let result = clips.filter((c) => {
     if (opts.outcome !== "all" && c.outcome !== opts.outcome) return false;
     if (c.severity < opts.minSeverity) return false;
     if (opts.tag !== "all" && !c.tags.includes(opts.tag)) return false;
+    if (opts.fault === "false-failure") {
+      if (!isFalseFailure(c)) return false;
+    } else if (opts.fault !== "all" && c.faultAttribution !== opts.fault) {
+      return false;
+    }
     return true;
   });
 
@@ -46,16 +52,17 @@ function applyFilters(
 
 export function FeedClient({
   clips,
-  tags,
+  tagGroups,
 }: {
   clips: RankedClip[];
-  tags: string[];
+  tagGroups: Array<{ id: string; label: string; tags: string[] }>;
 }) {
   const params = useSearchParams();
   const outcome = params.get("outcome") ?? "all";
   const tag = params.get("tag") ?? "all";
   const sort = params.get("sort") ?? "rank";
   const minSeverity = Number(params.get("minSeverity") ?? "1");
+  const fault = params.get("fault") ?? "all";
 
   const filtered = useMemo(
     () =>
@@ -67,13 +74,20 @@ export function FeedClient({
         tag,
         sort,
         minSeverity: Number.isFinite(minSeverity) ? minSeverity : 1,
+        fault:
+          fault === "system" ||
+          fault === "human-override" ||
+          fault === "disputed" ||
+          fault === "false-failure"
+            ? (fault as FaultAttribution | "false-failure")
+            : "all",
       }),
-    [clips, outcome, tag, sort, minSeverity],
+    [clips, outcome, tag, sort, minSeverity, fault],
   );
 
   return (
     <>
-      <FeedFilters tags={tags} />
+      <FeedFilters tagGroups={tagGroups} />
 
       <div className="flex items-center justify-between text-sm text-[var(--text-muted)]">
         <span>
@@ -82,16 +96,16 @@ export function FeedClient({
         <span className="text-[var(--text-dim)]">Embeds · attributed</span>
       </div>
 
-      <div className="space-y-4">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filtered.map((clip) => (
           <ClipCard key={clip.id} clip={clip} />
         ))}
-        {filtered.length === 0 ? (
-          <div className="card p-8 text-center text-sm text-[var(--text-muted)]">
-            No clips match these filters.
-          </div>
-        ) : null}
       </div>
+      {filtered.length === 0 ? (
+        <div className="card p-8 text-center text-sm text-[var(--text-muted)]">
+          No clips match these filters.
+        </div>
+      ) : null}
     </>
   );
 }

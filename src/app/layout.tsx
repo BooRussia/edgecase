@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { BottomNav } from "@/components/BottomNav";
+import { AppNav } from "@/components/BottomNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     template: "%s · EdgeCase",
   },
   description:
-    "Curated Tesla FSD dashcam clips from X — ranked by severity and impressive maneuvers, with owner attribution.",
-  metadataBase: new URL("https://edgecase.app"),
+    "Curated Tesla FSD dashcam clips from X — ranked by severity and impressive maneuvers, with owner attribution and false-failure flags.",
+  metadataBase: new URL("https://boorussia.github.io/edgecase"),
 };
 
 export default function RootLayout({
@@ -34,10 +34,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-black font-sans text-white">
-        <div className="mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-[calc(var(--tab-height)+var(--safe-bottom)+1rem)] pt-[max(1rem,env(safe-area-inset-top))]">
-          {children}
+        <AppNav />
+        <div className="mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-[calc(var(--tab-height)+var(--safe-bottom)+1rem)] pt-[max(1rem,env(safe-area-inset-top))] lg:ml-56 lg:max-w-none lg:px-8 lg:pb-10 lg:pt-8 xl:px-10">
+          <div className="mx-auto w-full max-w-6xl flex-1">{children}</div>
         </div>
-        <BottomNav />
       </body>
     </html>
   );
