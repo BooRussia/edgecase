@@ -42,15 +42,18 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
   );
 
   const update = useCallback(
-    (key: string, value: string) => {
+    (patch: Record<string, string>) => {
       const next = new URLSearchParams(params.toString());
-      if (value === "all" || (key === "sort" && value === "rank")) {
-        next.delete(key);
-      } else {
-        next.set(key, value);
+      for (const [key, value] of Object.entries(patch)) {
+        if (value === "all" || (key === "sort" && value === "rank")) {
+          next.delete(key);
+        } else {
+          next.set(key, value);
+        }
       }
+      const qs = next.toString();
       startTransition(() => {
-        router.replace(`/?${next.toString()}`, { scroll: false });
+        router.replace(qs ? `/?${qs}` : "/", { scroll: false });
       });
     },
     [params, router],
@@ -65,8 +68,14 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
           <button
             key={item.value}
             type="button"
-            onClick={() => update("outcome", item.value)}
-            className={`chip shrink-0 ${outcome === item.value ? "chip-active" : ""}`}
+            onClick={() =>
+              // Outcome chips own the primary filter — clear false-failure so
+              // "All" / "Handled" aren't stuck intersecting with fault=false-failure.
+              update({ outcome: item.value, fault: "all" })
+            }
+            className={`chip shrink-0 ${
+              outcome === item.value && fault !== "false-failure" ? "chip-active" : ""
+            }`}
           >
             {item.label}
           </button>
@@ -74,7 +83,9 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
         <button
           type="button"
           onClick={() =>
-            update("fault", fault === "false-failure" ? "all" : "false-failure")
+            fault === "false-failure"
+              ? update({ fault: "all" })
+              : update({ fault: "false-failure", outcome: "all" })
           }
           className={`chip shrink-0 border ${
             fault === "false-failure"
@@ -94,7 +105,7 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
           <select
             className="select-field w-full"
             value={tag}
-            onChange={(e) => update("tag", e.target.value)}
+            onChange={(e) => update({ tag: e.target.value })}
             aria-label="Filter by scenario"
           >
             <option value="all">All scenarios</option>
@@ -113,7 +124,7 @@ export function FeedFilters({ tagGroups }: { tagGroups: TagGroup[] }) {
           <select
             className="select-field w-full"
             value={sort}
-            onChange={(e) => update("sort", e.target.value)}
+            onChange={(e) => update({ sort: e.target.value })}
             aria-label="Sort clips"
           >
             {sorts.map((item) => (
