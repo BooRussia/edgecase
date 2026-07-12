@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+/**
+ * Parallel fxtwitter enrich for large staging batches.
+ * Same filters as enrich-staging-now.mjs; concurrency via ENRICH_CONCURRENCY (default 8).
+ */
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join, resolve, dirname } from "node:path";
@@ -8,6 +12,8 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const clipsPath = join(root, "data/clips.json");
 const logPath = join(root, "data/video-log.json");
 const stagingDir = join(root, "data/staging");
+const CONCURRENCY = Number(process.env.ENRICH_CONCURRENCY || 8);
+const TARGET = Number(process.env.ENRICH_TARGET || 1000);
 
 const clips = JSON.parse(readFileSync(clipsPath, "utf8"));
 const log = JSON.parse(readFileSync(logPath, "utf8"));
@@ -21,7 +27,7 @@ const existingMedia = new Set(
 );
 
 const FSD_RE =
-  /\b(fsd|full self-?driving|autopilot|supervised|hw3|hw4|v1[1-4]|mad max|robotaxi|dashcam|disengage|unprotected left|railroad|pedestrian|cut-?in|summon|vision)\b/i;
+  /\b(fsd|full.?self-?driv|autopilot|\bap\b|navigate on autopilot|city streets|supervised|hw[34]|v1[2-4]|mad.?max|robotaxi|dashcam|disengage|unprotected|railroad|pedestrian|cut-?in|summon|vision only|end.to.end|\be2e\b|self.driving|autonomous driv|phantom brake|brake.?stab|intervention|take.?over|wheel.?yank)\b/i;
 const SKIP_RE =
   /\b(optimus|starship|spacex|earnings|delivery numbers|share price|model y price|cybercab unveil)\b/i;
 const SKIP_HANDLES = new Set([
@@ -29,7 +35,16 @@ const SKIP_HANDLES = new Set([
   "Tesla_Optimus",
   "SpaceX",
   "NASA",
+  "elonmusk",
+  "NASASpaceflight",
 ]);
+
+const PRIORITY_HANDLES = new Set(
+  (
+    process.env.ENRICH_HANDLES ||
+    "DirtyTesLa,AIDRIVR,AIDrivr,ChuckCook,wholemars,tesla_raj,BLKMDL3,teslaownersSV,DrTeslaFSD,Teslasaveslives,matthewpaco,vad3rt3sla,pascalvz88,JCChristopher,nursedanakay,FarazKhanFSD,JoeTegtmeyer,hsumacher,DavidMoss,brandonee916,scotsrule08,DevinOlsenn,TeslaAaronL,niccruzpatane,01Ananto,gailalfaratx,Tslachan,DBurkland,teslaeurope,edgecase411,robotaxi,Tesla_AI,TeslaOracle_com"
+  ).split(","),
+);
 
 function mediaFp(thumb, id) {
   if (id) return `media:${id}`;
@@ -98,57 +113,41 @@ function infer(text) {
   let fault = "unknown";
   let ff = false;
   if (/railroad|train crossing|crossing gate/.test(t)) tags.add("railroad");
-  if (/pedestrian|vru|dart/.test(t)) {
-    tags.add("pedestrian");
-    tags.add("vulnerable-road-user");
+  if (/highway|freeway|interstate/.test(t)) tags.add("highway");
+  if (/unprotected left/.test(t)) tags.add("unprotected-left");
+  if (/pedestrian|cyclist|vru/.test(t)) tags.add("vru");
+  if (/cut-?in/.test(t)) tags.add("cut-in");
+  if (/night|dark/.test(t)) tags.add("night");
+  if (/rain|snow|fog|weather/.test(t)) tags.add("weather");
+  if (/crash|collision|hit |accident|wreck/.test(t)) {
+    outcome = "incident";
+    severity = 5;
+    category = "safety-critical";
   }
-  if (/cut[- ]?in|cut off/.test(t)) tags.add("cut-in");
-  if (/unprotected left|\bupl\b/.test(t)) tags.add("unprotected-left");
-  if (/highway|freeway/.test(t)) tags.add("highway");
-  if (/urban|city|downtown/.test(t)) tags.add("urban");
-  if (/animal|deer|dog|duck/.test(t)) tags.add("animal");
-  if (/weather|fog|rain|snow/.test(t)) tags.add("weather");
-  if (/emergency|ambulance|police/.test(t)) tags.add("emergency-vehicle");
-  if (/roundabout/.test(t)) tags.add("roundabout");
-  if (/parking|summon/.test(t)) tags.add("parking");
-  if (/low light|night|dark/.test(t)) tags.add("low-light");
-  if (/reaction/.test(t)) tags.add("reaction-time");
-  if (/near[- ]miss|almost (hit|killed|crashed)/.test(t)) tags.add("near-miss");
-  if (
-    /accelerator override|pressed the accelerator|driver overrode|pedal override|caused by the driver/.test(
-      t,
-    )
-  ) {
-    fault = "human-override";
-    ff = true;
-    tags.add("false-failure");
-    tags.add("human-override");
-    tags.add("accelerator-override");
-    category = "false-failure";
-  }
-  if (
-    /crash|collision|hit |incident|ran (the |a )?red|blew (through|past)/.test(
-      t,
-    ) &&
-    !ff
-  ) {
+  if (/near miss|almost hit|close call/.test(t)) {
     outcome = "incident";
     severity = 4;
     category = "safety-critical";
   }
-  if (/disengage|took over|critical intervention/.test(t) && outcome === "handled") {
-    outcome = "disengaged";
-    category = "disengagement";
-  }
-  if (/save|avoid|incredible|inhuman|nailed|handles/.test(t))
+  if (/phantom|brake stab|slammed|hard brake/.test(t)) {
+    severity = Math.max(severity, 4);
     maneuver = Math.max(maneuver, 4);
-  if ([...tags].includes("railroad") && outcome === "incident") severity = 5;
+  }
+  if (/accelerator|forced acceleration|driver caused|human override|took over/.test(t)) {
+    fault = "human-override";
+    ff = true;
+    outcome = "incident";
+  }
+  if (/false (positive|failure)|not fsd.?s fault|other driver/.test(t)) {
+    ff = true;
+    fault = fault === "unknown" ? "disputed" : fault;
+  }
   if (!tags.size) tags.add("urban");
   return {
-    tags: [...tags],
     outcome,
-    severity,
-    maneuverScore: maneuver,
+    severity: Math.min(5, Math.max(1, severity)),
+    maneuverScore: Math.min(5, Math.max(1, maneuver)),
+    tags: [...tags],
     category,
     faultAttribution: fault,
     falseFailure: ff,
@@ -178,70 +177,108 @@ for (const c of loadStaging()) {
   const handle = (c.authorHandle || c.postUrl?.match(/x\.com\/([^/]+)/)?.[1] || "")
     .replace(/^@/, "");
   if (!postId || !handle) continue;
+  if (PRIORITY_HANDLES.size && !PRIORITY_HANDLES.has(handle)) continue;
   if (!byId.has(postId)) byId.set(postId, { ...c, postId, authorHandle: handle });
 }
 
+const queue = [...byId.values()].sort((a, b) =>
+  a.postId < b.postId ? 1 : a.postId > b.postId ? -1 : 0,
+); // newest snowflake IDs first
+console.log(
+  JSON.stringify({
+    queued: queue.length,
+    concurrency: CONCURRENCY,
+    target: TARGET,
+    startClips: clips.length,
+    newest: queue[0]?.postId,
+    oldest: queue.at(-1)?.postId,
+  }),
+);
+
 const added = [];
 const skipped = [];
+const reasonCounts = {};
+let cursor = 0;
+let stop = false;
 
-for (const c of byId.values()) {
+function bump(reason) {
+  reasonCounts[reason] = (reasonCounts[reason] || 0) + 1;
+}
+
+async function processOne(c) {
+  if (stop || clips.length >= TARGET) {
+    stop = true;
+    return;
+  }
   if (existingIds.has(c.postId)) {
     skipped.push({ postId: c.postId, reason: "exists" });
-    continue;
+    bump("exists");
+    return;
   }
   if (SKIP_HANDLES.has(c.authorHandle)) {
     skipped.push({ postId: c.postId, reason: "skip-handle" });
-    continue;
+    bump("skip-handle");
+    return;
   }
+
   let fx;
   try {
     const r = await fetch(
       `https://api.fxtwitter.com/${encodeURIComponent(c.authorHandle)}/status/${c.postId}`,
     );
     fx = await r.json();
-    await new Promise((r) => setTimeout(r, 100));
   } catch {
     skipped.push({ postId: c.postId, reason: "fx-err" });
-    continue;
+    bump("fx-err");
+    return;
   }
+
   const tweet = fx.tweet;
   if (!tweet) {
     skipped.push({ postId: c.postId, reason: "null" });
-    continue;
+    bump("null");
+    return;
   }
   const text = `${tweet.text || ""}`;
   if (SKIP_RE.test(text) && !FSD_RE.test(text)) {
     skipped.push({ postId: c.postId, reason: "offtopic" });
-    continue;
+    bump("offtopic");
+    return;
   }
-  // Ignore boilerplate staging summaries ("FSD-related post from @…") —
-  // require real FSD signal in tweet text, curated summary, or source notes/URL.
   const curatedSummary =
-    c.summary && !/^FSD-related post from @/i.test(c.summary)
+    c.summary && !/^FSD-related post from @/i.test(c.summary) && !/^Post from @/i.test(c.summary)
       ? c.summary
       : "";
+  const creatorLoose =
+    PRIORITY_HANDLES.has(c.authorHandle) &&
+    /\b(tesla|model [3yxs]|cybertruck|drive|driving|drove|highway|intersection|parking)\b/i.test(
+      text,
+    );
   if (
     !FSD_RE.test(text) &&
     !FSD_RE.test(curatedSummary) &&
-    !FSD_RE.test(c.notes || "")
+    !FSD_RE.test(c.notes || "") &&
+    !creatorLoose
   ) {
     skipped.push({ postId: c.postId, reason: "not-fsd" });
-    continue;
+    bump("not-fsd");
+    return;
   }
   const videos = tweet.media?.videos || [];
   if (!videos.length) {
     skipped.push({ postId: c.postId, reason: "no-video" });
-    continue;
+    bump("no-video");
+    return;
   }
   const v = videos[0];
   const fp = mediaFp(v.thumbnail_url, v.id);
   if (fp && existingMedia.has(fp)) {
     skipped.push({ postId: c.postId, reason: "dup-media", fp });
-    continue;
+    bump("dup-media");
+    return;
   }
 
   const inferred = infer(`${text} ${c.summary || ""} ${c.notes || ""}`);
-  // Prefer curated fields when staging provided careful tagging
   if (c.faultAttribution && c.faultAttribution !== "unknown") {
     inferred.faultAttribution = c.faultAttribution;
   }
@@ -257,7 +294,9 @@ for (const c of byId.values()) {
   const handle = (tweet.author?.screen_name || c.authorHandle).replace(/^@/, "");
   const postedAt =
     parseTweetDate(tweet.created_at, tweet.created_timestamp) ||
-    (c.postedAt && /^\d{4}-\d{2}-\d{2}/.test(c.postedAt) ? c.postedAt.slice(0, 10) : null) ||
+    (c.postedAt && /^\d{4}-\d{2}-\d{2}/.test(c.postedAt)
+      ? c.postedAt.slice(0, 10)
+      : null) ||
     "2025-01-01";
   const id = idFor(c.postId);
   const summary = (c.summary && c.summary.length > 40 ? c.summary : text)
@@ -288,14 +327,12 @@ for (const c of byId.values()) {
     falseFailure: inferred.falseFailure,
     summary,
     featured: !!c.featured,
-    sourceNotes: `Batch enrich ${new Date().toISOString().slice(0, 10)}`,
+    sourceNotes: `Parallel enrich ${new Date().toISOString().slice(0, 10)}`,
     authorAvatarUrl: tweet.author?.avatar_url?.replace("_normal", "_200x200"),
     thumbnailUrl: v.thumbnail_url,
     likes: tweet.likes,
     mediaFingerprint: fp,
-    ...(fsdVersion
-      ? { fsdVersion, fsdVersionInferred: versionInferred }
-      : {}),
+    ...(fsdVersion ? { fsdVersion, fsdVersionInferred: versionInferred } : {}),
     ...(c.incidentKey ? { incidentKey: c.incidentKey } : {}),
     ...(c.verificationNotes ? { verificationNotes: c.verificationNotes } : {}),
     ...(tweet.quote ? { isQuote: true } : {}),
@@ -325,19 +362,54 @@ for (const c of byId.values()) {
   existingIds.add(c.postId);
   if (fp) existingMedia.add(fp);
   added.push(c.postId);
-  console.log("+", handle, c.postId, inferred.outcome, inferred.faultAttribution);
+  console.log("+", handle, c.postId, inferred.outcome, clips.length);
+
+  if (clips.length >= TARGET) stop = true;
 }
+
+async function worker() {
+  while (!stop) {
+    const i = cursor++;
+    if (i >= queue.length) break;
+    await processOne(queue[i]);
+    if (i > 0 && i % 200 === 0) {
+      writeFileSync(clipsPath, JSON.stringify(clips, null, 2) + "\n");
+      writeFileSync(logPath, JSON.stringify(log, null, 2) + "\n");
+      console.log(
+        JSON.stringify({
+          checkpoint: i,
+          added: added.length,
+          clips: clips.length,
+          reasons: reasonCounts,
+        }),
+      );
+    }
+  }
+}
+
+await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
 
 writeFileSync(clipsPath, JSON.stringify(clips, null, 2) + "\n");
 writeFileSync(logPath, JSON.stringify(log, null, 2) + "\n");
 writeFileSync(
   join(stagingDir, `_enrich-report-${Date.now()}.json`),
-  JSON.stringify({ added: added.length, skipped, totalClips: clips.length }, null, 2),
+  JSON.stringify(
+    {
+      added: added.length,
+      skipped: skipped.length,
+      totalClips: clips.length,
+      reasons: reasonCounts,
+    },
+    null,
+    2,
+  ),
 );
 console.log(
   JSON.stringify({
     added: added.length,
     skipped: skipped.length,
     totalClips: clips.length,
+    reasons: reasonCounts,
+    hitTarget: clips.length >= TARGET,
   }),
 );

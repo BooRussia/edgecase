@@ -1,0 +1,342 @@
+{
+  "added": 23,
+  "skipped": [
+    {
+      "postId": "1970537297792651492",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2075278580955685036",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "2075586544157462869",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2052105373621121284",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "2054205849296355361",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073064213711560836",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2074546456719917171",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1710139500771365082",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2072448521513685263",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "1606138705739145219",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1582252941050023937",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1595953734768791553",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1972718031085453376",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1972496987384910325",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1938842014017298825",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1860804614918189483",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1860810101340450929",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1414457313717460993",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1422691473967894529",
+      "reason": "null"
+    },
+    {
+      "postId": "2040809316135915873",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2047364757481484558",
+      "reason": "exists"
+    },
+    {
+      "postId": "2047446883597975697",
+      "reason": "exists"
+    },
+    {
+      "postId": "2047383897726439530",
+      "reason": "exists"
+    },
+    {
+      "postId": "2047366988456919494",
+      "reason": "exists"
+    },
+    {
+      "postId": "2047373422762618888",
+      "reason": "exists"
+    },
+    {
+      "postId": "2047366812656881696",
+      "reason": "exists"
+    },
+    {
+      "postId": "2025300509221884268",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2025257878186307842",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2004475323170324750",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2003527321073115256",
+      "reason": "exists"
+    },
+    {
+      "postId": "2002774307659997582",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1996292824929910841",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1996250088843202805",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1995532975593619666",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1995534365904740589",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1995534898065482097",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1995929637516628010",
+      "reason": "exists"
+    },
+    {
+      "postId": "1995805264994345302",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1994925335016870194",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1994941119407268082",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1994189820768506341",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1994692697563828312",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073816238778622084",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2067053306699042942",
+      "reason": "exists"
+    },
+    {
+      "postId": "2064809844448833847",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1981902050792501361",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1052104593876774912",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1208644581979353088",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1207865226604863488",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1209124143037214721",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1209023460812279809",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2047064761687224349",
+      "reason": "offtopic"
+    },
+    {
+      "postId": "2043782316850573312",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1254997465197154304",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2046380221595582908",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1999703553074692130",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1998096505375445007",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1628132556477726721",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1415851250055323648",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2075766625593389515",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2075766457242415386",
+      "reason": "exists"
+    },
+    {
+      "postId": "2075783382240215360",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2075387532251177305",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2075436241345302711",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2074547931730842093",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2074666092669059282",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2074694975926030620",
+      "reason": "no-video"
+    },
+    {
+      "postId": "1939343843758899496",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073927489299063275",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073455335428243857",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2072108840527523853",
+      "reason": "exists"
+    },
+    {
+      "postId": "2072135929217872045",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073064411174928411",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073059597175115843",
+      "reason": "exists"
+    },
+    {
+      "postId": "2073075624806158547",
+      "reason": "exists"
+    },
+    {
+      "postId": "2071592820889260101",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2071542122184921221",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2071487485172134131",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2074214064746832060",
+      "reason": "exists"
+    },
+    {
+      "postId": "2074154243976540496",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073841673654636754",
+      "reason": "exists"
+    },
+    {
+      "postId": "1989865271964921865",
+      "reason": "exists"
+    },
+    {
+      "postId": "1760508198501625926",
+      "reason": "no-video"
+    },
+    {
+      "postId": "2073106344710693294",
+      "reason": "fx-err"
+    }
+  ],
+  "totalClips": 510
+}

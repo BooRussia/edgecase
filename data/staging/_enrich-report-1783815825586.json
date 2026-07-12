@@ -1,0 +1,13 @@
+{
+  "added": 285,
+  "skipped": 5849,
+  "totalClips": 878,
+  "reasons": {
+    "not-fsd": 3414,
+    "no-video": 2094,
+    "null": 315,
+    "offtopic": 16,
+    "dup-media": 6,
+    "exists": 4
+  }
+}

@@ -1,0 +1,563 @@
+[
+  {
+    "postUrl": "https://x.com/Tesla/status/2075766625593389515",
+    "postId": "2075766625593389515",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4422/tesla-to-start-fully-autonomous-cybercab-employee-rides-soon"
+  },
+  {
+    "postUrl": "https://x.com/robotaxi/status/2075766457242415386",
+    "postId": "2075766457242415386",
+    "authorHandle": "robotaxi",
+    "authorDisplayName": "robotaxi",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @robotaxi",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4422/tesla-to-start-fully-autonomous-cybercab-employee-rides-soon"
+  },
+  {
+    "postUrl": "https://x.com/ericetesla/status/2075783382240215360",
+    "postId": "2075783382240215360",
+    "authorHandle": "ericetesla",
+    "authorDisplayName": "ericetesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @ericetesla",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4422/tesla-to-start-fully-autonomous-cybercab-employee-rides-soon"
+  },
+  {
+    "postUrl": "https://x.com/nishkidoonoo/status/2075748761389682979",
+    "postId": "2075748761389682979",
+    "authorHandle": "nishkidoonoo",
+    "authorDisplayName": "nishkidoonoo",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @nishkidoonoo",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4423/tesla-cybercab-will-let-you-change-air-vent-direction-from-the-app"
+  },
+  {
+    "postUrl": "https://x.com/tesla_korea/status/2075387532251177305",
+    "postId": "2075387532251177305",
+    "authorHandle": "tesla_korea",
+    "authorDisplayName": "tesla_korea",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @tesla_korea",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4418/tesla-starts-rolling-out-fsd-v14-lite-internationally"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_AI/status/2075436241345302711",
+    "postId": "2075436241345302711",
+    "authorHandle": "Tesla_AI",
+    "authorDisplayName": "Tesla_AI",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla_AI",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4418/tesla-starts-rolling-out-fsd-v14-lite-internationally"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2074547931730842093",
+    "postId": "2074547931730842093",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4415/tesla-cybercab-has-new-ultra-efficient-powertrain-4680-batteries-48v-more"
+  },
+  {
+    "postUrl": "https://x.com/ChrissGPT/status/2074666092669059282",
+    "postId": "2074666092669059282",
+    "authorHandle": "ChrissGPT",
+    "authorDisplayName": "ChrissGPT",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @ChrissGPT",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4413/tesla-ai-chief-confirms-fsd-integration-for-grok-is-coming-soon"
+  },
+  {
+    "postUrl": "https://x.com/aelluswamy/status/2074694975926030620",
+    "postId": "2074694975926030620",
+    "authorHandle": "aelluswamy",
+    "authorDisplayName": "aelluswamy",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @aelluswamy",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4413/tesla-ai-chief-confirms-fsd-integration-for-grok-is-coming-soon"
+  },
+  {
+    "postUrl": "https://x.com/DominicBRNKMN/status/1939343843758899496",
+    "postId": "1939343843758899496",
+    "authorHandle": "DominicBRNKMN",
+    "authorDisplayName": "DominicBRNKMN",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @DominicBRNKMN",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4411/tesla-model-2q-the-25000-car-that-never-was"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2073927489299063275",
+    "postId": "2073927489299063275",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4408/tesla-robotaxi-service-starts-testing-in-new-orleans"
+  },
+  {
+    "postUrl": "https://x.com/WorldlyReviewer/status/2073455335428243857",
+    "postId": "2073455335428243857",
+    "authorHandle": "WorldlyReviewer",
+    "authorDisplayName": "WorldlyReviewer",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @WorldlyReviewer",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4403/tesla-robotaxi-app-now-tells-you-if-your-ride-is-supervised"
+  },
+  {
+    "postUrl": "https://x.com/DavidMoss/status/2072108840527523853",
+    "postId": "2072108840527523853",
+    "authorHandle": "DavidMoss",
+    "authorDisplayName": "DavidMoss",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @DavidMoss",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4397/tesla-cybercab-spotted-with-custom-fourth-of-july-wrap"
+  },
+  {
+    "postUrl": "https://x.com/joetegtmeyer/status/2072135929217872045",
+    "postId": "2072135929217872045",
+    "authorHandle": "joetegtmeyer",
+    "authorDisplayName": "joetegtmeyer",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @joetegtmeyer",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4397/tesla-cybercab-spotted-with-custom-fourth-of-july-wrap"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2073064411174928411",
+    "postId": "2073064411174928411",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4394/tesla-launches-unsupervised-robotaxi-rides-in-miami"
+  },
+  {
+    "postUrl": "https://x.com/unlimited_ls/status/2073059597175115843",
+    "postId": "2073059597175115843",
+    "authorHandle": "unlimited_ls",
+    "authorDisplayName": "unlimited_ls",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @unlimited_ls",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4394/tesla-launches-unsupervised-robotaxi-rides-in-miami"
+  },
+  {
+    "postUrl": "https://x.com/unlimited_ls/status/2073075624806158547",
+    "postId": "2073075624806158547",
+    "authorHandle": "unlimited_ls",
+    "authorDisplayName": "unlimited_ls",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @unlimited_ls",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4394/tesla-launches-unsupervised-robotaxi-rides-in-miami"
+  },
+  {
+    "postUrl": "https://x.com/Tesla/status/2072739795810525522",
+    "postId": "2072739795810525522",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4390/tesla-launches-6-seat-model-y-long-wheelbase-in-the-us"
+  },
+  {
+    "postUrl": "https://x.com/Tesla/status/2072739805864305148",
+    "postId": "2072739805864305148",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4390/tesla-launches-6-seat-model-y-long-wheelbase-in-the-us"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2072740026081837504",
+    "postId": "2072740026081837504",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4390/tesla-launches-6-seat-model-y-long-wheelbase-in-the-us"
+  },
+  {
+    "postUrl": "https://x.com/tesla_ai/status/2071592820889260101",
+    "postId": "2071592820889260101",
+    "authorHandle": "tesla_ai",
+    "authorDisplayName": "tesla_ai",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @tesla_ai",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4370/tesla-releases-fsd-v14-lite-for-hw3-cars-everything-you-need-to-know"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/2071542122184921221",
+    "postId": "2071542122184921221",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4370/tesla-releases-fsd-v14-lite-for-hw3-cars-everything-you-need-to-know"
+  },
+  {
+    "postUrl": "https://x.com/aelluswamy/status/2071487485172134131",
+    "postId": "2071487485172134131",
+    "authorHandle": "aelluswamy",
+    "authorDisplayName": "aelluswamy",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @aelluswamy",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4370/tesla-releases-fsd-v14-lite-for-hw3-cars-everything-you-need-to-know"
+  },
+  {
+    "postUrl": "https://x.com/brandonee916/status/2072066022010654959",
+    "postId": "2072066022010654959",
+    "authorHandle": "brandonee916",
+    "authorDisplayName": "brandonee916",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @brandonee916",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4407/tesla-updates-app-with-new-ai-opticaster-smart-breaker-support-smart-charging"
+  },
+  {
+    "postUrl": "https://x.com/SpaceXAI/status/2074214064746832060",
+    "postId": "2074214064746832060",
+    "authorHandle": "SpaceXAI",
+    "authorDisplayName": "SpaceXAI",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SpaceXAI",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4410/spacex-unveils-new-xai-logo"
+  },
+  {
+    "postUrl": "https://x.com/niccruzpatane/status/2074154243976540496",
+    "postId": "2074154243976540496",
+    "authorHandle": "niccruzpatane",
+    "authorDisplayName": "niccruzpatane",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @niccruzpatane",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4405/tesla-launches-model-3-air-mattress-for-car-camping"
+  },
+  {
+    "postUrl": "https://x.com/AndrThie/status/2074143655544111162",
+    "postId": "2074143655544111162",
+    "authorHandle": "AndrThie",
+    "authorDisplayName": "AndrThie",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @AndrThie",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4404/tesla-launches-battery-startup-challenge-at-giga-berlin"
+  },
+  {
+    "postUrl": "https://x.com/hletes/status/2073841673654636754",
+    "postId": "2073841673654636754",
+    "authorHandle": "hletes",
+    "authorDisplayName": "hletes",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @hletes",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4402/tesla-app-now-shows-live-animation-when-using-fsd"
+  },
+  {
+    "postUrl": "https://x.com/ryanjaycowan/status/1989865271964921865",
+    "postId": "1989865271964921865",
+    "authorHandle": "ryanjaycowan",
+    "authorDisplayName": "ryanjaycowan",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @ryanjaycowan",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4402/tesla-app-now-shows-live-animation-when-using-fsd"
+  },
+  {
+    "postUrl": "https://x.com/virginradiouk/status/2067524733717954676",
+    "postId": "2067524733717954676",
+    "authorHandle": "virginradiouk",
+    "authorDisplayName": "virginradiouk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @virginradiouk",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4398/rj-scaringe-doesnt-want-tesla-to-acquire-rivian"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1760508198501625926",
+    "postId": "1760508198501625926",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4398/rj-scaringe-doesnt-want-tesla-to-acquire-rivian"
+  },
+  {
+    "postUrl": "https://x.com/tesla_na/status/2073085624605921671",
+    "postId": "2073085624605921671",
+    "authorHandle": "tesla_na",
+    "authorDisplayName": "tesla_na",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @tesla_na",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4396/tesla-teases-wireless-cyber-speaker-in-promo-video"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2073106344710693294",
+    "postId": "2073106344710693294",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "nata scrape https://www.notateslaapp.com/news/4396/tesla-teases-wireless-cyber-speaker-in-promo-video"
+  }
+]

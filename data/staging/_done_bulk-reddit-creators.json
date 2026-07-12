@@ -1,0 +1,172 @@
+[
+  {
+    "postUrl": "https://x.com/lilmill2000/status/2053670387582419394",
+    "postId": "2053670387582419394",
+    "authorHandle": "lilmill2000",
+    "authorDisplayName": "lilmill2000",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @lilmill2000",
+    "notes": "oldreddit TeslaFSD"
+  },
+  {
+    "postUrl": "https://x.com/tsla99t/status/2014392609028923782",
+    "postId": "2014392609028923782",
+    "authorHandle": "tsla99t",
+    "authorDisplayName": "tsla99t",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @tsla99t",
+    "notes": "oldreddit TeslaFSD"
+  },
+  {
+    "postUrl": "https://x.com/Tesla/status/2075729899130937347",
+    "postId": "2075729899130937347",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/i/status/2073454960340300144",
+    "postId": "2073454960340300144",
+    "authorHandle": "i",
+    "authorDisplayName": "i",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @i",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/i/status/2072029132863717677",
+    "postId": "2072029132863717677",
+    "authorHandle": "i",
+    "authorDisplayName": "i",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @i",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/SawyerMerritt/status/2070249703615176839",
+    "postId": "2070249703615176839",
+    "authorHandle": "SawyerMerritt",
+    "authorDisplayName": "SawyerMerritt",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @SawyerMerritt",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/danWpriestley/status/2070264623576809927",
+    "postId": "2070264623576809927",
+    "authorHandle": "danWpriestley",
+    "authorDisplayName": "danWpriestley",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @danWpriestley",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/Tesla_Megapack/status/2069819685533601834",
+    "postId": "2069819685533601834",
+    "authorHandle": "Tesla_Megapack",
+    "authorDisplayName": "Tesla_Megapack",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla_Megapack",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/tesla_semi/status/2049590842302857675",
+    "postId": "2049590842302857675",
+    "authorHandle": "tesla_semi",
+    "authorDisplayName": "tesla_semi",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @tesla_semi",
+    "notes": "oldreddit teslamotors"
+  },
+  {
+    "postUrl": "https://x.com/TechOperator/status/2047484436040597888",
+    "postId": "2047484436040597888",
+    "authorHandle": "TechOperator",
+    "authorDisplayName": "TechOperator",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @TechOperator",
+    "notes": "oldreddit teslamotors"
+  }
+]

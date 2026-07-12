@@ -1,0 +1,580 @@
+[
+  {
+    "postUrl": "https://x.com/elonmusk/status/1258646254700990465",
+    "postId": "1258646254700990465",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/05/08/autopilot-intervention-elon-confirmed/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1258643642966663169",
+    "postId": "1258643642966663169",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/05/08/autopilot-intervention-elon-confirmed/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1262530589506273280",
+    "postId": "1262530589506273280",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/06/06/testing-autopilot-object-detection/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaOracle_com/status/1310455864944254976",
+    "postId": "1310455864944254976",
+    "authorHandle": "TeslaOracle_com",
+    "authorDisplayName": "TeslaOracle_com",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @TeslaOracle_com",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/09/28/dont-try-this-tesla-owner-leaves-the-car-on-autopilot-while-filming-from-the-passenger-seat/"
+  },
+  {
+    "postUrl": "https://x.com/jonathankirk89/status/1310447284274880512",
+    "postId": "1310447284274880512",
+    "authorHandle": "jonathankirk89",
+    "authorDisplayName": "jonathankirk89",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @jonathankirk89",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/09/28/dont-try-this-tesla-owner-leaves-the-car-on-autopilot-while-filming-from-the-passenger-seat/"
+  },
+  {
+    "postUrl": "https://x.com/all_about_mohit/status/1310473453678387205",
+    "postId": "1310473453678387205",
+    "authorHandle": "all_about_mohit",
+    "authorDisplayName": "all_about_mohit",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @all_about_mohit",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/09/28/dont-try-this-tesla-owner-leaves-the-car-on-autopilot-while-filming-from-the-passenger-seat/"
+  },
+  {
+    "postUrl": "https://x.com/Tesla/status/1349572805122113540",
+    "postId": "1349572805122113540",
+    "authorHandle": "Tesla",
+    "authorDisplayName": "Tesla",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Tesla",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/01/14/tesla-model-y-scores-a-perfect-5-star-rating-in-nhtsa-crash-and-rollover-safety-tests/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1384254194975010826",
+    "postId": "1384254194975010826",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/04/23/elon-musk-and-sandy-munro-weigh-in-on-the-texas-autopilot-crash/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1384580105649885188",
+    "postId": "1384580105649885188",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/04/23/elon-musk-and-sandy-munro-weigh-in-on-the-texas-autopilot-crash/"
+  },
+  {
+    "postUrl": "https://x.com/Sofiaan/status/1298608789059502081",
+    "postId": "1298608789059502081",
+    "authorHandle": "Sofiaan",
+    "authorDisplayName": "Sofiaan",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Sofiaan",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/08/28/unplugged-tesla-model-3-crashes-at-pikes-peak-pics-videos/"
+  },
+  {
+    "postUrl": "https://x.com/teslaphotografr/status/1298761896078671872",
+    "postId": "1298761896078671872",
+    "authorHandle": "teslaphotografr",
+    "authorDisplayName": "teslaphotografr",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @teslaphotografr",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/08/28/unplugged-tesla-model-3-crashes-at-pikes-peak-pics-videos/"
+  },
+  {
+    "postUrl": "https://x.com/Sofiaan/status/1299165069733818368",
+    "postId": "1299165069733818368",
+    "authorHandle": "Sofiaan",
+    "authorDisplayName": "Sofiaan",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Sofiaan",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/08/28/unplugged-tesla-model-3-crashes-at-pikes-peak-pics-videos/"
+  },
+  {
+    "postUrl": "https://x.com/teslaphotografr/status/1299174014607187971",
+    "postId": "1299174014607187971",
+    "authorHandle": "teslaphotografr",
+    "authorDisplayName": "teslaphotografr",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @teslaphotografr",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2020/08/28/unplugged-tesla-model-3-crashes-at-pikes-peak-pics-videos/"
+  },
+  {
+    "postUrl": "https://x.com/TechInsider/status/1478842905963999241",
+    "postId": "1478842905963999241",
+    "authorHandle": "TechInsider",
+    "authorDisplayName": "TechInsider",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @TechInsider",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/12/28/tesla-model-y-outperforms-model-3-in-iihs-crash-safety-tests/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1537826398361903104",
+    "postId": "1537826398361903104",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2022/06/20/tesla-enhanced-autopilot-coming-us-canada-australia-nz/"
+  },
+  {
+    "postUrl": "https://x.com/aikisteve/status/1533362458009735171",
+    "postId": "1533362458009735171",
+    "authorHandle": "aikisteve",
+    "authorDisplayName": "aikisteve",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @aikisteve",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2022/06/20/tesla-enhanced-autopilot-coming-us-canada-australia-nz/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1407050578149183488",
+    "postId": "1407050578149183488",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/06/22/elon-musk-ai-day-andrej-karpathy-vision-based-fsd/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1642208486728630272",
+    "postId": "1642208486728630272",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/04/02/tesla-teases-cybertruck-crash-tests-in-a-video-from-its-crash-lab-at-the-fremont-factory-flak-and-memes-follow/"
+  },
+  {
+    "postUrl": "https://x.com/hemmeroidham/status/1642209240835297280",
+    "postId": "1642209240835297280",
+    "authorHandle": "hemmeroidham",
+    "authorDisplayName": "hemmeroidham",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @hemmeroidham",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/04/02/tesla-teases-cybertruck-crash-tests-in-a-video-from-its-crash-lab-at-the-fremont-factory-flak-and-memes-follow/"
+  },
+  {
+    "postUrl": "https://x.com/Ironman_E/status/1642163084130123778",
+    "postId": "1642163084130123778",
+    "authorHandle": "Ironman_E",
+    "authorDisplayName": "Ironman_E",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @Ironman_E",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/04/02/tesla-teases-cybertruck-crash-tests-in-a-video-from-its-crash-lab-at-the-fremont-factory-flak-and-memes-follow/"
+  },
+  {
+    "postUrl": "https://x.com/69dogecoin/status/1642190714397179905",
+    "postId": "1642190714397179905",
+    "authorHandle": "69dogecoin",
+    "authorDisplayName": "69dogecoin",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @69dogecoin",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/04/02/tesla-teases-cybertruck-crash-tests-in-a-video-from-its-crash-lab-at-the-fremont-factory-flak-and-memes-follow/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaTomMY1/status/1642210970880843776",
+    "postId": "1642210970880843776",
+    "authorHandle": "TeslaTomMY1",
+    "authorDisplayName": "TeslaTomMY1",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @TeslaTomMY1",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/04/02/tesla-teases-cybertruck-crash-tests-in-a-video-from-its-crash-lab-at-the-fremont-factory-flak-and-memes-follow/"
+  },
+  {
+    "postUrl": "https://x.com/sw_ev/status/1702778914320392266",
+    "postId": "1702778914320392266",
+    "authorHandle": "sw_ev",
+    "authorDisplayName": "sw_ev",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @sw_ev",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/09/19/tesla-update-2023-32-4-improves-autopilot-cameras-model-x-falcon-wing-doors-service-mode-release-notes-more/"
+  },
+  {
+    "postUrl": "https://x.com/teslaflexx/status/1703917738228605018",
+    "postId": "1703917738228605018",
+    "authorHandle": "teslaflexx",
+    "authorDisplayName": "teslaflexx",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @teslaflexx",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/09/19/tesla-update-2023-32-4-improves-autopilot-cameras-model-x-falcon-wing-doors-service-mode-release-notes-more/"
+  },
+  {
+    "postUrl": "https://x.com/TeslaGong/status/1703982896988762414",
+    "postId": "1703982896988762414",
+    "authorHandle": "TeslaGong",
+    "authorDisplayName": "TeslaGong",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @TeslaGong",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/09/19/tesla-update-2023-32-4-improves-autopilot-cameras-model-x-falcon-wing-doors-service-mode-release-notes-more/"
+  },
+  {
+    "postUrl": "https://x.com/skjoldp/status/1703641646435295258",
+    "postId": "1703641646435295258",
+    "authorHandle": "skjoldp",
+    "authorDisplayName": "skjoldp",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @skjoldp",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/09/19/tesla-update-2023-32-4-improves-autopilot-cameras-model-x-falcon-wing-doors-service-mode-release-notes-more/"
+  },
+  {
+    "postUrl": "https://x.com/JoeTegtmeyer/status/1708861072352883117",
+    "postId": "1708861072352883117",
+    "authorHandle": "JoeTegtmeyer",
+    "authorDisplayName": "JoeTegtmeyer",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @JoeTegtmeyer",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/10/03/1st-crash-tested-cybertruck-spotted-giga-texas-6-tesla-pickup-trucks-factorys-parking-lot/"
+  },
+  {
+    "postUrl": "https://x.com/JoeTegtmeyer/status/1708861503707779279",
+    "postId": "1708861503707779279",
+    "authorHandle": "JoeTegtmeyer",
+    "authorDisplayName": "JoeTegtmeyer",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @JoeTegtmeyer",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/10/03/1st-crash-tested-cybertruck-spotted-giga-texas-6-tesla-pickup-trucks-factorys-parking-lot/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1447078500289196033",
+    "postId": "1447078500289196033",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2021/10/13/tesla-sets-a-new-standard-in-crash-safety-with-data-driven-testing-at-its-dedicated-crash-lab/"
+  },
+  {
+    "postUrl": "https://x.com/elonmusk/status/1764708365135925491",
+    "postId": "1764708365135925491",
+    "authorHandle": "elonmusk",
+    "authorDisplayName": "elonmusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @elonmusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2024/03/19/totaled-cybertruck-found-at-a-car-showroom-near-its-crash-site-in-beverly-hills-california/"
+  },
+  {
+    "postUrl": "https://x.com/mayemusk/status/1841848321859538995",
+    "postId": "1841848321859538995",
+    "authorHandle": "mayemusk",
+    "authorDisplayName": "mayemusk",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @mayemusk",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2024/10/06/the-recall-27000-cybertrucks-ota-software-update-fix-tesla-accidentally-reveals-production-numbers/"
+  },
+  {
+    "postUrl": "https://x.com/AIDRIVR/status/1730329405568995335",
+    "postId": "1730329405568995335",
+    "authorHandle": "AIDRIVR",
+    "authorDisplayName": "AIDRIVR",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @AIDRIVR",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/12/03/watch-how-tesla-cybertruck-performs-in-a-crash-safety-test-against-ice-pickup-trucks/"
+  },
+  {
+    "postUrl": "https://x.com/ostonox/status/1730616684568854584",
+    "postId": "1730616684568854584",
+    "authorHandle": "ostonox",
+    "authorDisplayName": "ostonox",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @ostonox",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/12/03/watch-how-tesla-cybertruck-performs-in-a-crash-safety-test-against-ice-pickup-trucks/"
+  },
+  {
+    "postUrl": "https://x.com/GailAlfarATX/status/1730988245498872174",
+    "postId": "1730988245498872174",
+    "authorHandle": "GailAlfarATX",
+    "authorDisplayName": "GailAlfarATX",
+    "outcome": "handled",
+    "severity": 3,
+    "maneuverScore": 3,
+    "tags": [
+      "urban"
+    ],
+    "category": "impressive",
+    "faultAttribution": "unknown",
+    "falseFailure": false,
+    "summary": "FSD-related post from @GailAlfarATX",
+    "notes": "fsd-sitemap https://www.teslaoracle.com/2023/12/03/watch-how-tesla-cybertruck-performs-in-a-crash-safety-test-against-ice-pickup-trucks/"
+  }
+]
